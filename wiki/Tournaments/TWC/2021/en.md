@@ -8,7 +8,7 @@ tags:
 
 ![TWC 2021 logo](/wiki/shared/news/banners/TWC_2021.jpg)
 
-The **osu!taiko World Cup 2021** (***TWC 2021***) is a country-based osu!taiko tournament hosted by the [osu! team](/wiki/People/The_Team). It is the eleventh installment of the osu!taiko World Cup.
+The **osu!taiko World Cup 2021** (***TWC 2021***) was a country-based osu!taiko tournament hosted by the [osu! team](/wiki/People/The_Team). It was the eleventh installment of the osu!taiko World Cup.
 
 ## Tournament schedule
 
@@ -31,14 +31,16 @@ The **osu!taiko World Cup 2021** (***TWC 2021***) is a country-based osu!taiko t
 | ![Silver crown](/wiki/shared/crown-silver.png "2nd place") | $80 per team member, unique profile badge |
 | ![Bronze crown](/wiki/shared/crown-bronze.png "3rd place") | $40 per team member, unique profile badge |
 
+![](img/badge1.png "TWC 2021 winner badge") ![](img/badge2.png "TWC 2021 2nd place badge") ![](img/badge3.png "TWC 2021 3rd place badge")
+
 ## Organisation
 
-The osu!taiko World Cup 2021 is run by various community members.
+The osu!taiko World Cup 2021 was run by various community members.
 
 | Position | Member(s) |
 | :-- | :-- |
 | Manager | ![][flag_AR] [juankristal](https://osu.ppy.sh/users/443656), ![][flag_CL] [WalterToro](https://osu.ppy.sh/users/5281416) |
-| Mappool selector | ![][flag_US] [Backfire](https://osu.ppy.sh/users/263110), ![][flag_US] [incandescence](https://osu.ppy.sh/users/6256027), ![][flag_AU] [Jaye](https://osu.ppy.sh/users/4841352), ![][flag_JP] [\_Rise](https://osu.ppy.sh/users/5217107) |
+| Mappool selector | ![][flag_US] [Backfire](https://osu.ppy.sh/users/263110), ![][flag_US] [incandescence](https://osu.ppy.sh/users/6256027), ![][flag_AU] [Jaye](https://osu.ppy.sh/users/4841352), ![][flag_GB] [mangomizer](https://osu.ppy.sh/users/1893718), ![][flag_JP] [\_Rise](https://osu.ppy.sh/users/5217107) |
 | Commentator | ![][flag_US] [Backfire](https://osu.ppy.sh/users/263110), ![][flag_AU] [Beat43210](https://osu.ppy.sh/users/5664171), ![][flag_US] [Dohland](https://osu.ppy.sh/users/5220511), ![][flag_US] [Ethaaaan](https://osu.ppy.sh/users/9536977), ![][flag_US] [incandescence](https://osu.ppy.sh/users/6256027), ![][flag_CA] [janitore](https://osu.ppy.sh/users/3307897), ![][flag_GB] [mangomizer](https://osu.ppy.sh/users/1893718), ![][flag_US] [Mister Boo](https://osu.ppy.sh/users/2598555), ![][flag_DE] [Nwolf](https://osu.ppy.sh/users/1910766), ![][flag_GB] [Teezel](https://osu.ppy.sh/users/7528639), ![][flag_AR] [Vaf](https://osu.ppy.sh/users/12589048), ![][flag_DE] [Zetera](https://osu.ppy.sh/users/587737) |
 | Referee | ![][flag_ES] [Deif](https://osu.ppy.sh/users/318565), ![][flag_AU] [Fairy Bread](https://osu.ppy.sh/users/8306102), ![][flag_US] [JDrago14](https://osu.ppy.sh/users/7690078), ![][flag_BR] [LeoFLT](https://osu.ppy.sh/users/3668779), ![][flag_NL] [nik](https://osu.ppy.sh/users/10077264), ![][flag_DE] [p3n](https://osu.ppy.sh/users/123703), ![][flag_US] [tigereyes144](https://osu.ppy.sh/users/6499811), ![][flag_CL] [WalterToro](https://osu.ppy.sh/users/5281416), ![][flag_GB] [Yazzehh](https://osu.ppy.sh/users/7068973) |
 | Statistician | ![][flag_BR] [LeoFLT](https://osu.ppy.sh/users/3668779), ![][flag_DE] [Nwolf](https://osu.ppy.sh/users/1910766) |
@@ -46,10 +48,10 @@ The osu!taiko World Cup 2021 is run by various community members.
 ## Links
 
 - [Discussion thread](https://osu.ppy.sh/community/forums/topics/1241159)
-- [Livestream](https://www.twitch.tv/osulive)
-- [Challonge bracket](https://challonge.com/TWC_2021)
-- [Pick'ems page](https://pickem.hwc.hr/tournaments/53) hosted by ![][flag_DE] [hallowatcher](https://osu.ppy.sh/users/1874761)
-- **[Statistics sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTImDZNlIdekerlWWr-TR82GKRflboYOcu3ZEqqeTuaSKQfOuY5WO2rS8p5lPjbvtZ5xZdY_iVGNcTI/pubhtml)**
+- [Livestream](https://www.twitch.tv/osulive "Twitch")
+- [Challonge bracket](https://challonge.com/TWC_2021 "Challonge")
+- [Pick'ems page](https://pickem.hwc.hr/tournaments/53 "hwchr's pick'em") hosted by ![][flag_DE] [hallowatcher](https://osu.ppy.sh/users/1874761)
+- **[Statistics sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTImDZNlIdekerlWWr-TR82GKRflboYOcu3ZEqqeTuaSKQfOuY5WO2rS8p5lPjbvtZ5xZdY_iVGNcTI/pubhtml "Google Sheets")**
 
 ## Participants
 
@@ -88,20 +90,7 @@ The osu!taiko World Cup 2021 is run by various community members.
 | ![][flag_US] | **United States** | **[Loopy542](https://osu.ppy.sh/users/5468461)**, [cheese salad](https://osu.ppy.sh/users/6349821), [R J](https://osu.ppy.sh/users/6490509), [3san](https://osu.ppy.sh/users/8050850), [ChurroChef](https://osu.ppy.sh/users/9258564) |
 | ![][flag_VN] | **Vietnam** | **[davidminh0111](https://osu.ppy.sh/users/9623142)**, [\_Kuroni\_](https://osu.ppy.sh/users/6159305), [-BunZ-](https://osu.ppy.sh/users/7556673), [SaraSoul](https://osu.ppy.sh/users/13493346) |
 
----
-
-## Match schedule: Grand Finals
-
-### Sunday, 11 April 2021
-
-| Team A | Team B | Match time | Local time A | Local time B |  |
-| --: | :-- | :-: | :-: | :-: | :-: |
-| Brazil ![][flag_BR] | ![][flag_KR] South Korea | **01:00 UTC** | 22:00 (Sat.) UTC-03 | 10:00 UTC+09 | ¹ |
-| Japan ![][flag_JP] | ![][flag_KR] South Korea | **06:00 UTC** | 15:00 UTC+09 | 15:00 UTC+09 | ² |
-| Japan ![][flag_JP] | ![][flag_BR] Brazil | **15:00 UTC** | 00:00 (Mon.) UTC+09 | 12:00 UTC-03 | ² |
-
-¹ 3rd place encounter\
-² Encounter dependent on results of ¹3rd place encounter
+![TWC 2021 podium](img/podium.jpg)
 
 ## Mappools
 
@@ -253,6 +242,15 @@ The osu!taiko World Cup 2021 is run by various community members.
 
 ## Match results
 
+### Grand Finals
+
+Sunday, 11 April 2021:
+
+| Team 1 |  |  | Team 2 | Match link |
+| --: | :-: | :-: | :-- | :-- |
+| **Brazil** ![][flag_BR] | 3 | **7** | ![][flag_KR] South Korea | [#1](https://osu.ppy.sh/community/matches/80529663) |
+| **Japan** ![][flag_JP] | **7** | 1 | ![][flag_KR] South Korea | [#1](https://osu.ppy.sh/community/matches/80546558) |
+
 ### Finals
 
 Saturday, 3 April 2021:
@@ -389,8 +387,6 @@ Sunday, 7 March 2021:
 | **Russian Federation** ![][flag_RU] | **5** | 0 | ![][flag_CR] Costa Rica | [#1](https://osu.ppy.sh/community/matches/77454888) |
 | **Japan** ![][flag_JP] | **5** | 0 | ![][flag_CL] Chile | [#1](https://osu.ppy.sh/community/matches/77458452) |
 
----
-
 ## Ruleset
 
 ### Tournament rules
@@ -487,9 +483,9 @@ Sunday, 7 March 2021:
    - The team mentioned first in the room name must be the red team, the team mentioned second in the room name must be the blue team.
 2. Each captain has to ban **one beatmap** to be selected from the pool. These beatmaps are not allowed to be picked by any team in the entire match.
 3. Beatmap selection will alternate between each captain selecting a beatmap out of the map pool.
-4. Each captain must use "!roll" once in #multiplayer.
-   - The winner of the !roll starts picking the first beatmap of the match.
-   - The loser of the !roll starts banning one beatmap, followed by the winner of the !roll to ban a beatmap.
+4. Each captain must use `!roll` once in `#multiplayer`.
+   - The winner of the `!roll` starts picking the first beatmap of the match.
+   - The loser of the `!roll` starts banning one beatmap, followed by the winner of the `!roll` to ban a beatmap.
 5. Captains may pick freely from any bracket.
    - In case of a tie, the tiebreaker map must be played.
 6. Teams will have 2 minutes to pick a beatmap and 2 minutes to get ready.

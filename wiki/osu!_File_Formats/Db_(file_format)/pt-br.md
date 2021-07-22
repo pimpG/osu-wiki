@@ -5,7 +5,7 @@ Arquivos **.db** são arquivos binários usados pelo osu! para guardar várias i
 Eles podem ser geralmente encontrados no diretório de instalação do osu!:
 
 - Windows: `%localappdata%\osu!`
-- Mac OSX: `/Applications/osu!.app/Contents/Resources/drive_c/Program Files/osu!/`
+- macOS: `/Applications/osu!.app/Contents/Resources/drive_c/osu!/`
 
 Atualmente os únicos são osu!.db, scores.db, collection.db, e presence.db.
 
@@ -84,8 +84,8 @@ Alguns tipos de dados específicos do osu!.db estão definidos abaixo.
 | Int | Tempo total, em milissegundos |
 | Int | Tempo quando o audio preview quando selecionando um beatmap na seleção de beatmap começa, em milissegundos. |
 | Timing point+ | Um Int indicando o número do seguintes Timing points, e então os mencionados Timing points. |
+| Int | ID do dificuldade |
 | Int | ID do beatmap |
-| Int | ID do beatmap set |
 | Int | ID da thread |
 | Byte | Nota alcançada no osu! standard. |
 | Byte | Nota alcançada no Taiko. |
