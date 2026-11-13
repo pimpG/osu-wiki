@@ -1,26 +1,36 @@
 ---
-oudated: true
+outdated: true
+needs_cleanup: true
+no_native_review: true
 ---
 
-# L'histoire d'osu!
+# Histoire de osu!
 
-Les archives de l'histoire d'osu!, toutes dans le wiki.
+Archives de l'histoire de osu!, tout sur le wiki d'osu!
 
-- [2007](/wiki/History_of_osu!/2007) - Débuts du jeu
-- [2008](/wiki/History_of_osu!/2008) - Taiko et Catch the Beat, plus de mods, et améliorations majeures
-- [2009](/wiki/History_of_osu!/2009) - osu! iPhone
-- 2010
-- [2011](/wiki/History_of_osu!/2011) - osu!wiki
-- [2012](/wiki/History_of_osu!/2012) - Cinq ans d'osu!, osu!mania, prise en charge des grands écrans, et paramètres visuels
-- [2013](/wiki/History_of_osu!/2013) - Refonte de l'interface utilisateur, skins en HD, (plus) de supports pour les grands écrans, éditeur osu!mania, collections en jeu, moddingV2 introduit, Disqus, osu!api, affichage de la précision, Comic Fiesta 2013, téléchargements illimités\*, et osu!cuttingedge (seulement pour les osu!supporters)
-- [2014](/wiki/History_of_osu!/2014) - scrolling par le BPM, séquences d'intro/outro en jeu, osu!cuttingedge (pour tout le monde\*), et la neige !
-- [2015](/wiki/History_of_osu!/2015) - jizz (osu!web repensé), osu!weekly, et osu!coins
-- [2016](/wiki/History_of_osu!/2016) - scorev2, osu! open-source annoncé (osu!lazer), et osu!wiki (refonte)
-- [2017](/wiki/History_of_osu!/2017) - Sortie du premier client d'osu!lazer, et intégration Discord
-- [2018](/wiki/History_of_osu!/2018) - ?
+| Année | Description |
+| :-: | :-- |
+| [2007](2007) | Build initial du jeu |
+| [2008](2008) | osu!taiko, osu!catch, plus de mods et améliorations majeures |
+| [2009](2009) | osu! iPhone, nouveaux modes multijoueurs et système de kudosu |
+| [2010](2010) | Wai-con 2010 |
+| [2011](2011) | Création du wiki d'osu! |
+| [2012](2012) | 5 ans d'osu!, osu!mania, support widescreen et paramètres visuels |
+| [2013](2013) | Refonte de l'interface, skins HD, support widescreen amélioré, editeur osu!mania, collections en jeu, introduction du moddingV2, Disqus, osu!api, overlay de précision, Comic Fiesta 2013, téléchargements sans limutes et osu!cuttingedge (osu!supporter seulement) |
+| [2014](2014) | Défilement BPM sur osu!mania, séquences d'intro/outro en jeu et osu!cuttingedge (pour tout le monde) |
+| [2015](2015) | Redesign de osu!web, osu!weekly et osu!coins |
+| [2016](2016) | scorev2, annonce d'une nouvelle version open source nommée "lazer" de osu! (connue auparavant sous le nom de "osu!lazer") et une refonte du wiki d'osu! |
+| [2017](2017) | Sortie du premier build "lazer" de osu! et integration avec Discord sur le client stable |
+| [2018](2018) | osu!next, abandon de l'ancien site et temps de jeu total maintenant montré |
+| 2019–2021 | *Non documenté* |
+| [2022](2022) | 15 ans d'osu! et nouvelle série d'articles mensuels sur osu! |
+| 2023–aujourd'hui | *Non documenté* |
 
----
+## Autres archives
 
-A noter que le osu!wiki a un peu de son histoire détaillée éparpillée à travers les pages.
-
-- [osu! wiki](/wiki/History_of_osu!/osu!_wiki)
+- [Histoire du wiki d'osu!](osu!_wiki)
+- [Histoire des poissons d'avril de osu!](April_Fools)
+- [Historique des classements en ligne](Online_rankings)
+- [Archives des membres du staff](/wiki/People/Staff_log)
+- [Historique des tournois osu!](/wiki/Tournaments)
+- [Anciens produits du osu!store](/wiki/Past_osu!store_items)

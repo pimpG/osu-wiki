@@ -1,36 +1,125 @@
----
-outdated: true
----
-
 # History of the osu! wiki
+
+::: alert-note
+**See also:** [osu! wiki maintainers](/wiki/People/osu!_wiki_maintainers)
+:::
+
+This article details the major events in the **history of the osu! wiki** from the MediaWiki era through the present day.
+
+<!--The documentation for the years 2018 to 2021 is missing.-->
 
 ## MediaWiki (2011 - 2017)
 
-![](img/ow_MW.jpg "Full page screenshot of osu! wiki in MediaWiki, taken on 2017-02-17")
+![](img/ow_MW.jpg "Full page screenshot of the osu! wiki in MediaWiki, taken on 2017-02-17")
 
-| Date, Time | Description |
-| :-- | :-- |
-| 2011-12-05T08:13Z | First edit of osu! wiki by Ephemeral. |
-| 2011-12-06 | [osu! wiki is now live!](https://osu.ppy.sh/community/forums/topics/68525). |
-| 2012-11 | osu! wiki now has 3 admins (Dellirium, Repflez). Previously, only peppy was the admin. |
-| 2013-01-27T06:12Z | peppy integrated the osu! wiki with the main site design. [Link to peppy's post](https://osu.ppy.sh/community/forums/topics/68479/start=124). |
-| 2014 | osu! wiki becomes an actual information centre of osu!, replacing most of the web copies such as [The Team](/wiki/People/The_Team) and [Rules](/wiki/Rules). Also, osu! wiki now has 5 admins (Loctav, deadbeat). |
-| 2015 | osu! wiki received major translation updates from other languages. Dellirium has been replaced by Shiro as one of the admins of osu! wiki. |
-| 2016-02-22 | osu! wiki now has 8 admins (Ukami and Galkan). |
-| 2016-04-01 | osu! wiki now has 9 admins (Nathanael). |
-| 2016-08-30 | osu! wiki running on MediaWiki is being deprecated in favour of the GitHub repository version. The current osu! wiki will stay until the GitHub version is ready to be deployed with all the pages and images ported. |
-| 2017-06 | osu! wiki running on MediaWiki is officially deprecated. The link now points to the new osu-web interface using the osu! wiki resources made in the GitHub repository. [A temporary backup of the osu! wiki without the MediaWiki functionality can be found here.](https://osu.ppy.sh/old-wiki/Main_Page) |
+### 2011
+
+#### December
+
+- **2011-12-05:** The barebones of the osu! wiki was put into place, with ::{ flag=AU }:: [Ephemeral](https://osu.ppy.sh/users/102335) making the first edits.
+- **2011-12-06:** The osu! wiki [went live to the public](https://osu.ppy.sh/community/forums/topics/68525).
+
+### 2012
+
+#### November
+
+- **2012-11-29:** ::{ flag=MX }:: [Repflez](https://osu.ppy.sh/users/201392) and ::{ flag=RU }:: [Dellirium](https://osu.ppy.sh/users/519032) were [added](https://osu.ppy.sh/community/forums/posts/1944044) to the osu! wiki's MediaWiki admins.
+
+### 2013
+
+#### January
+
+- **2013-01-27:** ::{ flag=AU }:: [peppy](https://osu.ppy.sh/users/2) integrated the osu! wiki with the [main site design](https://osu.ppy.sh/community/forums/posts/2082803).
+
+### 2014
+
+#### December
+
+- **Unknown date:** The osu! wiki became a true information centre of osu! after core pages such the [osu! team](/wiki/People/osu!_team) and the [Rules](/wiki/Rules) were migrated over to the wiki.
+- **Unknown date:** ::{ flag=NZ }:: [deadbeat](https://osu.ppy.sh/users/128370) and ::{ flag=DE }:: [Loctav](https://osu.ppy.sh/users/71366) were added to the osu! wiki's MediaWiki admins.
+
+### 2015
+
+#### December
+
+- **Unknown date:** The osu! wiki received an influx of contributors who did article translations to their native languages.
+- **Unknown date:** ::{ flag=RU }:: [Dellirium](https://osu.ppy.sh/users/519032)'s position as an admin was replaced by ::{ flag=FR }:: [Shiro](https://osu.ppy.sh/users/113005).
+
+### 2016
+
+#### February
+
+- **2016-02-22:** ::{ flag=PL }:: [Ukami](https://osu.ppy.sh/users/820865) and ::{ flag=PL }:: [Galkan](https://osu.ppy.sh/users/169570) were added to the osu! wiki's MediaWiki admins.
+
+#### April
+
+- **2016-04-01:** ::{ flag=PH }:: [Nathanael](https://osu.ppy.sh/users/2295078) was added to the osu! wiki's MediaWiki admins.
+
+#### August
+
+- **2016-08-30:** The osu! wiki running on MediaWiki began to be deprecated in favour of the GitHub repository version, although it would stay accessible until the GitHub version was ready to be deployed with all the pages and images ported.
+
+### 2017
+
+#### June
+
+- **2017-06-26:** The osu! wiki running on MediaWiki was [officially decommissioned](https://discord.com/channels/188630481301012481/218677502141399041/328851556453711872). The links to the old wiki were now made to redirect to the new GitHub-based wiki. [A snapshot of the old wiki without the MediaWiki functionalities can be found here](https://web.archive.org/web/20171115173938/https://osu.ppy.sh/old-wiki/Main_Page).
 
 ## GitHub repository (2016 - present)
 
-| Date | Description |
-| :-- | :-- |
-| 2016-08-26 | [peppy created osu-wiki repository](https://github.com/ppy/osu-wiki/tree/3433cbeeda9303a470647cad1c338d43f4272a2e). craftu and Xyloo ported the MediaWiki content to the repository in a week. |
-| 2016-09 | Most of the pages except the images are moved to the repository, with unsolved syntax-translation errors stemming from language differences between Markdown and MediaWiki. |
-| 2017-01 | osu!web support of osu! wiki done by nanaya. |
-| 2017-01-05 | [osu! wiki project suggested by Ephemeralis](https://github.com/ppy/osu-wiki/projects/1). |
-| 2017-01-26 | osu! wiki got mentioned on ppy's blog. |
-| 2017-05-22 | [osu!news archive is now stored on osu! wiki (in text form only)](https://github.com/ppy/osu-wiki/pull/252). |
-| 2017-05-30 | [Page redirection is finally implemented in osu! wiki](https://github.com/ppy/osu-web/pull/1144) |
-| 2017-06 | TPGPL is promoted with write-access for the osu-wiki repository. Search service on osu-web for osu! wiki is implemented. |
-| 2018-02-07 | [Article tagging support was implemented](https://github.com/ppy/osu-web/pull/2331) to allow better search results for wiki articles. |
+![](img/wiki_modern.jpg "Partial screenshot of the main page of the current osu! wiki, taken on 2025-04-17")
+
+### 2016
+
+#### August
+
+- **2016-08-26:** ::{ flag=AU }:: [peppy](https://osu.ppy.sh/users/2) [created the osu-wiki repository](https://github.com/ppy/osu-wiki/tree/3433cbeeda9303a470647cad1c338d43f4272a2e).
+
+#### September
+
+- **2016-09-02:** ::{ flag=US }:: [craftu](https://osu.ppy.sh/users/16468119) and ::{ flag=US }:: [XYLOO](https://osu.ppy.sh/users/27809907) finished porting most the legacy osu! wiki contents from MediaWiki to the repository, leaving only the images and certain syntax errors due to the differences between MediaWiki's [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext) and GitHub's [Markdown](https://en.wikipedia.org/wiki/Markdown) language.
+
+### 2017
+
+#### January
+
+- **2017-01-26:** ::{ flag=AU }:: [Ephemeral](https://osu.ppy.sh/users/102335) talked about the upcoming integration of the GitHub repository with the osu! website itself in [a development blog post](https://blog.ppy.sh/post/156390386433/2017-01-dev-meeting).
+- **Unknown date:** ::{ flag=JP }:: [nanaya](https://osu.ppy.sh/users/2387883) finished the backend support of the new osu! wiki, allowing the wiki to be fully integrated with the osu! website.
+
+#### May
+
+- **2017-05-22:** The [osu!news archive](https://osunews.tumblr.com/), which was previously hosted on Tumblr, was migrated over to the osu! wiki.
+- **2017-05-30:** [Page redirection](https://github.com/ppy/osu-web/pull/1144) was added to the wiki.
+
+#### June
+
+- **Unknown date:** ::{ flag=PL }:: [TPGPL](https://osu.ppy.sh/users/3944705) was given a special write-access to the osu! wiki repository.
+- **2017-06-19:** [Search functionality](https://github.com/ppy/osu-web/pull/1259) was added to the wiki.
+
+### 2018
+
+#### February
+
+- **2018-02-07:** [Article tags](https://github.com/ppy/osu-web/pull/2331) were added to the wiki to allow for better search results.
+
+### 2021
+
+#### May
+
+- **2021-05-12:** [Infoboxes](https://github.com/ppy/osu-web/pull/7546) were added to the wiki.
+
+#### June
+
+- **2021-06-01:** ::{ flag=ID }:: [GPR](https://osu.ppy.sh/users/10721349) implemented the [osu! wiki overlay](https://github.com/ppy/osu/pull/12950) in [osu!(lazer)](/wiki/Client/Release_stream/Lazer), allowing certain pages of the wiki to be accessed directly from inside the osu!(lazer) client.
+
+#### August
+
+- **2021-08-08:** [Gallery support](https://github.com/ppy/osu-web/pull/8126) was added to the wiki.
+- **2021-08-12:** [Footnotes](https://github.com/ppy/osu-web/pull/8125) were added to the wiki.
+
+### 2026
+
+#### July
+
+- **2026-07-06:** To make hatnotes more prominent, [styled alerts](https://github.com/ppy/osu-web/pull/13079) were added which would display them with a symbol and a coloured vertical line at the left side.
+- **2026-07-30:** A [user card component](https://github.com/ppy/osu-web/pull/13125) was added which would display a user card with various user statistics when hovering over the profile link, similar to the `[profile]` [BBCode](/wiki/BBCode) tag.

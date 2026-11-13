@@ -1,5 +1,6 @@
 ---
-outdated: true
+outdated_since: 686edf8b6519252bb823e92350e052f669f344a5
+outdated_translation: true
 ---
 
 # Conquistas
@@ -34,7 +35,7 @@ Cada uma dessas seções atualmente tem 4 volumes.
 
 #### Observações
 
-- Depois de conseguir a conquista, você pode optar por excluir as músicas do tema. Sua conquista, pontuação e precisão permanecerão. Caso deseje melhorar a sua pontuação e precisão de um certo beatmap, você deverá jogá-lo novamente.  
+- Depois de conseguir a conquista, você pode optar por excluir as músicas do tema. Sua conquista, pontuação e precisão permanecerão. Caso deseje melhorar a sua pontuação e precisão de um certo beatmap, você deverá jogá-lo novamente.
 - Caso esteja se perguntando por que não recebeu a insígnia e sente que perdeu uma música, verifique a [listagem do pacote](https://osu.ppy.sh/p/packlist?t=t). Musicas concluídas estão marcadas como **CLEARED** em negrito.
 - A insígnia é concedida após a conclusão de todas as músicas do tema em questão.
   - Seja paciente e certifique-se de que sua pontuação foi enviada e classificada corretamente. Você não vai querer repetir a música do beatmap novamente, especialmente se for muito difícil para você, não é?
@@ -42,13 +43,13 @@ Cada uma dessas seções atualmente tem 4 volumes.
 
 #### Curiosidades
 
-- [Pacotes de beatmaps clássicos (2009 — 2016) antes da atualização de Stefan.](Legacy_Beatmap_Packs)
+- [Pacotes de beatmaps clássicos (2009 — 2016) antes da atualização de Stefan.](Legacy_beatmap_packs)
 
 ## Skill
 
 As conquistas **Skill** atualmente estão divididos em três grupos: **Combo**, **High Ranker** e **Star-based**
 
-As conquistas **Combo** podem ser obtidas ao alcançar um [Combo](/wiki/Beatmapping/Combo) específico no osu! padrão e pode ser obtida com qualquer música.
+As conquistas **Combo** podem ser obtidas ao alcançar um [Combo](/wiki/Gameplay/Combo_(score_multiplier)) específico no osu! padrão e pode ser obtida com qualquer música.
 Conseguir o mesmo combo nos modos Taiko, Catch the Beat ou osu!mania **não** concederá a conquista.
 
 Para as conquistas de 1.000 e 2.000 combo, você deve encontrar beatmaps aprovados em vez de beatmaps ranqueados. Não procure por beatmaps não aprovados.

@@ -1,83 +1,81 @@
----
-no_native_review: true
-outdated: true
----
+# Prácticas recomendadas
 
-# Problemas comunes para los contribuidores de la wiki
+Esta página cubre algunas de las tareas que puedes enfrentar mientras contribuyes. Los enfoques mencionados aquí están diseñados para facilitar el proceso y pueden aplicarse a otros proyectos alojados en GitHub o plataformas similares.
 
-## ¡Alguien me dijo que use mensajes de 'commits' con significado!
+## Introducción
 
-Esto también se puede expresar como "Todos mis 'commits' dicen `Update es.md`" o similar.
+::: alert-note
+**Nota:** Para obtener más información sobre Git y GitHub, véase [Documentación de GitHub](https://docs.github.com/es)
+:::
 
-Si alguien te ha dicho esto o ves que todos tus mensajes de los 'commits' son iguales, significa que no usaste mensajes de 'commit' con un significado cuando eras capaz o que trataste de mover, editar y/o eliminar múltiples archivos usando la interfaz web de GitHub.
+**Git** es un sistema de control de versiones que ayuda a administrar los cambios en los archivos. Los datos de la osu! wiki y el historial de cambios se almacenan en un repositorio de Git. **GitHub** es una plataforma de desarrollo que proporciona una interfaz web para repositorios Git y ofrece un conjunto de herramientas para la gestión de proyectos.
 
-Un mensaje de un 'commit' con significado permite que cualquiera entienda todos tus cambios dentro del 'commit' mismo sin tener que ver las diferencias en el código (GitHub diff). Hay un límite de 72 caracteres para el mensaje del 'commit', así que también necesitarás hacerlo corto. Si tienes problemas tratando de mantenerlo corto, puede ser que necesites dividir tus 'commits'. **Ten en mente que `Update es.md` o similares no significan nada, porque nadie sabrá qué cambios específicos has hecho, tampoco sabrán qué artículo has cambiado.**
+## Sincronizar la bifurcación
 
----
+::: Infobox
+![](img/update-branch.png?1 "Actualización de la rama desactualizada")
+:::
 
-Para resolver esto, necesitas usar la Interfaz Web de GitHub:
+Una *bifurcación* es una copia del repositorio original que no se actualiza automáticamente. Para trabajar siempre con la versión más reciente de la osu! wiki, debes sincronizarla antes de realizar cambios. Esto se puede hacer directamente desde GitHub:
 
 1. Ve a tu bifurcación del repositorio `osu-wiki`.
-2. Crea una nueva ramificación (branch). Nómbrala igual que tu ramificación problemática y adjunta un número, o nómbrala como quieras.
-3. Crea un 'pull request'.
-4. Si los menús desplegables `base fork` y `head fork` no están presentes, haz click en el link `compare across forks`.
-5. Cambia `head fork` a tu bifurcación.
-6. Cambia `compare` a tu ramificación problemática.
-7. Cambia `base fork` a tu bifurcación.
-8. Cambia `base` a tu nueva ramificación.
-9. Haz click en `Create pull request`.
-10. Ignora el título y la descripción y haz click nuevamente en `Create pull request`.
-11. Baja al final de la línea de tiempo y haz click en la flecha apuntando hacia abajo al lado del botón `Merge pull request`.
-12. Haz click en `Squash and merge`.
-13. Haz click nuevamente en `Squash and merge`.
-14. Arregla el título (éste será el mensaje del 'commit'; asegúrate que tenga significado).
-15. Arregla la descripción (éste será la descripción del 'commit'; esto es opcional, pero asegúrate de cambiarlo).
-16. Haz click en `Confirm squash and merge`.
-17. Ve al [repositorio `ppy/osu-wiki`](https://github.com/ppy/osu-wiki).
-18. Cierra tu 'pull request' que tiene la ramificación problemática.
-19. Abre un nuevo 'pull request' usando la nueva ramificación.
-20. Puedes copiar la descripción del 'pull request' cerrado en el nuevo que acabas de abrir. Es útil el también incluir una referencia al otro 'pull request' que has cerrado.
-21. Haz click en `Create pull request`. Ya has terminado de arreglar tus 'commits'. Si ya has completado los 'commits' del 'pull request' cerrado y estás seguro que el actual está listo para ser unido, pide a alguien que lo haga.
+2. Selecciona la rama `master` del menú desplegable.
+3. Haz clic en `Sync fork`.
+   - Si has realizado algún cambio directamente en la rama `master` y prefieres conservarlo, haz clic en `Update branch` para guardarlo.
+   - Si quieres empezar de cero y ya no necesitas tus cambios, haz clic en `Discard n commit(s)`.
 
-Técnicamente, ésta es la mejor manera de aplastar (squash) 'commits' de una ramificación cuando se está limitado a solo el uso de la Interfaz Web de GitHub. Es imposible el aplastar 'commits' usando GitHub para Escritorio.
+## Hacer cambios
 
-## ¡Mi ramificación está desactualizada!
+::: alert-note
+**Véase también:** [Forking Workflow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+:::
 
-Cuando creaste tu bifurcación del repositorio `osu-wiki`, tomaste una foto de los contenidos en ese momento. El problema está en que no se actualiza automáticamente por su cuenta, tampoco hay una característica de GitHub para hacer esto para ti.
+Dentro de tu bifurcación de la osu! wiki, eres libre de hacer cualquier cambio y guardarlo. Los **commits** son «puntos de guardado» individuales del repositorio. Las **ramas (branches)** son espacios de trabajo que te permiten alternar entre varias versiones del repositorio. Para facilitar tu flujo de trabajo y mantener el historial de la wiki limpio y libre de ruido, sigue estas pautas:
 
----
+- [Sincroniza la rama `master`](#sincronizar-la-bifurcación).
+- Comienza siempre el trabajo creando una nueva rama a partir de `master`, y solo mantén allí tus cambios. Dale un nombre significativo, como `update-staff-log`.
+- Envía tu trabajo cuando hayas realizado cambios de tamaño razonable. Es mejor enviar un artículo completo en lugar de 10 ediciones pequeñas.
+- **Usa mensajes de commits breves y significativos**, ya que permiten que los demás sepan lo que hay en el cuadro. Algo como `Rewrite the section about jump patterns` dice mucho más que `Update es.md`.
 
-Para resolver esto, hay un servicio/código llamado [Upriver](https://upriver.github.io/). Esto "sincronizará sin esfuerzo tus repositorios de GitHub con el 'upstream' usando solamente la API de GitHub", tal y como dice su página en GitHub.
+## Abrir una solicitud de cambios
 
-1. Ve a [Upriver](https://upriver.github.io/).
-2. Haz click en `Sign in with GitHub`, omite éste paso si ya lo has hecho anteriormente.
-3. Haz click en `Authorize upriver`, omite éste paso si ya lo has hecho anteriormente.
-4. Selecciona los siguientes:
-   - into:  *selecciona tu bifurcación del repositorio `osu-wiki`*
-   - branch: `master`
-   - from: `ppy/osu-wiki`
-   - branch: `master`
-   - force?: activado
-5. Haz click en `Pull`.
-6. Haz click en `Close`.
-7. (Ya puedes cerrar Upriver).
+Una solicitud de cambios muestra a otras personas cómo afectarán tus ediciones a los archivos. Agrega información a tu solicitud de cambios para explicar tus intenciones:
 
-Si nada salió mal, tu ramificación 'master' en tu bifurcación estará al día con `ppy/osu-wiki`. Ahora puedes crear ramificaciones a partir de tu ramificación 'master' de tu bifurcación sin ningún problema.
+- `Título`: un título descriptivo muy breve para tus cambios en inglés, junto con el nombre del artículo. En el caso de una traducción, comienza con el nombre del idioma de dos letras de tus traducciones entre paréntesis. Ejemplos:
+  - ``[ES] Add `BBCode` ``
+  - ``Update `Beatmapping` and `Beatmap/Difficulty` ``
+- `Descripción`: cualquier cosa que quieras señalar a los mantenedores y otros posibles revisores. Ejemplos:
+  - Un breve resumen de los cambios, especialmente si afectan a varios artículos
+  - La integridad de la solicitud de cambios o las ideas relacionadas con ella
+  - [Resolución automática de problemas relevantes](https://docs.github.com/es/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+- Asegúrate de marcar la casilla de verificación `Allow edits from maintainers` ya que permitirá que los mantenedores de la wiki te ayuden a mejorar la solicitud de cambios cuando sea necesario
 
-## ¡Mi 'pull request' tiene conflictos!
+## Aplicar revisiones
+
+Las revisiones se aplican mejor directamente a través de la interfaz web de GitHub. Usa el botón `Add suggestion to batch` cuando estés en la pestaña `Files changed` para aplicar múltiples revisiones simultáneamente.
+
+![Aplicando una revisión por lotes](img/applying-batch-review.gif)
+
+También puedes usar el botón `Commit suggestion` para aplicar una sola sugerencia de forma individual, siempre que realices commits con moderación y [con mensajes informativos](#hacer-cambios).
+
+![Aplicando una sola revisión](img/applying-single-review.gif)
+
+El uso de este sistema marcará automáticamente las sugerencias como resueltas. Al aplicar revisiones manualmente (por ejemplo, cuando el revisor no agregó una sugerencia directa), márcalas como resueltas *después de enviar el cambio* para evitar olvidar alguna. Es preferible dejar que GitHub aplique las revisiones automáticamente, ya que garantiza que las sugerencias se apliquen correctamente y evita cualquier error de copia manual.
+
+## Resolver conflictos
 
 Hay dos razones por la que esto pudo haber pasado:
 
-- Editaste un archivo cuando tu ramificación estaba desactualizada.
-- Hubo una pobre comunicación entre tu y otra persona, así que los dos estaban editando el mismo artículo, pero los cambios de esa persona fueron unidos antes que los tuyos (técnicamente ésto fue lo que causó que tus archivos editados estuviesen desactualizados).
+- Editaste un archivo cuando tu rama estaba desactualizada.
+- Hubo una pobre comunicación entre tu y otra persona, así que los dos estaban editando el mismo artículo, pero los cambios de esa persona fueron unidos antes que los tuyos, esto fue lo que causó que tus archivos editados estuviesen desactualizados.
 
 Dependiendo de la severidad de los conflictos, puedes tener dos opciones para arreglar esto:
 
-1. Si tu 'pull request' tiene el botón `Resolve conflicts`, hazle click. Ésto abrirá una versión levemente distinta del editor web.
+1. Si tu solicitud de cambios tiene el botón `Resolve conflicts`, haz clic. Esto abrirá una versión levemente distinta del editor web.
    1. GitHub resaltará las áreas conflictivas. Encuentra una de ellas.
-   2. Todo desde `<<<<<<<` hasta `=======` son tus cambios, donde todo desde `=======` hasta `>>>>>>> master` es lo que está en la ramificación `ppy/master`.
+   2. Todo desde `<<<<<<<` hasta `=======` son tus cambios, donde todo desde `=======` hasta `>>>>>>> master` es lo que está en la rama `ppy/master`.
    3. Desde aquí, necesitarás arreglar manualmente el conflicto y eliminar las marcas `<<<<<<<`, `=======` y `>>>>>>> master`.
    4. Repite el proceso para todos los conflictos.
-   5. Cuando hayas terminado, haz click en `Mark as resolved` (ésto estará disponible solo cuando todas las partes conflictivas del archivo se hayan resuelto).
-2. Si el botón `Resolve conflicts` está bloqueado dado que los conflictos son muy complicados para GitHub, se te acabó la suerte y necesitarás [actualizar tu ramificación](#¡mi-ramificación-está-desactualizada!) y hacer los cambios de nuevo.
-   - *Nota: Ésto se cumple si es que estás limitado a usar la Interfaz Web de GitHub.* Todavía hay maneras de arreglarlo, pero no serán cubiertos en esta guía y puede que no valga el esfuerzo el usar esos métodos, porque sobreescribirás y revertirás los cambios conflictivos.
+   5. Cuando hayas terminado, haz clic en `Mark as resolved` (esto estará disponible solo cuando todas las partes conflictivas del archivo se hayan resuelto).
+2. Si el botón `Resolve conflicts` está bloqueado dado que los conflictos son muy complicados para GitHub, se te acabó la suerte y necesitarás [actualizar tu rama](#sincronizar-la-bifurcación) y hacer los cambios de nuevo.
+   - *Nota: Esto se cumple si es que estás limitado a usar la interfaz web de GitHub.* Todavía hay maneras de arreglarlo, pero no serán cubiertos en esta guía y puede que no valga el esfuerzo el usar esos métodos, porque sobreescribirás y revertirás los cambios conflictivos.

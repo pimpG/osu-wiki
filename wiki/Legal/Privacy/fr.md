@@ -1,10 +1,12 @@
 ---
 legal: true
+outdated_translation: true
+outdated_since: b1776120326b6dbcb16e18460dafcbcef1c68706
 ---
 
 # Politique de confidentialité d'osu!
 
-Dernière mise à jour : 16 avril 2021. [Voir l'historique ici](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
+Dernière mise à jour : 3 septembre 2024. [Voir l'historique ici](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
 
 En plus de cette politique, veuillez également vous assurer de visiter et comprendre nos [Conditions d'utilisation](/wiki/Legal/Terms).
 
@@ -70,7 +72,7 @@ osu! contient un code exécutable qui est utilisé pour détecter l'utilisation 
 - Si l'anti-cheat détermine que vous trichez, ce fait, ainsi que les preuves sous forme de diagnostics et de métadonnées, sont envoyés à nos serveurs pour vérification. Si vous ne trichez pas, aucune donnée anti-cheat ne sera transmise.
 - Même en cas de détection, nous nous efforçons de ne jamais envoyer d'informations en dehors de l'écosystème d'osu! qui pourraient être utilisées pour vous identifier personnellement.
 - Les métadonnées transmises ne sont conservées sur notre serveur que pendant la durée où elles sont utiles. Cette durée est généralement de quelques heures à quelques jours, le temps que nous analysions le contenu transmis.
-- L'analyse est largement automatisée. Les métadonnées transmises ne sont pas accessibles aux membres de l'équipe d'assistance, et doivent être accessibles via une sécurité multicouche. Seuls les administrateurs du serveur de base de données sont en mesure de visualiser les métadonnées. 
+- L'analyse est largement automatisée. Les métadonnées transmises ne sont pas accessibles aux membres de l'équipe d'assistance, et doivent être accessibles via une sécurité multicouche. Seuls les administrateurs du serveur de base de données sont en mesure de visualiser les métadonnées.
 
 Nous respectons et apprécions votre vie privée et ne souhaitons pas imposer la peur aux utilisateurs légitimes par la présence d'un système anti-cheat dans le jeu.
 
@@ -120,7 +122,7 @@ Les services d'osu! ne sont pas conçus pour les enfants de moins de 13 ans. Si 
 
 Bonjour, je suis Dean (communément appelé peppy) et je suis votre contrôleur de données. Si vous avez des inquiétudes concernant votre vie privée ou si vous souhaitez exercer vos droits légaux, n'hésitez pas à me contacter directement à l'adresse indiquée ci-dessous.
 
-**Email** : [privacy@ppy.sh](mailto:privacy@ppy.sh) (Réponse garantie en 24 heures)
+**Email** : [privacy@ppy.sh](mailto:privacy@ppy.sh)
 
 **Adresse postale** :
 

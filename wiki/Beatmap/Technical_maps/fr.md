@@ -10,9 +10,12 @@ tags:
 
 # Beatmap technique
 
-*Remarque : Dans le cadre de cet article, le terme "tech map" sera considéré comme un terme générique qui inclut toutes ces définitions.*
+::: alert-notice
+**Note**
+Dans le cadre de cet article, le terme "beatmap tech" sera considéré comme un terme générique qui inclut toutes ces définitions.
+:::
 
-Les **beatmaps techniques** (abrégé en "tech map") est un terme qui n'a pas de définition claire et acceptée par la communauté d'osu!. En fonction de chaque utilisateur, la définition d'une "beatmap technique" peut être aussi large qu'une [beatmap](/wiki/Beatmap) qui contient simplement des [patterns](/wiki/Beatmap/Pattern) non génériques, ou aussi spécifique qu'une beatmap dense en [objets](/wiki/Hit_object) et contenant de nombreuses formes irrégulières de [slider](/wiki/Hit_object/Slider) qui changent rapidement et radicalement de vitesse (souvent à haute intensité).
+Les **beatmaps techniques** (abrégé en "beatmap tech") est un terme qui n'a pas de définition claire et acceptée par la communauté d'osu!. En fonction de chaque utilisateur, la définition d'une "beatmap technique" peut être aussi large qu'une [beatmap](/wiki/Beatmap) qui contient simplement des [patterns](/wiki/Beatmap/Pattern) non génériques, ou aussi spécifique qu'une beatmap dense en [objets](/wiki/Gameplay/Hit_object) et contenant de nombreuses formes irrégulières de [slider](/wiki/Gameplay/Hit_object/Slider) qui changent rapidement et radicalement de vitesse (souvent à haute intensité).
 
 Les beatmaps techniques sont le plus souvent associées à des genres musicaux qui offrent des sons complexes et rapides (par exemple, drum-and-bass, dubstep et drumstep), car elles permettent souvent au mappeur d'explorer en détail chaque son individuellement, ce qui profite à la beatmap. Bien que la musique de ce type ne soit pas explicitement requise.
 
@@ -24,7 +27,10 @@ En raison de la nature générale du terme "beatmap technique", il existe de nom
 
 ### Définition la plus large
 
-*Attention : La définition "la plus large" ne requiert qu'un ou deux des aspects énumérés pour définir une beatmap comme étant technique.*
+::: alert-caution
+**Attention**
+La définition "la plus large" ne requiert qu'un ou deux des aspects énumérés pour définir une beatmap comme étant technique.
+:::
 
 - Motifs d'une beatmap non génériques ou difficiles à lire (exemple ci-dessous)
   - Un "flow" difficile sur ladite beatmap
@@ -33,7 +39,7 @@ En raison de la nature générale du terme "beatmap technique", il existe de nom
 - Des formes irrégulières des sliders
 - Des changements rapides et nets de la vitesse du slider
 - Une intensité générale élevée
-  - Extrêmement dense en nombre d'objets dans une grande partie de la beatmap (à l'exception des [streams](/wiki/Beatmap/Pattern/Stream)).
+  - Extrêmement dense en nombre d'objets dans une grande partie de la beatmap (à l'exception des [streams](/wiki/Beatmap/Pattern/osu!/Stream)).
 
 ![Modèle non générique de beatmap (Nhelv)](img/nongeneric_beatmap_pattern.jpg "Modèle non générique de beatmap")
 
@@ -43,7 +49,10 @@ Voici de bons exemples de beatmaps techniques qui correspondent à cette défini
 
 ### Définition la plus restrictive/spécifique
 
-*Attention : La définition "la plus restrictive/spécifique" exige que **tous** les aspects énumérés soient présents afin de définir une beatmap comme étant technique.*
+::: alert-caution
+**Attention**
+La définition "la plus restrictive/spécifique" exige que **tous** les aspects énumérés soient présents afin de définir une beatmap comme étant technique.
+:::
 
 - Des formes irrégulières des sliders
 - Des changements rapides et nets de la vitesse des sliders

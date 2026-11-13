@@ -12,3 +12,8 @@ Index page for all of the osu!catch World Cup series.
 - [osu!catch World Cup 2019](2019)
 - [osu!catch World Cup 2020](2020)
 - [osu!catch World Cup 2021](2021)
+- [osu!catch World Cup 2022](2022)
+- [osu!catch World Cup 2023](2023)
+- [osu!catch World Cup 2024](2024)
+- [osu!catch World Cup 2025](2025)
+- [osu!catch World Cup 2026](2026)

@@ -1,16 +1,17 @@
+---
+outdated_translation: true
+outdated_since: cd53f694f7e0e700e57857590002cd09e6a07e07
+---
+
 # Tema yapımı
 
 Tema yapımı osu!'nun olmazsa olmaz özelliklerinden biridir. Bu, oyuncuların orijinal tema yapma elementlerinden kendi temalarını oluşturmalarını sağlar! Temalar eğlencesine, konseptli, PRO, veya oynaması neredeyse imkansız olmaya kadar farklılık gösterebilir.
 
 ## Tema yapma setleri
 
-*Ana sayfa: [Tema Seti Listesi](/wiki/Ranking_Criteria/Skin_Set_List)*
+*Ana sayfa: [Tema Seti Listesi](/wiki/Ranking_criteria/Skin_set_list)*
 
 **Yalnızca beatmaplerde,** eğer beatmap teması Derecelendirme Kriterlerinde listelenen setlerden herhangi bir element içeriyorsa, o tema setinin diğer tüm elementlerini de içermek zorundadır. Bu yalnızca beatmap temaları için geçerlidir, ancak diğer temacılar da bu listelerden faydalanmak isteyebilirler.
-
-## Tema nasıl yapılır?
-
-*Ana sayfa: [Tema Yapma Öğreticisi](/wiki/Skinning/Guides_and_important_threads)*
 
 ## Tema elementleri listesi
 

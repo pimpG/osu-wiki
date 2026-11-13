@@ -1,0 +1,16 @@
+name: Label pull request
+on:
+  pull_request_target:
+    branches:
+      - master
+    types:
+      - opened
+
+jobs:
+  labeler:
+    permissions:
+      contents: read # reading changed files of pr
+      pull-requests: write # adding labels
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b # v6.0.1

@@ -1,10 +1,10 @@
 ---
-outdated: true
+outdated_translation: true
 ---
 
 # Kontes
 
-Sebuah daftar kontes yang tidak disebutkan pada [Halaman Kontes Komunitas](https://osu.ppy.sh/community/contests) (sebagian besar sebelum akhir 2016 dan [kontes-kontes lainnya yang dikelola oleh komunitas](#community-contests)).
+Sebuah daftar kontes yang tidak disebutkan pada [Halaman Kontes Komunitas](https://osu.ppy.sh/community/contests) (sebagian besar sebelum akhir 2016 dan [kontes-kontes lainnya yang dikelola oleh komunitas](#kontes-komunitas)).
 
 ## Monthly Beatmapping Contest
 
@@ -36,7 +36,7 @@ Catatan:
 
 ## Aspire
 
-Aspire adalah sebuah kontes beatmapping dengan satu pengecualian khusus, mereka tidak terikat pada [Ranking Criteria](/wiki/Ranking_Criteria).
+Aspire adalah sebuah kontes beatmapping dengan satu pengecualian khusus, mereka tidak terikat pada [Ranking Criteria](/wiki/Ranking_criteria).
 
 | Nomor Kontes | Beatmap | Mode | Mapper | Hasil | Skor |
 | :-: | :-- | :-: | :-- | :-- | :-- |

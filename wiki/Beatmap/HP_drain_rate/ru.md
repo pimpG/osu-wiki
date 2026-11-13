@@ -1,0 +1,33 @@
+---
+stub: true
+tags:
+  - health drain rate
+  - passive drain rate
+  - дрейн
+  - хп
+outdated_translation: true
+outdated_since: fb3e12eefb4f46a4c14a539098d3031b2d63e457
+---
+
+# HP drain rate
+
+::: alert-note
+**Примечание:** Подробнее о здоровье как игровой механике см. [Здоровье](/wiki/Gameplay/Health)
+:::
+
+::: alert-note
+**Примечание:** Подробнее о правилах, связанных со скоростью убывания HP см. [Критерии ранкинга](/wiki/Ranking_criteria)
+:::
+
+**HP drain rate** (сокр. *HP*, *ХП*, жарг. *дрейн*) — один из параметров сложности [карты](/wiki/Beatmap), который определяет скорость [пассивного расхода](/wiki/Gameplay/Health) [здоровья](/wiki/Gameplay/Health). Он также влияет на то, насколько сильно игрок наказывается за пропущенные ноты, и сколько здоровья восстанавливается при точном попадании по [объектам](/wiki/Gameplay/Hit_object).
+
+Значения HP варьируются от 0 до 10, где 10 — самая высокая скорость расхода здоровья, а 0 — самая низкая.
+
+## Моды
+
+На HP влияют четыре мода:
+
+- [Easy](/wiki/Gameplay/Game_modifier/Easy): уменьшает значение HP вдвое.
+- [Hard Rock](/wiki/Gameplay/Game_modifier/Hard_Rock): умножает значение HP на 1,4, максимум до 10.
+- [Double Time](/wiki/Gameplay/Game_modifier/Double_Time): значение HP не меняется, но из-за ускорения карты на 50% здоровье расходуется на 50% быстрее.
+- [Half Time](/wiki/Gameplay/Game_modifier/Half_Time): значение HP не меняется, но из-за замедления карты на 25% здоровье расходуется на 25% медленнее.

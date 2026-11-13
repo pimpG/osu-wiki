@@ -1,0 +1,66 @@
+# Desafío diario
+
+El **desafío diario** es un modo multijugador de [osu!(lazer)](/wiki/Client/Release_stream/Lazer) en el que los jugadores pueden acumular una racha al pasar beatmaps diarios consecutivos con una dificultad creciente, la cual se reinicia cada 7 días.
+
+Los beatmaps del desafío diario son seleccionados por un grupo de contribuidores. A veces, los beatmaps pueden seguir una temática relacionada con un género concreto, un artista o una característica especial. Al final de cada mes, se dedica una semana a destacar los beatmaps de gran calidad del mes anterior, tarea de la que se encargan algunos miembros del [Nomination Assessment Team](/wiki/People/Nomination_Assessment_Team).
+
+En ocasiones, los beatmaps pueden incluir un mod obligatorio para los usuarios, lo que les obliga a completar el beatmap con ese mod seleccionado.
+
+Los desafíos diarios actuales y todos los anteriores pueden verse en la [página de las tablas de clasificación de los desafíos diarios en el sitio web](https://osu.ppy.sh/rankings/daily-challenge).
+
+## Menú de juego
+
+Desde el menú principal, se puede acceder al menú del desafío diario con los siguientes pasos:
+
+1. Haz clic en el botón `jugar` o presiona `P`.
+2. Haz clic en el botón `desafío diario` o presiona `D`.
+
+![](img/daily-challenge-menu.png?20250824 "Captura de pantalla del menú del desafío diario del 24 de agosto de 2024.")
+
+Al entrar, el usuario se encuentra con una introducción que muestra el beatmap que tiene que pasar, y los mods con los que tiene que pasarlo.
+
+Una vez finalizada la introducción, el usuario podrá ver los datos del desafío del día correspondiente. La parte izquierda muestra diversa información relacionada con la puntuación, como el número total de veces que el beatmap ha sido completado y la puntuación total acumulada. En el centro, una tabla de clasificación muestra las mejores puntuaciones obtenidas por los jugadores. Los usuarios pueden comentar sobre el desafío diario en el chat de la derecha.
+
+## Rango de dificultad de los beatmaps
+
+![](img/Beatmap-selection-criteria-ES.png "Las calificaciones por estrellas específicas que los beatmaps deben seguir durante toda la semana")
+
+## Hitos de las rachas
+
+Las rachas de juego se muestran en el perfil del usuario con diferentes colores según los hitos alcanzados:
+
+|  | Rango | Participación total | Racha diaria | Racha semanal |
+| --: | :-: | :-: | :-: | :-: |
+| ![Rango lustroso](img/tiers/lustrous-ES.png) | Lustroso | 1080 días | 360 días | 53 semanas |
+| ![Rango radiante](img/tiers/radiant-ES.png) | Radiante | 720 días | 240 días | 36 semanas |
+| ![Rango rodio](img/tiers/rhodium-ES.png) | Rodio | 360 días | 120 días | 19 semanas |
+| ![Rango platino](img/tiers/platinum-ES.png) | Platino | 180 días | 60 días | 10 semanas |
+| ![Rango oro](img/tiers/gold-ES.png) | Oro | 90 días | 30 días | 6 semanas |
+| ![Rango plata](img/tiers/silver-ES.png) | Plata | 30 días | 10 días | 3 semanas |
+| ![Rango bronce](img/tiers/bronze-ES.png) | Bronce | 15 días | 5 días | 2 semanas |
+| ![Rango hierro](img/tiers/iron-ES.png) | Hierro | menos de 15 días | menos de 5 días | menos de 2 semanas |
+
+## Contribuidores
+
+El proyecto está organizado por ::{ flag=TN }:: [Hivie](https://osu.ppy.sh/users/14102976). Los siguientes miembros de la comunidad son responsables de seleccionar los beatmaps:
+
+- ::{ flag=IT }:: [-kevincela-](https://osu.ppy.sh/users/266596)
+- ::{ flag=SE }:: [byd](https://osu.ppy.sh/users/6398464)
+- ::{ flag=FI }:: [fllecc](https://osu.ppy.sh/users/14060327)
+- ::{ flag=IT }:: [gansijiye](https://osu.ppy.sh/users/9704802)
+- ::{ flag=KR }:: [momoyo](https://osu.ppy.sh/users/12469536)
+- ::{ flag=MX }:: [Riot](https://osu.ppy.sh/users/4256461)
+- ::{ flag=US }:: [TheMagicAnimals](https://osu.ppy.sh/users/17274052)
+- ::{ flag=SE }:: [Walavouchey](https://osu.ppy.sh/users/5773079)
+- ::{ flag=US }:: [Willy](https://osu.ppy.sh/users/3521482)
+- ::{ flag=US }:: [Wispy](https://osu.ppy.sh/users/11106929)
+
+## Curiosidades
+
+::: Infobox
+![](img/yt-comment-ES.png "El comentario de waxxx14 en YouTube sugiriendo un formato similar al de la «copa del día» de TrackMania")
+:::
+
+- La idea del desafío diario surgió de un comentario de waxxx14 en el que solicitaba un formato similar al de la «copa del día» de [TrackMania](https://es.wikipedia.org/wiki/TrackMania) en osu!, publicado en el vídeo sobre el desarrollo de lazer [«deciding what to do with lazer»](https://www.youtube.com/watch?v=xUSxEjQQ1UI).
+- El desafío diario se lanzó al público el 25 de julio de 2024 en la versión pública de osu!(lazer) [2024.725.0](https://osu.ppy.sh/home/changelog/lazer/2024.725.0) únicamente para el modo de juego [osu!](/wiki/Game_mode/osu!).
+- En la versión inicial, no podían seleccionarse mods libres, y el número total de veces que el beatmap había sido completado, así como la puntuación total acumulada, se añadieron en una actualización posterior.

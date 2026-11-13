@@ -1,0 +1,53 @@
+---
+stub: true
+tags:
+  - AC
+  - acc challenge
+---
+
+# Accuracy Challenge (mod)
+
+::: Infobox
+
+<!-- lint ignore heading-increment -->
+
+#### Accuracy Challenge
+
+![Accuracy Challenge mod icon](/wiki/Gameplay/Game_modifier_(lazer)/img/mods/AC.png?1)
+
+*Fail if your accuracy drops too low!*
+
+|  |  |
+| :-- | :-- |
+| Acronym | AC |
+| Type | Difficulty Increase |
+| Game modes | ![][osu!] ![][osu!taiko] ![][osu!catch] ![][osu!mania] |
+| Score multiplier | `1.00x` |
+| Status | Ranked |
+| Incompatible mods ![][osu!] ![][osu!catch] ![][osu!mania] | [Easy (EZ)](/wiki/Gameplay/Game_modifier/Easy_(lazer)), [No Fail (NF)](/wiki/Gameplay/Game_modifier/No_Fail_(lazer)), [Perfect (PF)](/wiki/Gameplay/Game_modifier/Perfect_(lazer)), [Cinema (CN)](/wiki/Gameplay/Game_modifier/Cinema_(lazer)) |
+| Incompatible mods ![][osu!taiko] | [No Fail (NF)](/wiki/Gameplay/Game_modifier/No_Fail_(lazer)), [Perfect (PF)](/wiki/Gameplay/Game_modifier/Perfect_(lazer)), [Cinema (CN)](/wiki/Gameplay/Game_modifier/Cinema_(lazer)) |
+
+:::
+
+::: alert-note
+**Note:** For the full list of all [lazer](/wiki/Client/Release_stream/Lazer) mods, see [Game modifier (lazer)](/wiki/Gameplay/Game_modifier_(lazer))
+:::
+
+The **Accuracy Challenge** mod allows the player to set a minimum [accuracy](/wiki/Gameplay/Accuracy) that they must maintain to avoid a failure. Thus, it works similarly to [Sudden Death (SD)](/wiki/Gameplay/Game_modifier/Sudden_Death_(lazer)), except that it is based on accuracy rather than [combo](/wiki/Gameplay/Combo_(score_multiplier)).
+
+## Customisation
+
+![Accuracy Challenge customisation options in the game client](/wiki/Gameplay/Game_modifier_(lazer)/img/customise/AC.png)
+
+- `Minimum accuracy` (60.0%–99.9%, default: 90.0%): Trigger a failure if the accuracy drops below this value.
+- `Accuracy mode` (default: Maximum achievable): The mode of accuracy that will trigger failure.
+  - `Maximum achievable`: Fail if the selected threshold cannot be achieved by the end of the [beatmap](/wiki/Beatmap) anymore.
+  - `Standard`: Fail immediately if the accuracy drops below the selected threshold.
+- `Restart on fail` (default: disabled): Automatically restart the map after a failure.
+
+Any combination of the above settings produces rankable scores.
+
+[osu!]: /wiki/shared/mode/osu.png "osu!"
+[osu!taiko]: /wiki/shared/mode/taiko.png "osu!taiko"
+[osu!catch]: /wiki/shared/mode/catch.png "osu!catch"
+[osu!mania]: /wiki/shared/mode/mania.png "osu!mania"

@@ -1,17 +1,16 @@
----
-outdated: true
----
+# Storyboard
 
-# Storyboards
+![](img/Sbpassing.png "Esta escena se muestra mientras se juega Walkie Talkie Man; sin embargo, solo se muestra cuando obtienes un Elite Beat 300")
+![](img/Sbfailing.png "Esto se muestra cuando fallas u obtienes un 50 en el combo jugado anteriormente")
 
-***Artículo original aquí***
+Un **storyboard** (SB) es un fondo animado personalizado que acompaña a un [beatmap](/wiki/Beatmap), a menudo con fines decorativos y, a veces, para jugar. Un storyboard puede estar compuesto de casi cualquier cosa, pero por lo general consisten en efectos visuales diseñados para hacer que un mapa sea estéticamente más agradable y distintivo para los usuarios. Los storyboards están inspirados en los fondos animados que se encuentran en [Osu! Tatakae! Ouendan](/wiki/Disambiguation/Ouendan). Al igual que su inspiración, los storyboards pueden ajustarse al rendimiento del jugador en el juego y mostrar diferentes cosas dependiendo de qué tan bien lo esté haciendo el jugador.
 
-El **Storyboard** (SB) es un fondo animado, hecho a medida en las resoluciones de 640x480 ó 1366x768 (por la reciente llegada de storyboarding en pantalla panorámica) que acompaña a un beatmap. Normalmente se ocupa para propósitos decorativos pero en algunos casos puede cambiar la experiencia de juego. Un storyboard puede estar compuesto por cualquier cosa, pero normalmente consiste de un conjunto de efectos visuales para hacer que el beatmap se vea estéticamente más agradable y distintivo para los jugadores. Los storyboards están inspirados de los fondos animados de Osu! Tatakae! Ouendan. Es posible ajustar el Storyboard según al rendimiento del jugador y mostrar diferentes cosas dependiendo de si el jugador falla o acierta. Los storyboards se guardan en archivos con la extensión de ".osb".
+Los storyboards se almacenan en las carpetas de los beatmaps como [archivos `.osb`](/wiki/Client/File_formats/osb_(file_format)) independientes o como extensiones de la sección `[Events]` de un [archivo `.osu`](/wiki/Client/File_formats/osu_(file_format)). Debido a esto, es posible crear diferentes storyboards para las dificultades dentro de un [beatmap](/wiki/Beatmap).
 
-Crear un Storyboard normalmente es difícil y requiere de una considerable cantidad tiempo y experiencia en animación y creación de gráficos.
+## Storyboarding
 
-## Creando un storyboard
+::: alert-note
+**Página principal:** [Secuencias de comandos para storyboards](/wiki/Storyboard/Scripting)
+:::
 
-El Editor de Storyboards (SBE, por sus siglas en inglés) está localizado en la pestaña que dice "Design" (o presionando el atajo del teclado F2). Fundamentalmente, el SBE ofrece a los jugadores una forma fácil para controlar movimientos simples de los elementos, pero es normalmente considerado como torpe e inutilizable para cualquier cosa más allá de lo básico de un storyboard. Si se quisiera crear un storyboard de pantalla panorámica, habría que activar la opción "Widescreen Support" en el "Song Setup Dialog".
-
-Jugadores más hábiles en la creación de storyboards normalmente usan el "backend code" creado por el SBE, titulado Storyboard Scripting (SBS), pues les permite más control.
+El *storyboarding* es el proceso de crear un storyboard, donde la persona detrás del proceso se llama *storyboarder*. La creación de storyboards suele ser muy difícil y requiere mucho tiempo y experiencia en animación estándar y creación gráfica. osu! ofrece un [editor incorporado](/wiki/Client/Beatmap_editor/Design) dentro del [editor de beatmaps](/wiki/Client/Beatmap_editor) para ayudar en la creación de storyboards, aunque la mayoría de los storyboarders ávidos optan por programar a través de las [secuencias de comandos](/wiki/Storyboard/Scripting) directamente. Muchos creadores optan por escribir programas en lenguajes de programación completos para generar secuencias de comandos para el storyboard, ya que los efectos visuales complejos pueden requerir una gran cantidad de código en el storyboard para su producción.

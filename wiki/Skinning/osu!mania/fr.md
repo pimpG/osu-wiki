@@ -1,19 +1,26 @@
+---
+outdated_translation: true
+outdated_since: 238835a67fc953aa2aa5a51f64149a1d862bfd62
+---
+
 # Skinning du mode osu!mania
 
 Depuis la version 2.5, les skinners peuvent personnaliser entièrement les notes et la scène du mode osu!mania en utilisant le fichier [skin.ini](/wiki/Skinning/skin.ini). Voici ce qu'osu! reconnaîtra si l'on choisit de ne pas utiliser le fichier `skin.ini` pour plus de personnalisation.
 
 ## Hit Bursts
 
-*Voir également : [Skinning/FAQ § Hiérarchie de l'écran de classement](/wiki/Skinning/FAQ#ranking-screen-hierarchy)*
+::: alert-note
+**Voir également** : [Skinning/FAQ § Hiérarchie de l'écran de classement](/wiki/Skinning/FAQ#hiérarchie-des-résultats-de-l'écran-de-classement)
+:::
 
 ---
 
 `mania-hit0.png`
 
-![](img/mania-hit0.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit0.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Oui][true] | Normal | Centre | - |
 
 Notes :
@@ -26,10 +33,10 @@ Notes :
 
 `mania-hit50.png`
 
-![](img/mania-hit50.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit50.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Oui][true] | Normal | Centre | - |
 
 Notes :
@@ -42,10 +49,10 @@ Notes :
 
 `mania-hit100.png`
 
-![](img/mania-hit100.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit100.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Oui][true] | Normal | Centre | - |
 
 Notes :
@@ -58,10 +65,10 @@ Notes :
 
 `mania-hit200.png`
 
-![](img/mania-hit200.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit200.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Oui][true] | Normal | Centre | - |
 
 Notes :
@@ -74,10 +81,10 @@ Notes :
 
 `mania-hit300.png`
 
-![](img/mania-hit300.png)
+![](/wiki/shared/judgement/osu!mania/mania-hit300.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Oui][true] | Normal | Centre | - |
 
 Notes :
@@ -90,10 +97,10 @@ Notes :
 
 `mania-hit300g.png`
 
-![](img/mania-hit300g.gif)
+![](/wiki/shared/judgement/osu!mania/mania-hit300g.gif)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Oui][true] | Normal | Centre | - |
 
 Notes :
@@ -109,7 +116,7 @@ Notes :
 ![](img/comboburst-mania.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] (voir les notes) | ![Oui][true] | Normal | Bas gauche | Hauteur max : 768px |
 
 Notes :
@@ -117,7 +124,7 @@ Notes :
 - Pour avoir plusieurs combobursts, utilisez : `comboburst-mania-{n}.png`.
   - Une des images du set apparaîtra lorsqu'une étape de combo sera atteinte.
 - Ces combobursts sont spécifiques au mode osu!mania
-- Ils peuvent être désactivés dans les [options](/wiki/Options).
+- Ils peuvent être désactivés dans les [options](/wiki/Client/Options).
 - Contrairement aux combobursts des modes osu! et osu!catch, il ne faut pas couper les bords de ce set d'images.
 
 ## Touches
@@ -127,7 +134,7 @@ Notes :
 ![](img/mania-key1.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas | 50x107 |
 
 Notes :
@@ -142,7 +149,7 @@ Notes :
 ![](img/mania-key1D.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas | 50x107 |
 
 Notes :
@@ -157,7 +164,7 @@ Notes :
 ![](img/mania-key2.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas | 50x107 |
 
 Notes :
@@ -172,7 +179,7 @@ Notes :
 ![](img/mania-key2D.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas | 50x107 |
 
 Notes :
@@ -187,7 +194,7 @@ Notes :
 ![](img/mania-keyS.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas | 50x107 |
 
 Notes :
@@ -202,7 +209,7 @@ Notes :
 ![](img/mania-keySD.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas | 50x107 |
 
 Notes :
@@ -217,7 +224,7 @@ Notes :
 ![](img/mania-note1.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -234,7 +241,7 @@ Notes :
 ![](img/mania-note2.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -251,7 +258,7 @@ Notes :
 ![](img/mania-noteS.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -270,7 +277,7 @@ Notes :
 ![](img/mania-note1H.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -290,7 +297,7 @@ Notes :
 ![](img/mania-note2H.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -310,7 +317,7 @@ Notes :
 ![](img/mania-noteSH.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -330,7 +337,7 @@ Notes :
 ![](img/mania-note1L.gif)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] (voir les notes) | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -347,7 +354,7 @@ Notes :
 ![](img/mania-note2L.gif)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] (voir les notes) | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -364,7 +371,7 @@ Notes :
 ![](img/mania-noteSL.gif)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] (voir les notes) | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -379,7 +386,7 @@ Notes :
 `mania-note1T.png`
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -398,7 +405,7 @@ Notes :
 `mania-note2T.png`
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -417,7 +424,7 @@ Notes :
 `mania-noteST.png`
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -438,7 +445,7 @@ Notes :
 ![](img/mania-stage-left.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas droite | Hauteur max : 768px |
 
 Notes :
@@ -453,7 +460,7 @@ Notes :
 ![](img/mania-stage-right.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Bas droite | Hauteur max : 768px |
 
 Notes :
@@ -466,7 +473,7 @@ Notes :
 `mania-stage-bottom.png`
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Normal | Bas | - |
 
 Notes :
@@ -485,7 +492,7 @@ Notes :
 ![](img/mania-stage-light.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Multiplicatif | Bas | Hauteur max : 768px |
 
 Notes :
@@ -505,12 +512,12 @@ Notes :
 ![](img/mania-stage-hint.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| Toutes | ![Oui][true] | ![Non][false] | Normal | Centre | - |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Toutes | ![Non][false] | ![Non][false] | Normal | Centre | - |
 
 Notes :
 
-- Cet élément est la représentation graphique de la judgement line.
+- Cet élément est la représentation graphique de la [judgement](/wiki/Gameplay/Judgement) line.
   - La judgement line est tracée au centre de l'image.
 - Cet élément est dessiné sur toute la largeur du stage, et non pas pour des colonnes individuelles.
 - Cet élément est étiré pour correspondre à la largeur du stage. (il est possible d'utiliser des images moins large)
@@ -519,15 +526,17 @@ Notes :
 
 `mania-warningarrow.png`
 
+![](img/mania-warningarrow.png)
+
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Non][false] | ![Non][false] | Normal | Centre | - |
 
 Notes :
 
 - Cet élément doit pointer vers le bas.
   - Cette image est automatiquement inversé horizontalement si le stage est inversé.
-- Cet élément est toujours présent avant le début d'une map, s'il y a suffisamment de temps.
+- Cet élément est toujours présent avant le début d'une beatmap, s'il y a suffisamment de temps.
 
 ### Lighting
 
@@ -536,7 +545,7 @@ Notes :
 ![](img/lightingL.gif)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Additif | Centre | - |
 
 Notes :
@@ -553,7 +562,7 @@ Notes :
 ![](img/lightingN.png)
 
 | Versions | Peut être animé | Modifiable sur une beatmap | Blend Mode | Origine | Taille de SD suggérée |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | Toutes | ![Oui][true] | ![Non][false] | Additif | Centre | - |
 
 Notes :

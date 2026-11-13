@@ -31,14 +31,14 @@ The calculations involved are not publicly known, however some indications on th
 - All *Ranked* and *Approved* maps are taken into account in the calculations.
 - The player's accuracy is taken into account.
 - The multipliers of mods are different from those announced in the game.
-- Mode-specific difficulties are favored.
+- Mode-specific difficulties are favoured.
 - If a score is not placed in the top 500 of a map, it will not count.
 
 ## Climbing the rankings
 
 The ranking is mainly related to the performance on individual maps, leading many players to only focus on mastering single difficulties. ppv1 encouraged a common theme of practices among players:<!-- the list below is totally vague -->
 
-- Playing better and scoring better grades on the beatmaps. 
+- Playing better and scoring better grades on the beatmaps.
 - Improving the accuracy; even a small percent can make the difference.
 - Getting a rank on the most popular maps, where it is harder to get a place.
 - Playing difficult maps.

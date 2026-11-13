@@ -1,63 +1,83 @@
 ---
-outdated: true
+tags:
+  - difficulties
+  - difficulty name
+  - SR
+  - star rating
+  - stars
+  - dificultades
+  - nombre de la dificultad
+  - calificación por estrellas
+  - estrellas
 ---
 
-# Dificultades
+# Dificultad
 
-*No debe confundirse con: [Beatmaps](/wiki/Beatmap).*
+::: alert-note
+**Nota:** No debe confundirse con [Beatmap](/wiki/Beatmap).
+:::
 
-*Ver también: [Criterios de clasificación § Mapset](/wiki/Ranking_Criteria#mapset).*
+La **dificultad** de un mapa es un nivel de juego, que se almacena como un archivo de texto con [la extensión `.osu`](/wiki/Client/File_formats/osu_(file_format)). Consiste en [objetos](/wiki/Gameplay/Hit_object) de un cierto [modo de juego](/wiki/Game_mode), que se ajustan según la [temporización](/wiki/Client/Beatmap_editor/Timing) adaptada a una canción específica. Las dificultades tienen diferentes aspectos, que afectan directamente a la experiencia del usuario. El nombre de la dificultad y la [calificación por estrellas](/wiki/Beatmap/Star_rating) generalmente brindan suficiente información para saber qué tan desafiante es.
 
-La dificultad de un beatmap *describe* el nivel de habilidad necesario para completarlo.
+Los objetos de una dificultad componen [patrones](/wiki/Beatmap/Pattern), que también varían según el modo de juego y establecen el tono para la apariencia general de cómo se debe jugar una dificultad. La jugabilidad de las dificultades del mapa también se puede modificar mediante varias [configuraciones de la dificultad](/wiki/Client/Beatmap_editor/Song_setup#dificultad) establecidas por el autor del mapa o alternadas por los [modificadores de juego](/wiki/Gameplay/Game_modifier).
 
-## Clasificación por estrellas
+Desde un punto de vista auditivo, una dificultad puede complementar a una canción al proporcionar uno o varios conjuntos de muestras de audio o [hitsounds](/wiki/Beatmapping/Hitsound), que sirven como una capa adicional de refuerzo.
 
-![Rangos de clasificación por estrellas](img/SR-range.png "Rangos de clasificación por estrellas")
-
-Desde los [Criterios de clasificación](/wiki/Ranking_Criteria), una calificación por estrellas de:
-
-- 1.50 estrellas y menos es Easy ![Icono Easy](/wiki/shared/diff/easy-o.png "cono Easy")
-- 2.25 estrellas y menos es Normal ![Icono Normal](/wiki/shared/diff/normal-o.png "Icono Normal")
-- 3.75 estrellas y menos es Hard ![Ícono Hard](/wiki/shared/diff/hard-o.png "Ícono Hard")
-- 5.25 estrellas y menos Insane ![Ícono Insane](/wiki/shared/diff/insane-o.png "Ícono Insane")
-- 5.25 estrellas y más es Expert ![Icono de Expert](/wiki/shared/diff/expert-o.png "icono Expert")
-
-### Iconos web
-
-Los rangos de clasificación de estrellas determinan qué icono web se va a utilizar en un beatmap determinado. Seguir los rangos de iconos generalmente te dara una buena estimación para lograr una distribución de dificultad equilibrada. Hay algunas pautas (consulta la [sección de mapset en los Criterios de clasificación](/wiki/Ranking_Criteria#mapset)) que puedes seguir para mejorar la distribución de dificultad de tu beatmapset.
+Los [componentes visuales](/wiki/Beatmap) de una dificultad, contrario a sus patrones, brindan una experiencia auxiliar durante el juego y se pueden desactivar en la superposición de la [configuración visual](/wiki/Client/Interface/Visual_settings) en su mayor parte. Si bien algunos de ellos, como los [storyboards](/wiki/Storyboard) o las [skins personalizadas](/wiki/Skinning), pertenecen al mapa como un todo, la mayoría de los componentes visuales pueden variar según la dificultad (por ejemplo, secciones de [kiai time](/wiki/Gameplay/Kiai_time) y [colores de combo](/wiki/Beatmapping/Combo_colour)).
 
 ## Niveles de dificultad
 
-*Ver tambien: [Nombrar dificultades](/wiki/Ranking_Criteria/Difficulty_Naming).*
+::: alert-note
+**Véase también:** [Nombramiento de las dificultades](/wiki/Ranking_criteria/Difficulty_naming)
+:::
 
-### osu!
+Estos son los niveles típicos de dificultad en los que puede caer un mapa. Las definiciones específicas y los requisitos de cada uno se pueden encontrar en sus [criterios de clasificación](/wiki/Ranking_criteria) de los respectivos modos.
 
-- ![Icono Easy](/wiki/shared/diff/easy-o.png "cono Easy") Easy
-- ![Icono normal](/wiki/shared/diff/normal-o.png "Icono Normal") Normal
-- ![Icono Hard](/wiki/shared/diff/hard-o.png "Ícono Hard") Hard
-- ![Icono Insane](/wiki/shared/diff/insane-o.png "Ícono Insane") Insane
-- ![Icono de Expert](/wiki/shared/diff/expert-o.png "icono Expert") Expert
+### ![](/wiki/shared/mode/osu.png) osu!
 
-### osu!taiko
+- ![](/wiki/shared/diff/easy-o.png?20211215) Easy
+- ![](/wiki/shared/diff/normal-o.png?20211215) Normal
+- ![](/wiki/shared/diff/hard-o.png?20211215) Hard
+- ![](/wiki/shared/diff/insane-o.png?20211215) Insane
+- ![](/wiki/shared/diff/expert-o.png?20211215) Expert
 
-- ![Icono Kantan](/wiki/shared/diff/easy-t.png "Icono Kantan") Kantan
-- ![Icono Futsuu](/wiki/shared/diff/normal-t.png "Icono Futsuu") Futsuu
-- ![Icono Muzukashii](/wiki/shared/diff/hard-t.png "Icono Muzukashii") Muzukashii
-- ![Icono Oni](/wiki/shared/diff/insane-t.png "Icono Oni") Oni
-- ![Icono Ura Oni](/wiki/shared/diff/expert-t.png "Icono Ura Oni") Ura Oni (Aveces llamado *Inner Oni*)
+### ![](/wiki/shared/mode/taiko.png) osu!taiko
 
-### osu!catch
+- ![](/wiki/shared/diff/easy-t.png?20211215) Kantan
+- ![](/wiki/shared/diff/normal-t.png?20211215) Futsuu
+- ![](/wiki/shared/diff/hard-t.png?20211215) Muzukashii
+- ![](/wiki/shared/diff/insane-t.png?20211215) Oni
+- ![](/wiki/shared/diff/expert-t.png?20211215) Inner Oni / Ura Oni
 
-- ![Icono Cup](/wiki/shared/diff/easy-c.png "Icono Cup") Cup
-- ![Icono Salad](/wiki/shared/diff/normal-c.png "Icono Salad") Salad
-- ![Icono Platter](/wiki/shared/diff/hard-c.png "Icono Platter") Platter
-- ![Icono Rain](/wiki/shared/diff/insane-c.png "Icono Rain") Rain
-- ![Icono Overdose](/wiki/shared/diff/expert-c.png "Icono Overdose") Overdose
+### ![](/wiki/shared/mode/catch.png) osu!catch
 
-### osu!mania
+- ![](/wiki/shared/diff/easy-c.png?20211215) Cup
+- ![](/wiki/shared/diff/normal-c.png?20211215) Salad
+- ![](/wiki/shared/diff/hard-c.png?20211215) Platter
+- ![](/wiki/shared/diff/insane-c.png?20211215) Rain
+- ![](/wiki/shared/diff/expert-c.png?20211215) Overdose
 
-- ![Icono EZ](/wiki/shared/diff/easy-m.png "Icono EZ") EZ
-- ![Icono NM](/wiki/shared/diff/normal-m.png "Icono NM") NM
-- ![Icono HD](/wiki/shared/diff/hard-m.png "Icono HD") HD
-- ![Icono MX](/wiki/shared/diff/insane-m.png "Icono MX") MX
-- ![Icono SC](/wiki/shared/diff/expert-m.png "Icono SC") SC
+### ![](/wiki/shared/mode/mania.png) osu!mania
+
+- ![](/wiki/shared/diff/easy-m.png?20211215) Easy
+- ![](/wiki/shared/diff/normal-m.png?20211215) Normal
+- ![](/wiki/shared/diff/hard-m.png?20211215) Hard
+- ![](/wiki/shared/diff/insane-m.png?20211215) Insane
+- ![](/wiki/shared/diff/expert-m.png?20211215) Expert
+
+## Dificultad y calificación por estrellas
+
+Desde el 27 de julio de 2021, el sitio web de osu! asigna automáticamente un color al nivel de dificultad de un beatmap según su calificación por estrellas, de acuerdo con el siguiente espectro:
+
+![Espectro de colores de la calificación de dificultad de osu!](img/spectrum-ES.png)
+
+En algunos casos, como [AIMod](/wiki/Client/Beatmap_editor/AiMod), la dificultad se clasifica en seis rangos de nivel según la calificación por estrellas de la siguiente manera:
+
+- ![](/wiki/shared/diff/easy-o.png?20211215) Easy: 0,0★-1,99★
+- ![](/wiki/shared/diff/normal-o.png?20211215) Normal: 2,0★-2,69★
+- ![](/wiki/shared/diff/hard-o.png?20211215) Hard: 2,7★-3,99★
+- ![](/wiki/shared/diff/insane-o.png?20211215) Insane: 4,0★-5,29★
+- ![](/wiki/shared/diff/expert-o.png?20211215) Expert: 5,3★-6,49★
+- ![](/wiki/shared/diff/expertplus-o.png?20211215) Expert+: 6,5★ o más
+
+Ten en cuenta que, si bien los niveles de dificultad previstos para la mayoría de los beatmaps coinciden con los colores o rangos de nivel que se les asignan, algunos pueden variar significativamente debido a ciertos factores. Esta es la razón por la que los [criterios de clasificación](/wiki/Ranking_criteria) ofrecen reglas básicas más decisivas para determinar el nivel de dificultad real de un beatmap y su distribución, independientemente de su calificación por estrellas.

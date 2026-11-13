@@ -1,14 +1,10 @@
----
-no_native_review: true
----
-
 # Desambiguación
 
-Articulos de **Desambiguación** en la [wiki de osu!](/wiki/Main_Page) remarca terminos ambiguos y explica sus posibles significados.
+Los artículos de **desambiguación** en la [osu! wiki](/wiki/Main_page) remarca términos ambiguos y explica sus posibles significados.
 
-Un articulo regular, si tiene un titulo similar, tiene que usar la [nota "Para otros usos"](/wiki/Article_styling_criteria/Formatting#for-other-uses) con un link a la pagina de desambiguación.
+Un artículo regular, si tiene un título similar, tiene que usar la [nota «Para otros usos»](/wiki/Article_styling_criteria/Formatting#para-otros-usos) con un enlace a la página de desambiguación.
 
-## Lista de articulos de desambiguación
+## Lista de los artículos de desambiguación
 
 - [Bancho](Bancho)
 - [Combo](Combo)
@@ -18,9 +14,12 @@ Un articulo regular, si tiene un titulo similar, tiene que usar la [nota "Para o
 - [Mod](Mod)
 - [NC](NC)
 - [NM](NM)
-- [Offset](Offset)
+- [Note](Note)
 - [osu!](osu!)
 - [Ouendan](Ouendan)
-- [Rank](Rank)
-- [Star](Star)
-- [Version](Version)
+- [Rango](Rank)
+- [Puntuación](Score)
+- [Snapping](Snapping)
+- [Estrella](Star)
+- [Tiempo](Timing)
+- [Versión](Version)

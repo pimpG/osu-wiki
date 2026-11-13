@@ -1,7 +1,5 @@
 # osu! skinning
 
-*See also: [Skinning osu! Tutorial](/wiki/Skinning/Guides_and_important_threads)*
-
 ## Comboburst
 
 `comboburst.png`
@@ -9,7 +7,7 @@
 ![](img/comboburst.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] (see notes) | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -18,7 +16,7 @@ Notes:
   - One of the images in the set will be appear when a combo milestone is met.
 - For v2.2-, this is osu! and osu!catch's combobursts.
 - For v2.3+, this is osu!'s combobursts.
-- This can be disabled in the [options](/wiki/Options).
+- This can be disabled in the [options](/wiki/Client/Options).
 - This should face towards the right.
 
 ## Default Numbers
@@ -28,13 +26,13 @@ Notes:
 ![](img/default-0.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -45,13 +43,13 @@ Notes:
 ![](img/default-1.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -62,13 +60,13 @@ Notes:
 ![](img/default-2.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -79,13 +77,13 @@ Notes:
 ![](img/default-3.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -96,13 +94,13 @@ Notes:
 ![](img/default-4.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -113,13 +111,13 @@ Notes:
 ![](img/default-5.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -130,13 +128,13 @@ Notes:
 ![](img/default-6.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -147,13 +145,13 @@ Notes:
 ![](img/default-7.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -164,13 +162,13 @@ Notes:
 ![](img/default-8.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -181,13 +179,13 @@ Notes:
 ![](img/default-9.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
 
 - In v1.0, these expanded then fades out with the hit circle.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will only fade out.
 - In v2.0+, these fade out.
 - This element is downscaled by 0.8x
 
@@ -198,15 +196,15 @@ Notes:
 ![](img/approachcircle.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Multiplicative | Centre | 126x126 |
 
 Notes:
 
 - Tinting depends on the hit circle's combo colour.
 - This element shrinks over time.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this element will not be used.
-    - To show the first approach circle with Hidden mod enabled, the player will need to enable it in the [options](/wiki/Options).
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this element will not be used.
+    - To show the first approach circle with Hidden mod enabled, the player will need to enable it in the [options](/wiki/Client/Options).
 - Should be a circle.
 
 ---
@@ -216,13 +214,13 @@ Notes:
 ![](img/hitcircle.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Multiplicative | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
 
 - This element fades in before getting tapped and expands when tapped or missed.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
 - Tinting depends on the hit circle's combo colour.
 - Also used for `sliderstartcircle` and/or `sliderendcircle` if not skinned.
 - Should be a circle.
@@ -234,20 +232,22 @@ Notes:
 ![](img/hitcircleoverlay.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] (see notes) | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
 
-- Animation name: `hitcircleoverlay-{n}.png`
-- Animation rate: 2 FPS (4 FPS max).
-  - This rate is affected by the half time and double time/nightcore the game modifiers.
 - This element fades in before getting tapped and expands when tapped or missed.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
 - This can either overlay or underlay the combo number, by default this will always overlay.
   - To make this underlay the combo number, set `HitCircleOverlayAboveNumber` to `0`.
-- Also used for `sliderstartcircleoverlay` and/or `sliderendcircleoverlay` if not skinned.
 - Should be a circle.
+- This element was animatable in the past. For full details, see [skinning history](/wiki/Skinning/History).
+
+The overlay's visibility on sliders depends on slider circle elements:
+
+- If `sliderstartcircle`/`sliderendcircle` exists in a skin without `sliderstartcircleoverlay`/`sliderendcircleoverlay`, then `hitcircleoverlay` isn't displayed at all on slider starts or ends.
+- If `sliderstartcircle`/`sliderendcircle` does not exist, then `hitcircleoverlay` is used as the overlay sprite for slider starts or ends.
 
 ---
 
@@ -256,12 +256,12 @@ Notes:
 ![](img/hitcircleselect.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
 
-- This element is only used in the [beatmap editor](/wiki/Beatmap_Editor).
+- This element is only used in the [beatmap editor](/wiki/Client/Beatmap_editor).
 - Should be a circle.
 
 ---
@@ -271,7 +271,7 @@ Notes:
 ![](img/followpoint.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -287,12 +287,12 @@ Notes:
 ![](img/lighting.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Additive | Centre | 100x100 |
 
 Notes:
 
-- This can be disabled in the [options](/wiki/Options).
+- This can be disabled in the [options](/wiki/Client/Options).
 - Tinting depends on the hit circle's combo colour.
 - Used during kiai time:
   - Coloured afterimage as part of hitburst explosion.
@@ -305,7 +305,7 @@ Notes:
 `sliderstartcircle.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Multiplicative | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
@@ -313,7 +313,7 @@ Notes:
 - Overrides `hitcircle.png` for the start of the slider, if skinned.
 - This element is the hit circle for the start of the slider.
 - This element fades in before getting tapped and expands when tapped or missed.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
 - Should be a circle.
 
 ---
@@ -321,36 +321,34 @@ Notes:
 `sliderstartcircleoverlay.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] (see notes) | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
 
-- Animation name: `sliderstartcircleoverlay-{n}.png`
-- Animation rate: 2 FPS (4 FPS max).
-  - This rate is affected by the half time and double time/nightcore the game modifiers.
 - This element fades in before getting tapped and expands when tapped or missed.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will fade in before getting tapped and only fade out.
 - This can either overlay or underlay the combo number, by default this will always overlay.
   - To make this underlay the combo number, set `HitCircleOverlayAboveNumber` to `0`.
 - Overrides the `hitcircle.png` image for the start of the slider.
 - `sliderstartcircle.png` is required for this to work.
 - Should be a circle.
+- This element was animatable in the past. For full details, see [skinning history](/wiki/Skinning/History).
 
 ---
 
 `sliderendcircle.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Multiplicative | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
 
-- Overrides `hitcircle.png` for the start of the slider, if skinned.
+- Overrides `hitcircle.png` for the end of the slider, if skinned.
 - This element is the hitcircle for the end of the slider.
 - This element fades in before completing and expands when completed.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will fade in before completing and only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will fade in before completing and only fade out.
 - Should be a circle.
 
 ---
@@ -358,21 +356,19 @@ Notes:
 `sliderendcircleoverlay.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| All | ![Yes][true] (see notes) | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] (see notes) | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
 
-- Animation name: `sliderendcircleoverlay-#.png`, replace # with indexed count (start frame count at zero)
-- Animation rate: 2 FPS (4 FPS max).
-  - This rate is affected by the half time and double time/nightcore the game modifiers.
 - This element fades in before completing and expands when completed.
-  - If [Hidden](/wiki/Game_modifier/Hidden) mod is enabled, this will fade in before completing and only fade out.
+  - If [Hidden](/wiki/Gameplay/Game_modifier/Hidden) mod is enabled, this will fade in before completing and only fade out.
 - This can either overlay or underlay the combo number, by default this will always overlay.
   - To make this underlay the combo number, set `HitCircleOverlayAboveNumber` to `0`.
-- Overrides the `hitcircle.png` image for the start of the slider.
+- Overrides the `hitcircleoverlay.png` image for the end of the slider.
 - `sliderendcircle.png` is required for this to work.
 - Should be a circle.
+- This element was animatable in the past. For full details, see [skinning history](/wiki/Skinning/History).
 
 ---
 
@@ -381,7 +377,7 @@ Notes:
 ![](img/reversearrow.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 118x118 (circle) 128x128 (whole file) |
 
 Notes:
@@ -397,7 +393,7 @@ Notes:
 ![](img/sliderfollowcircle.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] | ![Yes][true] | Normal | Centre | 256x256 (see notes) |
 
 Notes:
@@ -413,7 +409,7 @@ Notes:
 ![](img/sliderb.gif)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![Yes][true] (see notes) | ![Yes][true] | Multiplicative | Centre | 118x118 |
 
 Notes:
@@ -430,7 +426,7 @@ Notes:
 ![](img/sliderb-nd.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] (see notes) | Multiplicative | Centre | 118x118 |
 
 Notes:
@@ -447,7 +443,7 @@ Notes:
 ![](img/sliderb-spec.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] (see notes) | Additive | Centre | 118x118 |
 
 Notes:
@@ -461,7 +457,7 @@ Notes:
 `sliderpoint10.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 1.0 | ![No][false] | ![Yes][true] (see notes) | Normal | Centre | 50x30 |
 
 Notes:
@@ -475,7 +471,7 @@ Notes:
 `sliderpoint30.png`
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 1.0 | ![No][false] | ![Yes][true] (see notes) | Normal | Centre | 50x30 |
 
 Notes:
@@ -491,7 +487,7 @@ Notes:
 ![](img/sliderscorepoint.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 16x16 |
 
 Notes:
@@ -502,7 +498,10 @@ Notes:
 
 ## Spinner
 
-*Notice: You cannot mix the old and new spinner styles!*
+::: alert-notice
+**Notice**
+You cannot mix the old and new spinner styles!
+:::
 
 ---
 
@@ -511,7 +510,7 @@ Notes:
 ![](img/spinner-approachcircle.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 384x384 |
 
 Notes:
@@ -529,7 +528,7 @@ Notes:
 ![](img/spinner-rpm.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | TopLeft | 280x56 |
 
 Notes:
@@ -546,7 +545,7 @@ Notes:
 ![](img/spinner-clear.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -561,7 +560,7 @@ Notes:
 ![](img/spinner-spin.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -576,7 +575,7 @@ Notes:
 ![](img/spinner-background.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Multiplicative | Centre | 1024x702 (see notes) |
 
 Notes:
@@ -593,7 +592,7 @@ Notes:
 ![](img/spinner-circle.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -610,7 +609,7 @@ Notes:
 ![](img/spinner-metre.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | TopLeft | 1024x692 |
 
 Notes:
@@ -628,7 +627,7 @@ Notes:
 ![](img/spinner-osu.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 1.0 | ![No][false] | ![Yes][true] (see notes) | Normal | Centre | - |
 
 Notes:
@@ -643,7 +642,7 @@ Notes:
 ![](img/spinner-glow.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 2.0+ | ![No][false] | ![Yes][true] | Additive | Centre | - |
 
 Notes:
@@ -660,7 +659,7 @@ Notes:
 ![](img/spinner-bottom.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 2.0+ | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -676,7 +675,7 @@ Notes:
 ![](img/spinner-top.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 2.0+ | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -692,7 +691,7 @@ Notes:
 ![](img/spinner-middle2.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 2.0+ | ![No][false] | ![Yes][true] | Normal | Centre | - |
 
 Notes:
@@ -708,7 +707,7 @@ Notes:
 ![](img/spinner-middle.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 2.0+ | ![No][false] | ![Yes][true] | Multiplicative | Centre | - |
 
 Notes:
@@ -724,7 +723,7 @@ Notes:
 ![](img/particle50.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 7x7 |
 
 Notes:
@@ -738,7 +737,7 @@ Notes:
 ![](img/particle100.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 7x7 |
 
 Notes:
@@ -753,13 +752,35 @@ Notes:
 ![](img/particle300.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 7x7 |
 
 Notes:
 
 - `hit300.png` must be skinned.
 - This element is used for `hit300`, `hit300g`, and `hit300k`.
+
+## Slider miss indicators (Lazer only)
+
+In the [Lazer](/wiki/Client/Release_stream/Lazer) version of the game, new indicators were added when missing parts of sliders. The following legacy skin elements can be used to skin these. They have no effect in osu!stable<!-- TODO link somewhere -->.
+
+::: Infobox
+
+|  |  |
+| :-- | :-- |
+| Skin versions | All |
+| Animatable | ![Yes][true] |
+| Beatmap skinnable | ![Yes][true] |
+| Blend mode | Normal |
+| Origin | Centre |
+| Suggested SD size | 16x16 |
+
+:::
+
+|  | Filename | Description |
+| :-: | :-- | :-- |
+| ![](img/sliderendmiss.png "Default sliderendmiss@2x.png") | `sliderendmiss.png` | Displays when missing a [sliderend](/wiki/Gameplay/Hit_object/Slider/Slidertail). |
+| ![](img/slidertickmiss.png "Default slidertickmiss@2x.png") | `slidertickmiss.png` | Displays when missing a [slider tick](/wiki/Gameplay/Hit_object/Slider/Slider_tick). |
 
 [true]: /wiki/shared/true.png
 [false]: /wiki/shared/false.png

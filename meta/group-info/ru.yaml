@@ -1,4 +1,3 @@
-# need to update alumni.roles.tournaments and gmt.areas.tournaments
 separator: ", "
 alumni:
   roles:
@@ -15,53 +14,20 @@ gmt:
     beatmap: модерация карт
     chat: модерация чата
     forum: модерация форума
+    general: общая модерация
     team: официальное представление команды
     dev: разработка osu!
     player: поддержка игроков
     support: техподдержка
-    tournaments: турниры
+    tournaments: организация турниров
     wiki: администрирование вики
     mapping: модерация маппинг-сообщества
+    skinning: модерация скиннинг-сообщества
+    leadership: лидерство
 nat:
-  areas:
-    communication: обратная связь
-    evaluation: аттестация номинаторов
-    moderation: модерация
-    structural: организация
+  subgroups:
+    structural: организационные вопросы
+    evaluation: оценка
+    leadership: лидерство
 languages:
   partial: частично <language>
-  ar: арабский
-  bg: болгарский
-  bn: бенгальский
-  ca: каталанский
-  da: датский
-  de: немецкий
-  el: греческий
-  es: испанский
-  et: эстонский
-  fi: финский
-  fil: филиппинский
-  fr: французский
-  gl: галисийский
-  hr: хорватский
-  hu: венгерский
-  id: индонезийский
-  it: итальянский
-  ja: японский
-  ko: корейский
-  ms: малайзийский
-  nl: нидерландский
-  no: норвежский
-  pl: польский
-  pt: португальский
-  ro: румынский
-  ru: русский
-  sr: сербский
-  sv: шведский
-  te: телугу
-  th: тайский
-  tr: турецкий
-  ur: урду
-  vi: вьетнамский
-  yue: кантонский диалект
-  zh: китайский

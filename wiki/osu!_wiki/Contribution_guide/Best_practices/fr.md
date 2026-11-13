@@ -1,82 +1,85 @@
 ---
-outdated: true
+no_native_review: true
+outdated_translation: true
+outdated_since: 0e61b1bd28efc9e6a300fd0f3d05ab85d8f2a5c0
 ---
 
-# Problèmes communs
+# Bonnes pratiques
 
-## Quelqu'un m'a dit d'utiliser des messages de commit significatifs!
+Cette page couvre certaines des tâches auxquelles vous pouvez être confronté lors de votre contribution. Les approches mentionnées ici sont conçues pour faciliter le processus et peuvent être appliquées à d'autres projets hébergés sur GitHub ou des plateformes similaires.
 
-Cela peut aussi être formulé ainsi: "Tous mes commits disent `Update en.md`," ou une formulation similaire.
+## Introduction
 
-Si quelqu'un vous a dit cela ou si vous voyez que tous vos messages de commit sont identiques, cela signifie que vous n'avez pas utilisé de messages de validation significatifs lorsque vous avez pu ou avez essayé de déplacer, modifier et/ou supprimer plusieurs fichiers en utilisant l'Interface Web GitHub.
+*Pour plus d'informations sur Git et GitHub, voir [la documentation de GitHub](https://docs.github.com)*
 
-Un message de validation significatif est un message qui permet à tout le monde de comprendre toutes vos modifications au sein de ce commit sans avoir à voir le diff de GitHub. Il y a une limite de 72 caractères pour le message de commit, vous devrez donc également le rendre concis. Si vous avez des problèmes pour être bref, vous devrez peut-être diviser vos commits. **Gardez en tête que `Update en.md` ou formulation similaire ne veut rien dire car personne ne saura quels changements spécifiques vous avez apportés ni quel article vous avez changé.**
+**Git** est un système de gestion de versions qui permet de gérer les modifications apportées aux fichiers. Les données du wiki d'osu! et l'historique des modifications sont stockés dans un dépôt Git. **GitHub** est une plateforme de développement qui fournit une interface web pour les dépôts Git et offre un ensemble d'outils pour la gestion des projets.
 
----
+## Synchronisation du fork
 
-Pour résoudre ce problème (pour les éditeurs GitHub Web Interface et GitHub Desktop):
+Afin d'apporter des modifications à un dépôt situé sur GitHub, un contributeur potentiel doit obtenir une copie contrôlée de celui-ci, appelée *fork*. Lorsque vous créez votre fork du dépôt `osu-wiki`, vous prenez un instantané de son contenu à ce moment précis. Pour apporter une contribution significative, **synchronisez toujours votre fork** avant de faire un ensemble de changements - cela peut être fait directement depuis GitHub :
 
-1. Allez à votre fork du `osu-wiki`.
-2. Créez une nouvelle branche. Nommez-la de la même manière que votre branche problématique et ajoutez un numéro, ou nommez-la comme vous le souhaitez.
-3. Créer un pull request.
-4. Si les menus déroulants `base fork` et `head fork` ne sont pas présents, cliquez sur le bouton `compare across forks`.
-5. Changez `head fork` par votre fork.
-6. Changez `compare` par votre branche problématique.
-7. Changez `base fork` par votre fork.
-8. Changez `base` à votre nouvelle branche.
-9. Cliquez sur `Create pull request`.
-10. Ignorez le titre et la zone de description et cliquer sur `Create pull request` encore.
-11. Faites défiler jusqu'à la fin de la chronologie et cliquez sur la flèche vers le bas à côté du bouton `Merge pull request`.
-12. Cliquez sur `Squash and merge`.
-13. Cliquez sur `Squash and merge` encore.
-14. Corrigez le titre (ce sera le message de validation; assurez-vous qu’il a un sens).
-15. Corrigez la description (ce sera la description de la validation; ceci est facultatif, mais assurez-vous de la changer).
-16. Cliquez sur `Confirm squash and merge`.
-17. Allez à [`ppy/osu-wiki` repo](https://github.com/ppy/osu-wiki).
-18. Fermez votre pull request comportant la branche problématique.
-19. Ouvrez une nouvelle pull request à l'aide de la nouvelle branche.
-20. Vous pouvez copier la description de la pull request fermée dans la nouvelle demande que vous venez d'ouvrir. Il est également utile d'inclure une référence à l'autre pull request que vous avez clôturée.
-21. Cliquez sur `Create pull request`. Vous avez maintenant terminé de corriger vos commits. Si vous avez terminé les révisions de la pull request fermée et que vous êtes certain que la pull request est prête à être fusionnée, demandez à quelqu'un de la fusionner.
+1. Allez dans votre fork du dépôt `osu-wiki`.
 
-Techniquement, c'est le meilleur moyen d'empêcher les commits d'une branche de se limiter à la seule utilisation de l'interface Web GitHub. Il est impossible d'écraser les commits avec GitHub Desktop.
+2. Sélectionnez la branche `master` dans la liste déroulante.
 
-## Ma branche n'est plus à jour!
+3. Cliquez sur `Fetch upstream`, et sélectionnez `Fetch and merge`.
 
-Lorsque vous avez créé votre fork du `osu-wiki`, vous avez pris un instantané du contenu présent à ce moment précis. Le problème est qu’il ne se met pas automatiquement à jour et que GitHub n’a pas de solution miracle pour le faire à votre place.
+   ![](img/update-branch.png "Mise à jour de la branche obsolète")
 
----
+Votre branche est maintenant à jour avec le dépôt original.
 
-Pour résoudre ce problème, il existe un service/script appelé [Upriver](https://upriver.github.io/). Il "synchronisera sans effort vos référentiels GitHub avec Upriver en utilisant uniquement l’API GitHub", comme indiqué sur leur page GitHub.
+## Effectuer des modifications
 
-1. Aller à [Upriver](https://upriver.github.io/).
-2. Cliquez sur `Sign in with GitHub`, sautez ceci si vous l'avez déjà fait.
-3. Cliquez sur `Authorize upriver`, sautez ceci si vous l'avez déjà fait.
-4. Sélectionnez les éléments suivants:
-   - in: *choisissez votre fork du `osu-wiki`*
-   - branch: `master`
-   - from: `ppy/osu-wiki`
-   - branch: `master`
-   - force?: sélectionner
-5. Click `Pull`.
-6. Click `Close`.
-7. (Vous pouvez fermer Upriver).
+::: alert-note
+**Voir également** : [Forking Workflow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+:::
 
-Si rien ne se passe, la branche principale de votre fork sera la même que `ppy:master`. Vous pouvez maintenant créer des branches à partir de la branche principale de votre branche sans problèmes de conflit.
+Dans votre fork du wiki d'osu!, vous êtes libre de faire des changements et de les sauvegarder. Les **commits** sont des "points de sauvegarde" individuels du dépôt. Les **branches** sont des espaces de travail, qui vous permettent de passer d'une version à l'autre du dépôt. Pour faciliter votre travail et garder l'historique du wiki propre et sans parasites, suivez ces directives :
 
-## Ma pull request a des conflits !
+- [Synchroniser la branche `master`](#synchronisation-du-fork).
+- Commencez toujours le travail en créant une nouvelle branche sur `master`, et ne gardez que vos changements dans cette branche. Donnez-lui un nom significatif, comme `staff-log-fr`.
+- Validez votre travail lorsque vous avez apporté des modifications de taille raisonnable. Il est préférable de valider un article dans son ensemble plutôt que 10 petites modifications.
+- **Utiliser des messages de commit courts et significatifs**, car ils permettent aux autres de savoir ce qu'il y a dans la boîte. Quelque chose comme `Rewrite the section about jump patterns` en dit beaucoup plus long que `Update fr.md`.
 
-Cela pourrait être dû à deux raisons :
+## Ouvrir un pull request
 
-- Vous avez édité un fichier alors que votre branche était obsolète.
-- Il y avait une mauvaise communication entre vous et une autre personne. Vous modifiiez donc le même article mais les modifications de cette personne ont été fusionnées avant les vôtres. (En raison de problèmes techniques, vos fichiers modifiés sont devenus obsolètes.)
+Un pull request montre aux autres personnes comment vos modifications affecteront les fichiers. Ajoutez quelques informations à votre pull request pour expliquer vos intentions :
 
-Selon la gravité des conflits, vous pouvez avoir deux options pour résoudre ce problème.
+- `Titre` : un titre descriptif très court pour vos modifications en anglais, ainsi que le nom de l'article. S'il s'agit d'une traduction, commencez par le nom à deux lettres de la langue dans laquelle vous traduisez, entre parenthèses. Exemples :
+  - ``[FR] Add `BBCode` ``
+  - ``Update `Beatmapping` and `Beatmap/Difficulty` ``
+- `Description` : tout ce que vous voulez signaler aux responsables et autres réviseurs potentiels. Exemples :
+  - Un bref résumé des changements, surtout s'ils concernent plusieurs articles.
+  - L'exhaustivité de la pull requests, ou les idées qui s'y rapportent
+  - [Résolution automatique des issues](https://docs.github.com/fr/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+- Assurez-vous de cocher la case `Allow edits from maintainers`, car cela permettra aux mainteneurs du wiki de vous aider à améliorer la pull request si nécessaire.
 
-1. Si votre pull request a un bouton `Resolve conflicts`, cliquez dessus. Cela ouvrira une version légèrement différente de l'éditeur Web.
-   1. GitHub mettra en évidence les zones en conflit. Trouvez-en un.
-   2. Tout de `<<<<<<<` au `=======` est vos changements alors que tout de `=======` à `>>>>>>> master` est ce qu'il y a dans la branche `ppy/master`.
-   3. À partir de là, vous devrez régler manuellement le conflit et supprimer les marquages `<<<<<<<`, le `=======`, et `>>>>>>> master`.
-   4. Répétez pour tous.
-   5. Une fois terminé, cliquez sur `Mark as resolved`. (Ceci est uniquement disponible lorsque toutes les parties en conflit du fichier sont résolues.)
-2. Si le bouton`Resolve conflicts` est bloqué car trop compliqué pour GitHub, vous n’avez pas de chance et vous devrez [mettre a jour votre branche](#my-branch-is-out-of-date!) et effectuez vos modifications à nouveau.
-   - *Remarque: cela n’est vrai que si vous vous limitez à l’utilisation de l’Interface Web GitHub.* Il existe toujours des moyens de la réparer, mais cela ne sera pas traité dans cet article et cela ne vaut peut-être pas la peine de le faire, car vous écraserez et annulerez les modifications conflictuelles.
+## Application des reviews
+
+Il est préférable d'appliquer les reviews directement via l'interface web de GitHub. Utilisez le bouton `Add suggestion to batch` dans l'onglet `Files changed` pour appliquer plusieurs reviews simultanément.
+
+![Application d'un review par lots](img/applying-batch-review.gif)
+
+Vous pouvez également utiliser le bouton `Commit suggestion` pour appliquer une seule suggestion individuellement, à condition que vous fassiez des commits avec parcimonie et [avec des messages informatifs](#effectuer-des-modifications).
+
+![Application d'un review unique](img/applying-single-review.gif)
+
+L'utilisation de ce système marquera automatiquement les suggestions comme résolues. Lors de l'application manuelle des reviews (par exemple, lorsque le réviseur n'a pas ajouté de suggestion directe), marquez-les comme résolues *après avoir commis le changement* pour éviter d'en oublier. Il est préférable de laisser GitHub appliquer les reviews automatiquement, car cela permet de s'assurer que les suggestions sont appliquées correctement et d'éviter toute erreur de copie manuelle.
+
+## Résolution des conflits
+
+Il y a deux raisons pour lesquelles un conflit a pu se produire :
+
+- Vous avez modifié un fichier alors que votre branche n'était pas à jour.
+- Il y a eu un manque de communication entre vous et une autre personne, de sorte que vous avez tous deux modifié le même article. Les modifications de l'autre personne ont été merge avant les vôtres, ce qui a rendu vos fichiers modifiés obsolètes.
+
+En fonction de la gravité des conflits, deux options s'offrent à vous pour y remédier :
+
+1. Si votre pull request a le bouton `Resolve conflicts`, cliquez dessus. Cela ouvrira une version légèrement différente de l'éditeur web.
+   1. GitHub met en évidence les zones conflictuelles. Trouvez l'une d'entre elles.
+   2. Tout ce qui se trouve entre `<<<<<<<` et `=======` correspond à vos modifications, tandis que tout ce qui se trouve entre `=======` et `>>>>>>> master` correspond à ce qui se trouve dans la branche `ppy/master`.
+   3. A partir de là, vous devrez corriger manuellement le conflit et supprimer les lignes `<<<<<<<`, `=======`, et `>>>>>>> master`.
+   4. Répétez l'opération pour tous les conflits.
+   5. Lorsque vous avez terminé, cliquez sur `Mark as resolved` (cette option n'est disponible que lorsque toutes les parties en conflit du fichier ont été résolues).
+2. Si le bouton `Resolve conflicts` est bloqué parce que les conflits sont trop compliqués pour GitHub, vous n'avez pas de chance et vous devrez [mettre à jour votre branche](#synchronisation-du-fork) et refaire vos changements.
+   - *Note : Ceci n'est vrai que si vous êtes limité à l'utilisation de l'interface web de GitHub.* Il existe encore des moyens de résoudre ce problème, mais ils n'entrent pas dans le cadre de cet article. De plus, cela ne vaut probablement pas la peine de faire cet effort, car vous écraserez et annulerez les modifications en conflit.

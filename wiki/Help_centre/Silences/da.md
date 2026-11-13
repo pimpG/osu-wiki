@@ -1,0 +1,79 @@
+---
+no_native_review: true
+tags:
+  - mute
+  - timeout
+  - chat ban
+---
+
+# Silences
+
+**Silence** (engelsk for "at gøre nogen tavs"; også uofficielt kaldt *Mute*) er begrebet for straffen af at begrænse en spillers muligheder for kommunikation i osu!-fællesskabet. Medlemmer af [Det Globale Moderationshold](/wiki/People/Global_Moderation_Team) og [Nominationsvurderingsholdet](/wiki/People/Nomination_Assessment_Team) udsteder silences for at opretholde fællesskabsreglerne og den almene orden, både på hjemmesiden og i spillet.
+
+## Begrænsninger
+
+::: Infobox
+![](img/silence-profile-DA.png?1 "En silence på en brugers profil")
+:::
+
+En bruger, der er silenced, kan ikke gøre følgende:
+
+- Bruge [chatten](/wiki/Client/Interface/Chat_console) (offentlig og privat), både i spillet og på hjemmesiden.
+- Poste på nogen af osu!s fora.
+- Poste kommentarer noget sted på hjemmesiden (beatmaps, ændringslog, nyheder).
+- Deltage i [beatmapdiskussioner](/wiki/Beatmap_discussion).
+- Redigere deres profildetaljer eller ændre deres avatar, titelbillede og brugerside.
+- Indsende og opdatere beatmaps.
+- Deltage i [multiplayer](/wiki/Client/Interface/Multiplayer)-spil.
+
+::: Infobox
+![](img/silence-ingame.png "Advarsel om en silence i chatten")
+:::
+
+Når en bruger bliver silenced, fjernes alle deres beskeder i chatten, og i stedet for feltet for indtastning af chatbeskeder vises der en advarsel, der indeholder silencens varighed.[^chat-cleanup]
+
+Silences er synlige for offentligheden i brugerens profil under `Kontostatus` for 28 dage, efter silencen blev udstedt. Hvis silencen er aktiv, bliver dens længde vist i den del af brugerens profil. Hvis en bruger har mindst 3 synlige silences, eller hvis brugeren har en synlig silence, som varer 43 timer eller længere, bliver en advarsel om kontoens position også vist. 
+
+## Varigheder
+
+Varigheden af en silence er mindst 5 minutter indtil højst 28 dage, og fordobler sig som regel for hver efterfølgende overtrædelse. Længden af den første silence udmåles i forhold til grovheden af overtrædelsen og brugerens tidligere opførsel. Når en silence bliver udstedt, lægges der især vægt på følgende faktorer, når varigheden bestemmes:
+
+- **Atmosfære:** Chattens stemning på overtrædelsestidspunktet.
+- **Hyppighed:** Gentagelser, uafhængig af tidligere silences.
+- **Historik:** Brugerens tidligere registrerede overtrædelser.
+- **Grovhed:** Alvorligheden af den begåede overtrædelse.
+
+Nogle gange får brugere en sidste advarsel, før deres [konti bliver begrænset](/wiki/Help_centre/Account_restrictions), hvilket giver dem en mulighed til at rette deres adfærd.
+
+## Almindelige grunde for silences
+
+Typiske grunde for udstedelse af silences i den offentlige chat inkluderer, men er ikke begrænset til:
+
+- **Spam:** En selvfølge.
+- **Misbrug af store bogstaver:** Kun at skrive med store bogstaver.
+- **Upassende adfærd/emner:** Den offentlige chat er ikke for diskussioner om følsomme emner eller emner, der ikke er passende for alle aldre.
+- **Racisme:** Diskriminering eller had på baggrund af etnicitet, religion, køn, seksuel orientering, osv.
+- **Reklamering:** Promovering af produkter eller tjenester. Dette inkluderer invitationer til Discord-servere og links til streaming-sider såsom Twitch og YouTube.
+- **Uønsket indhold:** Hjemmesider med piratkopier, chokerende indhold, overdrevne reklamer eller lignende.
+
+Silences kan også blive udstedt af andre grunde, der inkluderer (men er ikke begrænset til):
+
+- **Indsendelse af beatmaps med upassende indhold:** Detaljer såsom metadata, tags, sværhedsgradsnavne og baggrundbilleder.
+- **Upassende adfærd:** Steder såsom osu!s fora, beatmapdiskussioner og kommentarer.
+- **Upassende profil:** Indhold såsom avatarer, titelbilleder og profildetaljer.
+
+## Klager
+
+Silences bliver udstedt for at bevare et positivt miljø i fællesskabet, men fejl kan forekomme. Hvis du mener, at du er blevet silenced uretfærdigt eller ved en fejl, kan du kontakte [kontostøtteholdet](/wiki/People/Account_support_team#accounts@ppy.sh) via [accounts@ppy.sh](mailto:accounts@ppy.sh) og forklare situationen. Du kan også bede dem om en forklaring af begrundelsen for din silence.
+
+Husk, at du skal bruge mailadressen knyttet til din osu!-konto — og nævn dit brugernavn for at bekræfte, at det er dig.
+
+## Hvordan undgår jeg at blive silenced?
+
+Gennemlæs [reglerne](/wiki/Rules), [overvejelserne om visuelt indhold](/wiki/Rules/Visual_content_considerations), [reglerne for sangindhold](/wiki/Rules/Song_content_rules) og [adfærdsreglerne for modding and mapping](/wiki/Rules/Code_of_conduct_for_modding_and_mapping) nøje og følg dem. Hvis du ikke er sikker på, om noget, du vil gøre eller sige, ville være imod reglerne, kan du spørge [et medlem af Det Globale Moderationshold](https://osu.ppy.sh/groups/4).
+
+Hvis du har et gammelt forumopslag, beatmap, kommentar eller lignende, som du tror indeholder upassende indhold, er det anbefalet at bare slette eller redigere det indhold bort, hvis du kan. Hvis sletning eller redigering ikke er muligt, bør du kontakte et medlem af Det Globale Moderationshold, så de kan fjerne det.
+
+## Referencer
+
+[^chat-cleanup]: [Blogopslag af ppy (2012-12-17) "This Week in osu!"](https://blog.ppy.sh/post/38114063519/this-week-in-osu-5)

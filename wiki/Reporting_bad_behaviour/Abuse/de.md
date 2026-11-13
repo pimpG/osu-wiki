@@ -1,0 +1,97 @@
+# Missbrauch melden
+
+## Ich weiß nicht, ob ich das melden soll oder nicht {id=reportworthiness}
+
+Bitte mach' es.
+
+Wenn es dir unangenehm genug ist, diese Seite zu lesen, kontaktiere uns bitte sofort unter [abuse@ppy.sh](mailto:abuse@ppy.sh) mit möglichst detaillierten Angaben zu deinem Problem.
+
+Wir haben null Toleranz gegenüber jeglicher Art von unerwünschter sexueller Belästigung oder Annäherung in dieser Community.
+
+Die E-Mail-Adresse für Missbrauch wird nur von [peppy](https://osu.ppy.sh/users/2) (dem Erfinder des Spiels) angesehen.
+
+Nichts, was du an [abuse@ppy.sh](mailto:abuse@ppy.sh) sendest, wird jemals mit jemand anderem als ihm geteilt werden.
+
+Missbrauch "verjährt" nicht in osu! — zögere nicht, etwas zu melden, nur weil es vor längerer Zeit passiert ist.
+
+## Jemand hat mir gegenüber unangebrachte sexuelle Annäherungen oder Bemerkungen gemacht! {id=bad-remarks}
+
+Scroll' durch die unten stehenden Abschnitte, um zu erfahren, was zu tun ist, je nachdem, wo das alles passiert ist.
+
+### Im Spielchat {id=chat}
+
+::: alert-note
+**Siehe auch:** [Schlechtes Verhalten melden § Chat im Spiel](/wiki/Reporting_bad_behaviour#chat-im-spiel)
+:::
+
+Blockiere den Benutzer sofort, indem du mit der rechten Maustaste auf seinen Benutzernamen klickst oder ihn gedrückt hältst. Wähle dann `Benutzer ignorieren` in osu!(stable) oder `Blockieren` in osu!(lazer).
+
+Du solltest ihn auch sofort melden, indem du auf die Schaltfläche `Benutzer melden...` oder `Melden` klickst und danach die Eingabefelder ausfüllst.
+
+**Sofern du nicht in osu!(lazer) spielst**, kannst du den Beitrag auch melden, indem du `!report <Person> <Problem>` eingibst, wobei `<Person>` der Benutzername der Person ist, welche dir Probleme bereitet, und `<Problem>` eine kurze Erklärung darstellt. Falls der Benutzername dieser Person Leerzeichen enthält, ersetze diese bitte durch Unterstriche (`_`).
+
+Wenn du der Meinung bist, dass die Bemerkungen/Annäherungen höchst unangemessen waren, es nicht das erste Mal ist, dass der Benutzer dir gegenüber unangemessene Bemerkungen gemacht hat, oder wenn du minderjährig bist, sende bitte eine E-Mail an [abuse@ppy.sh](mailto:abuse@ppy.sh), die so viele Informationen wie möglich enthält.
+
+### In einem öffentlichen Beitrag in den osu!-Foren {id=forums}
+
+[Melde den Beitrag](/wiki/Reporting_bad_behaviour#forum) so schnell wie möglich einem Mitglied des [Globalen Moderationsteams](/wiki/People/Global_Moderation_Team).
+
+Klicke dazu auf den Button `Beitrag melden` in der rechten oberen Ecke des Forenbeitrags.
+
+Falls der Beitrag nicht innerhalb eines angemessenen Zeitraums verschwindet, kannst du auf den Benutzernamen eines beliebigen GMT-Mitglieds in der Liste auf dieser Seite klicken. Dadurch gelangst du zu dessen Profil. Alternativ kannst du stattdessen [diesen Link verwenden](https://osu.ppy.sh/groups/4) und auf einen beliebigen Benutzer klicken, der gerade online ist.
+
+Klicke auf die Schaltfläche mit einem Briefumschlag direkt unter der Landesflagge des Benutzers. Damit gelangst du zum Chat-Fenster.
+
+Füge den Link zum Forumsbeitrag ein, der den problematischen Inhalt enthält, und erzähle dem GMT-Mitglied ein bisschen, was geschehen ist. Er wird den Beitrag für dich entfernen, sobald es ihm möglich ist.
+
+Wenn der Beitrag nach einiger Zeit immer noch nicht verschwunden ist, sende bitte eine E-Mail mit möglichst vielen Informationen an [abuse@ppy.sh](mailto:abuse@ppy.sh).
+
+### Überall sonst auf der osu!-Webseite {id=other}
+
+Siehe den entsprechenden Abschnitt des Artikels [Schlechtes Verhalten melden](/wiki/Reporting_bad_behaviour). Falls du dir unsicher bist, wie du das unangemessene Verhalten melden sollst, kontaktiere [ein Mitglied des globalen Moderationsteams](https://osu.ppy.sh/groups/4).
+
+Wenn du der Meinung bist, ein Muster von unangemessenen Annäherungen/Bemerkungen eines bestimmten Benutzers dir gegenüber zu erkennen, diese Bemerkungen höchst unangemessen sind, oder wenn du minderjährig bist, sende bitte eine E-Mail an [abuse@ppy.sh](mailto:abuse@ppy.sh), die so viele Informationen wie möglich enthält.
+
+### Auf einem öffentlichen osu!-bezogenen Discord-Server {id=discord}
+
+Blockiere den Benutzer sofort, indem du mit der rechten Maustaste auf seinen Benutzernamen klickst und in der angezeigten Dropdown-Liste `Blockieren` wählst. Beachte, dass der Benutzer möglicherweise bemerkt, dass du ihn blockiert hast — falls du besorgt bist, dass dies das Problem an anderer Stelle verschlimmert, kannst du `Ignorieren` wählen. Der Benutzer kann nicht herausfinden, dass du das gemacht hast. Siehe den [Discord-Leitfaden zum Ignorieren von Benutzern](https://support.discord.com/hc/de/articles/28084948873623-Wie-man-Benutzer-auf-Discord-ignoriert) für weitere Informationen.
+
+Wende dich danach umgehend an die Administratoren des Servers, indem du nach jemandem suchst, der ganz oben auf der Benutzerliste steht, und erzähle, was passiert ist. Falls du nicht herausfinden kannst, wer ein Administrator ist, halte Ausschau nach jemandem mit einer Krone neben seinem Namen – er ist der Server-Besitzer und verantwortlich dafür, was auf dem Server geschieht.
+
+Sollte dieser Missbrauch anhalten und sollten die Administratoren nichts dagegen unternehmen, [benachrichtige bitte das Discord Trust & Safety-Team, indem du einen Bericht schreibst](https://dis.gd/request).
+
+Wenn du außerdem den osu!-Benutzernamen der Person kennst, die dich belästigt, sende bitte eine E-Mail mit möglichst vielen Informationen an [abuse@ppy.sh](mailto:abuse@ppy.sh), und wir untersuchen es wenn möglich. Beachte, dass wir nichts gegen Inhalte auf Drittplattformen unternehmen können, also besteht keine Garantie, dass wir etwas dagegen tun, aber solche Fälle werden intern vermerkt.
+
+### Auf einem Twitter-Konto, das mit dem Profil eines osu!-Benutzers verknüpft ist {id=twitter}
+
+Klicke auf die drei Punkte oben rechts im Problemtweet und klicke auf 'Tweet melden'. Achte darauf, den Anweisungen zu folgen, und lies sie sorgfältig durch. Vielleicht möchtest du auch den [Twitter-Leitfaden zum Melden missbräuchlichen Verhaltens](https://help.twitter.com/de/safety-and-security/report-abusive-behavior) durchblättern, um weitere Informationen über den Prozess zu erhalten.
+
+Blockiere anschließend den betreffenden Benutzer oder schalte ihn stumm, indem du auf die drei Punkte oben rechts in seinem Tweet klickst (wenn du die Webseite oder den mobilen Client benutzt). Weitere Informationen findest du im [Twitter-Leitfaden zur Sperrung von Konten](https://help.twitter.com/de/using-twitter/blocking-and-unblocking-accounts).
+
+Sei dir bitte bewusst, dass die Person sehen wird, dass du sie blockiert hast, wenn sie sich dein Twitter-Profil ansieht. Falls du befürchtest, dass dies das Problem an anderer Stelle verschlimmert, schalte sie stattdessen stumm. Dadurch werden ihre Tweets aus deiner Timeline entfernt und du wirst keine weiteren Inhalte von ihr sehen, aber sie kann weiterhin alle von dir erstellten Tweets sehen und kommentieren.
+
+Wenn du außerdem den osu!-Benutzernamen der Person kennst, die dich belästigt, sende bitte eine E-Mail mit möglichst vielen Informationen an [abuse@ppy.sh](mailto:abuse@ppy.sh), und wir untersuchen es wenn möglich. Beachte, dass wir nichts gegen Inhalte auf Drittplattformen unternehmen können, also besteht keine Garantie, dass wir etwas dagegen tun, aber solche Fälle werden intern vermerkt.
+
+## Ein Mitglied eines der Freiwilligenteams (NAT, GMT) nähert sich mir/spricht mit mir/benimmt sich mir gegenüber unangemessen! {id=volunteer}
+
+Sende **sofort** eine E-Mail mit so viel Informationen wie möglich an [abuse@ppy.sh](mailto:abuse@ppy.sh). Dazu gehören Screenshots, Chatverläufe und im Grunde alles andere, was du an die E-Mail anhängen kannst.
+
+Wenn dir irgendetwas, was du hinzufügen möchtest, peinlich ist, lass' es bitte weg.
+
+Wir werden uns so schnell wie möglich darum kümmern.
+
+## Jemand, den ich kenne, wird von einem Mitglied eines der Freiwilligenteams (NAT, GMT) missbraucht, hat aber zu viel Angst, sich zu melden! {id=friend-cannot-report}
+
+Sende eine E-Mail an [abuse@ppy.sh](mailto:abuse@ppy.sh), die alles enthält, was du weißt, mit so vielen Beweisen, wie du beschaffen kannst.
+
+Falls du keine Beweise hast, sondern nur Geschichten oder Gerüchte, von denen du glaubst, dass sie stichhaltig genug sind, um darauf zu reagieren, sende uns bitte trotzdem eine E-Mail. Wir nehmen Beschwerden wie diese sehr ernst und werden jeden Bericht eingehend prüfen.
+
+## Ich denke, ich habe mich gegenüber jemandem unangemessen verhalten und möchte es zugeben {id=own-misconduct}
+
+Sende eine E-Mail an [accounts@ppy.sh](mailto:accounts@ppy.sh), in der du dein Verhalten beschreibst, das du für unangemessen hältst. Füge so viele Screenshots und Chatverläufe bei wie du kannst, und versuche zu erklären, warum das Verhalten unangemessen gewesen sein könnte, falls das nicht sofort klar ist.
+
+## Meine E-Mail wurde ignoriert! {id=ignored}
+
+Wenn du nach einigen Wochen keine Antwort auf deine E-Mail erhalten hast, sende bitte eine weitere E-Mail.
+
+Die E-Mail ging vermutlich unterwegs verloren, aber wir wollen uns trotzdem um deine Meldung kümmern.

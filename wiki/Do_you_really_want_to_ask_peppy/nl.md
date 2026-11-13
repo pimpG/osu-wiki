@@ -1,6 +1,6 @@
 ---
 no_native_review: true
-outdated: true
+outdated_translation: true
 outdated_since: 2b3040251f1f4876dba46e9c7e01045a7c8ccfc0
 ---
 
@@ -18,4 +18,4 @@ Voor problemen met jouw account, problemen met betalingen, opvolgingen van bans,
 
 ## Peppy contacteren
 
-Als je peppy persoonlijk wenst te contacteren voor niet-osu! gerelateerde redenen kan je hem e-mailen via [pe@ppy.sh](mailto:pe@ppy.sh). Houd er alsjeblieft rekening mee dat alle ondersteuningsaanvragen of accountgerelateerde verzoeken naar dit e-mailadres gemarkeerd zullen worden als spam. 
+Als je peppy persoonlijk wenst te contacteren voor niet-osu! gerelateerde redenen kan je hem e-mailen via [pe@ppy.sh](mailto:pe@ppy.sh). Houd er alsjeblieft rekening mee dat alle ondersteuningsaanvragen of accountgerelateerde verzoeken naar dit e-mailadres gemarkeerd zullen worden als spam.

@@ -1,10 +1,12 @@
 ---
 legal: true
+outdated_translation: true
+outdated_since: b1776120326b6dbcb16e18460dafcbcef1c68706
 ---
 
 # osu! gizlilik politikası
 
-En son 16 Nisan 2021 tarihinde güncellendi. [Geçmişi buradan görüntüleyin](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
+En son 3 Eylül 2024 tarihinde güncellendi. [Geçmişi buradan görüntüleyin](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
 
 Bu politikaya ek olarak, lütfen [Hizmet Koşullarımızı](/wiki/Legal/Terms) okuyup anladığınızdan emin olun.
 
@@ -24,7 +26,7 @@ Hizmetimizi kullanarak, [Hizmet Koşullarını](/wiki/Legal/Terms) ve bu gizlili
 
 ### Hesap oluştururken
 
-Bir hesap olmaksızın da sınırlı işlevsellikten zevk alınabilse de, kullanıcıların birtakım hizmetleri tecrübe edebilmek için hesap oluşturması sıklıkla gereklidir. Hesap oluşturma sırasında topladığımız bilgiler aşağıdaki gibidir: 
+Bir hesap olmaksızın da sınırlı işlevsellikten zevk alınabilse de, kullanıcıların birtakım hizmetleri tecrübe edebilmek için hesap oluşturması sıklıkla gereklidir. Hesap oluşturma sırasında topladığımız bilgiler aşağıdaki gibidir:
 
 - Kullanıcı adınız
 - E-posta adresiniz
@@ -118,9 +120,9 @@ osu! hizmetleri 13 yaşından küçük çocuklar için uygun değildir. Eğer 13
 
 ## Veri Sorumlusu
 
-Selam, ben Dean (sıklıkla peppy olarak tanınırım) ve ben sizin veri sorumlunuzum. Eğer gizlilik endişeleriniz veya yasal haklarınızı kullanma talebiniz varsa, benimle aşağıdaki adres üzerinden iletişime geçmekten çekinmeyin. 
+Selam, ben Dean (sıklıkla peppy olarak tanınırım) ve ben sizin veri sorumlunuzum. Eğer gizlilik endişeleriniz veya yasal haklarınızı kullanma talebiniz varsa, benimle aşağıdaki adres üzerinden iletişime geçmekten çekinmeyin.
 
-**E-posta**: [privacy@ppy.sh](mailto:privacy@ppy.sh) (24 saat içinde yanıt garantili)
+**E-posta**: [privacy@ppy.sh](mailto:privacy@ppy.sh)
 
 **Posta Adresi**:
 

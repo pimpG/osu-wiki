@@ -1,50 +1,56 @@
 # Guides
 
-Below is a sorted list of guides created by members of the osu!community; most of which had originated from the osu!forums and have been ported over to the osu! wiki.
+Below is a sorted list of guides created by members of the osu! community, most of which originated from the osu! forums and have been ported over to the osu! wiki.
 
 ## Beatmapping
 
-*Main page: [Beatmapping](/wiki/Beatmapping)*
+::: alert-note
+**Main page:** [Beatmapping](/wiki/Beatmapping)
+:::
 
-- [Adding Custom Hitsounds](Adding_Custom_Hitsounds)
-- [Audio Editing](Audio_Editing)
-- [Changing the Artist or Title](Changing_the_Artist_or_Title)
-- [Changing the Title Text](/wiki/Beatmap/Title_Text#changing-title-text)
-- [Collab Information](Collab_Information)
-- [Compressing Files](Compressing_Files)
-- [Custom Hitsound Library](Custom_Hitsound_Library)
-- [Custom Sample Overrides](Custom_Sample_Overrides)
-- [How to Time Songs](How_to_Time_Songs)
-- [Music Theory](Music_Theory)
-- [osu!mania Mapping Guide](osu!mania_Mapping_Guide)
-- [Setting the Offset on the Correct Beat](Setting_the_Offset_on_the_Correct_Beat)
-- [Starting a Beatmap Project](Starting_a_Beatmap_Project)
-- [Videos From YouTube](Videos_From_Youtube)
+- [Audio editing guide](Audio_editing)
+- [Changing the title text](/wiki/Beatmap/Title_text#changing-title-text)
+- [Compressing files](Compressing_files)
+- [Custom hitsound library](Custom_hitsound_library)
+- [Custom sample overrides](Custom_sample_overrides)
+- [How to change a map's artist or title](Changing_the_artist_or_title)
+- [How to resolve BSS issues](BSS_issues)
+- [How to start a beatmap project](Starting_a_beatmap_project)
+- [How to time songs](How_to_time_songs)
+- [Music theory](/wiki/Music_theory)
+- [osu!mania mapping guide](osu!mania_mapping_guide)
+- [Setting the offset on the correct beat](Setting_the_offset_on_the_correct_beat)
+- [Using custom hitsounds](Using_custom_hitsounds)
+- [Timing songs with N/8 time signatures](Timing_songs_with_N_per_8_time_signatures)
 
 ## Modding
 
-*Main page: [Modding](/wiki/Modding)*
+::: alert-note
+**Main page:** [Modding](/wiki/Modding)
+:::
 
-- [Getting Your Map Modded](Getting_Your_Map_Modded)
+- [Common modding mistakes](Common_modding_mistakes)
+- [How to get your map modded](Getting_your_map_modded)
+- [osu!mania modding guide](osu!mania_modding_guide)
 
 ## Playing
 
-- [Beginner's Tutorial](Beginner's_Tutorial)
-- [How to Use the Offset Wizard](How_to_Use_the_Offset_Wizard)
-- [Searching and Downloading Beatmaps](Searching_and_Downloading_Beatmaps)
-- [Tablet Purchase](Tablet_Purchase)
+- [How to use the Offset Wizard](How_to_use_the_Offset_Wizard)
+- [Tutorial for beginners](Beginner's_tutorial)
 
 ## Skinning
 
-*Main page: [Skinning guides and important threads](/wiki/Skinning/Guides_and_important_threads)*
+::: alert-note
+**Main page:** [Skinning guides and important threads](/wiki/Skinning/Guides_and_important_threads)
+:::
 
-- [Cropping with Complex Backgrounds](Cropping_with_Complex_Backgrounds)
-- [Cropping with Simple Backgrounds](Cropping_with_Simple_Backgrounds)
-- [Making Properly Centered Spinners](Making_Properly_Centered_Spinners)
+- [How to crop images with complex backgrounds](Cropping_with_complex_backgrounds)
+- [How to crop images with simple backgrounds](Cropping_with_simple_backgrounds)
+- [How to make properly centred spinners in skins](Making_properly_centred_spinners)
 
 ## Miscellaneous
 
 - [Discord Rich Presence](Discord_Rich_Presence)
-- [Live Streaming osu!](Livestreaming_osu!)
-- [OpenGL Support Issues](OpenGL_Support_Issues)
+- [Livestreaming osu!](Livestreaming_osu!)
+- [OpenGL support issues](OpenGL_support_issues)
 - [Recording osu!](Recording_osu!)

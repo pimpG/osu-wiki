@@ -1,0 +1,254 @@
+# News styling criteria
+
+::: alert-note
+**Note:** For wiki articles, see [Article styling criteria](/wiki/Article_styling_criteria)
+:::
+
+**News posts**, or **news articles**, exist on a slightly different system to the main osu! wiki, but follow similar principles. Writing them involves careful attention to a few key features and formats as outlined below.
+
+Like wiki articles, all news posts should aim to have proper spelling and grammar at a bare minimum, as well as having correct and up-to-date information.
+
+Anyone interested in contributing to or writing news posts, reach out in the `#osu-news` channel of the [osu! Discord server](https://discord.com/invite/ppy). Alternatively contact ::{ flag=TN }:: [Hivie](https://osu.ppy.sh/users/14102976), ::{ flag=ES }:: [RandomeLoL](https://osu.ppy.sh/users/7080063), ::{ flag=SE }:: [Walavouchey](https://osu.ppy.sh/users/5773079), or any active [wiki or news maintainer](/wiki/People/osu!_wiki_maintainers).
+
+For tournaments and contests, advertising registrations in dedicated news posts requires approval from the [Tournament Committee](/wiki/People/Tournament_Committee) and [Contest Committee](/wiki/People/Tournament_Committee#contest-committee) beforehand, respectively. See the [Official tournament support](/wiki/Tournaments/Official_support) and [Official beatmapping contest support](/wiki/Contests/Official_support) pages for rules and information on this.
+
+## Locales
+
+The news system does not support locales. All articles must be in English (preferably British English), with a consistent register.
+
+What this register entails depends on the focus and tone of the article, but it must be consistent. Articles that sound professional must always sound professional. Articles that are conversational must always be conversational.
+
+## Writing standards
+
+All news posts must be written with a few key concepts in mind: conciseness, audience, and presentation.
+
+### Conciseness
+
+News posts should be short and sweet, with appropriate information condensed as much as possible without being overly dense.
+
+Provide links to in-depth resources instead of referencing them directly in text. Use visual displays wherever possible to convey large amounts of information at a glance.
+
+### Audience
+
+osu!'s chief audience is mainly teenagers and young adults, though we are an all-ages community. Consider the attention span of said demographic — conciseness ties in very closely to this.
+
+Consider well what you write within your article and whether it would interest the community at large enough to warrant including it.
+
+### Presentation
+
+News posts must aim to be as pleasingly neutral as possible in terms of presentation.
+
+Pleasingly neutral, however vague, refers to an article that is both light and robust, saying what it needs to say without giant blocks of text. It must be consistent in formatting, style and register. Large quantities of information should be supported or supplanted with visual aids.
+
+## Formatting
+
+### File names
+
+News posts are markdown files (`.md`) placed in the [`news/` directory](https://github.com/ppy/osu-wiki/tree/master/news) of the [`osu-wiki` GitHub repository](https://github.com/ppy/osu-wiki), under the following format:
+
+```
+news/yyyy/yyyy-mm-dd-news-post-title.md
+```
+
+The file name must contain the whole title, with all spaces replaced with hyphens (`-`) and all additional characters (such as punctuation marks) removed with no replacement.
+
+### Structure
+
+All news article files need to be structured in the following manner:
+
+```markdown
+---
+layout: post
+title: News Post Title
+date: 2017-08-17 03:00:00 +0000
+series: miscellaneous
+---
+
+Short preview paragraph
+
+![](/wiki/shared/news/2017-08-17-news-post-title/banner.jpg)
+
+Content
+
+—Author
+```
+
+- `layout` must always be set to `post`.
+- `title` must represent the article's full title. Markdown formatting is disallowed in this string. News post titles, unlike wiki article titles and other headings, should be in title case. Note that surrounding quotes (`"`) may be necessary if the title contains colons (`:`) or number signs (`#`).
+- `date` must represent a combined string displaying a calendar date in ISO 8601 format (`2017-08-17`), followed by a 24-hour time string (`03:00:00`), followed by a time offset from UTC (`+0000`). This is the publication date used to determine when the news post becomes visible on the website.
+- The preview paragraph is what will be shown on the front page, news archive, and the osu!(lazer) in-game news listing, in addition to being the first paragraph of the news post.
+- All news posts should include and link a cover image in the [`wiki/shared/news/`](https://github.com/ppy/osu-wiki/tree/master/wiki/shared/news) folder. In the rare case where one isn't desired, use the default image: `https://osu.ppy.sh/images/headers/news-show-default.jpg`.
+- `series` determines which category of website notifications the artice will be published on, which users can subscribe to from their [account settings](https://osu.ppy.sh/home/account/edit). This must be one of the following:
+  - Specific series: `project_loved`, `beatmap_spotlights`, `featured_artists`, `fanart_contests`, `mappers_guild`, `ranking_system_updates` (e.g performance points and scoring), `game_updates` (both client and website), `merch_runs`, `world_cups` (including [LGA](/wiki/Tournaments/LGA)), `monthly_beatmapping_contest`
+  - General categories: `official_contests` (anything categorised as such in the [Contests](/wiki/Contests) wiki page), `community_contests`, `community_tournaments`, `offline_events`, `online_events`, `miscellaneous`
+
+![News post notification category listing on the website's account settings page](img/news-series.png "News post notification categories")
+
+### Markdown
+
+Markdown usage is covered by the [article styling criteria](/wiki/Article_styling_criteria), but the following points concern news articles specifically:
+
+- Heading level 1 (`#`), corresponding to a title, must not be used, because the title is provided by the front matter at the top of the article.
+- [Infoboxes](/wiki/Article_styling_criteria/Formatting#infoboxes) and [footnotes](/wiki/Article_styling_criteria/Formatting#footnotes) are not supported.
+- The [banner image](#banners) must not contain any alt text, i.e. text inside the square brackets of a markdown image link (`![alt text](image.png)`).
+
+### Images
+
+::: alert-note
+**Note:** For image format and quality standards, see [Article styling criteria § Formats and quality](/wiki/Article_styling_criteria/Formatting#formats-and-quality)
+:::
+
+Images linked in news articles must either be hosted on osu! servers (i.e. `assets.ppy.sh`) or be placed in the `osu-wiki` GitHub repository.
+
+News articles that use images have their own folder within the [`wiki/shared/news/` directory](https://github.com/ppy/osu-wiki/tree/master/wiki/shared/news), with the same name as the news post file name. Example: `wiki/shared/news/2017-08-17-news-post-title/banner.jpg`.
+
+### Banners
+
+News posts must have an image after the preview paragraph for use as a **banner** (also called *cover*). The first image in an article will be used as its banner on the front page, news listing, and news article view.
+
+These banners appear in many different aspect ratios in different places of the website and on different devices, and should therefore be designed with any cropping due to this in mind.
+
+![News post banner aspect ratio reference](img/banner-sizes.png "News post banner aspect ratio reference. Note that mobile devices may fall anywhere within or even slightly outside the common ranges specified here.")
+
+Use [this banner visualisation tool](https://tcomm.hivie.tn/assets-previewer?tab=news-banners) to check how the banner will appear in different parts of the website.
+
+Banners should have a minimum 1000x200 px base size. A version with each dimension doubled should be provided if the source image is large enough to support it (resulting in `banner.jpg` and `banner@2x.jpg`). Banner images appearing in multiple news articles should be put in the [`wiki/shared/news/banners/` directory](https://github.com/ppy/osu-wiki/tree/master/wiki/shared/news/banners).
+
+## Design
+
+The following applies to all media in news posts and includes common reasons for requested changes or inquiries by the news team:
+
+- **Assets created for news posts must adhere to the [content usage guidelines](/wiki/Rules/Content_usage_permissions).**
+- **No brand or sponsorship placements are allowed.** It is not on osu! to provide advertising for them.
+- **Note the [brand identity guidelines](/wiki/Brand_identity_guidelines), especially for the game and game mode names.** Terms like "standard" or "ctb" are not used in official contexts.
+  - Preferred: "osu!", "osu!taiko", "osu!catch", "osu!mania" (also note that this is the canonical ordering whenever they're presented in sequence)
+  - Acceptable: "osu!", "taiko", "catch", "mania"
+  - Acceptable: "OSU!", "OSU!TAIKO", "OSU!CATCH", "OSU!MANIA", "TAIKO", "CATCH", "MANIA" (in contexts where text is styled in uppercase)
+  - Not acceptable: "osu!standard", "standard", "osu", "Osu!", "ctb"
+- **The minimum height for text is the height of paragraph text on desktop aspect ratios.** Anything smaller is not legible on mobile devices. View this page on a mobile device or resize the browser window for reference.
+
+![Text size reference](img/text-size.png "Minimum text size reference for images.")
+
+Some community members spare no effort in creating quality graphics or even animated videos for inclusion in news posts. However, please contact the news team early regarding designs and assets if possible, as any required changes may cause unexpected delays or omission from the news post.
+
+## HTML and embedded content
+
+Limited use of HTML is allowed for the purposes of embedding off-site content such as YouTube videos, Twitch VODs, or other applets designed to showcase osu! or osu!-related content.
+
+The width of all embedded content frames must be set to 95% with the exception of tall aspect ratios. To be included in articles in general, embedded content must support display at full-width styling without breaking or looking awful.
+
+### Video embed hosted on `assets.ppy.sh`
+
+```html
+<div align="center" class="osu-md__paragraph">
+    <video width="95%" controls>
+        <source src="https://assets.ppy.sh/artists/172/release_showcase.mp4" type="video/mp4" preload="none">
+    </video>
+</div>
+```
+
+![Example of video embed via `assets.ppy.sh`](img/embed-assets.jpg "Example of video embedded via assets.ppy.sh")
+
+### Video embed hosted on YouTube
+
+```html
+<div align="center" class="osu-md__paragraph">
+    <iframe width="95%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/cXkiX7u4a9g" frameborder="0" allowfullscreen></iframe>
+</div>
+```
+
+![Example of video embed via YouTube](img/embed-youtube.jpg "Example of video embedded via YouTube")
+
+### Video embed hosted on Twitch
+
+```html
+<div align="center" class="osu-md__paragraph">
+    <iframe width="95%" style="aspect-ratio: 16 / 9;" src="https://player.twitch.tv/?autoplay=false&parent=osu.ppy.sh&video=2321612622" allowfullscreen="true" scrolling="no"></iframe>
+</div>
+```
+
+![Example of video embed via Twitch](img/embed-twitch.jpg "Example of video embedded via Twitch")
+
+### Audio preview
+
+```html
+<audio controls>
+    <source src="https://assets.ppy.sh/artists/493/0401%2B/d0tc0mmie%20-%20Strobe%20Light%20feat.%20Kasane%20Teto.mp3">
+</audio>
+```
+
+![Example of audio preview embed](img/embed-audio.png "Example of audio preview embed")
+
+### PDF files
+
+Note that the PDF file must less than ~20 MB in order to embed via `https://docs.google.com/gview`.
+
+```html
+<div align="center">
+    <iframe width="95%" style="aspect-ratio: 1.414;" src="https://docs.google.com/gview?url=https://assets.ppy.sh/media/yuzu/yuzu-embed.pdf&embedded=true" frameborder="0" allowfullscreen></iframe>
+</div>
+```
+
+![Example of PDF embed](img/embed-pdf.jpg "Example of PDF embed")
+
+### Chat-style quotes
+
+For interviews or quotes with user avatars, include the following styling at the beginning of the relevant section in the news post:
+
+```html
+<style>
+    .news-chat-quote__avatar {
+        float: left;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: -50px;
+    }
+
+    .news-chat-quote__text-container {
+        margin-left: 50px;
+    }
+
+    .news-chat-quote__username {
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .news-chat-quote__colour-no-group {
+        color: #FFFFFF;
+    }
+</style>
+```
+
+Here, the `news-chat-quote__colour-{group}` CSS styling corresponds to a [user group](/wiki/People/User_groups) colour:
+
+| Group | Colour |
+| :-: | :-- |
+| `gmt` | `#99EB47` |
+| `nat` | `#FA3703` |
+| `dev` | `#E45678` |
+| `alm` | `#999999` |
+| `spt` | `#EBD047` |
+| `bn` | `#A347EB` |
+| `lvd` | `#FFD1DC` |
+| `ppy` | `#0066FF` |
+| `fa` | `#00FFFF` |
+| `bsc` | `#76AEBC` |
+| `tc` | `#FFB969` |
+| `no-group` | `#FFFFFF` |
+
+Then, wrap sections of indented content within a `<div>` and prepend an avatar and username before each part that should display them, as shown below:
+
+```html
+<div class="news-chat-quote__text-container">
+
+<a class="avatar news-chat-quote__avatar" href="https://osu.ppy.sh/users/10365024" style="background-image: url('/wiki/shared/avatars/Sakura006.jpg')"></a>
+
+<p class="news-chat-quote__username"><a class="news-chat-quote__colour-no-group" href="https://osu.ppy.sh/users/10365024">Sakura006</a></p>
+
+Indented markdown content
+
+</div>
+```
+
+![Example of chat-style quote](img/embed-interview.png "Example of chat-style quote")

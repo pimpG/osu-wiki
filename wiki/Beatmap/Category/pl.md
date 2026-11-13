@@ -1,76 +1,57 @@
 ---
-outdated: true
+no_native_review: true
 ---
 
-# Beatmapy
+# Kategorie beatmap
 
-**Beatmapy** w [osu!](/wiki/osu!_glossary) są poziomami zbliżonymi do tych z [gier na konsolę Nintendo DS](/wiki/iNiS_games). Każda beatmapa składa się z piosenki oraz [obiektów](/wiki/Hit_object) rozmieszczonych w rytm muzyki. Mogą także posiadać tło, wideo bądź [storyboard](/wiki/Storyboard).
+[Beatmapy](/wiki/Beatmap) opublikowane online są podzielone na kategorie w zależności od ich ostatniej aktywności, statusu [nominacji](/wiki/Beatmap_ranking_procedure#kwalifikacja) oraz popularności.
 
-Beatmapy mogą zostać przesłane poprzez [BSS](/wiki/Submission) (Beatmap Submission System). Następnie przechodzą przez proces zatwierdzający, zwany [modowaniem](/wiki/Modding). Ma on na celu zwiększyć grywalność danej beatmapy.
+## Obecne kategorie
 
-Beatmapy można znaleźć na [liście beatmap](https://osu.ppy.sh/beatmapsets) na stronie internetowej osu!
+### Porzucone {id=graveyard}
 
-## Statusy
+W tej kategorii znajdują się beatmapy porzucone przez swoich [twórców](/wiki/Beatmap/Beatmap_host). Nie posiadają tabeli wyników, ale wciąż można je pobierać i grać, a także liczą się do [statystyk](#statystyki-nierankingowych-beatmap). W [ekranie wyboru piosenki](/wiki/Client/Interface#wybór-piosenki) są oznaczone znakiem zapytania (![](/wiki/shared/status/graveyard.png)).
 
-Beatmapy rankingowe, jak i zatwierdzone, muszą zostać sprawdzone przez przynajmniej dwóch [nominatorów](/wiki/People/The_Team/Beatmap_Nominators). Mogą wpływać na statystyki każdego gracza, co różni je od beatmap [oczekujących](#oczekujące) oraz [nieaktualizowanych](#nieaktualizowane).
+Beatmapa automatycznie zmienia kategorię z [obecnie rozwijanej lub oczekującej](#wip-and-pending) na porzuconą, jeżeli przez 4 tygodnie nie otrzyma żadnej aktualizacji. Twórca może "ożywić" beatmapę (przywrócić jej status [oczekującej](#wip-and-pending)) aktualizując ją poprzez [Beatmap Submission System](/wiki/Beatmapping/Beatmap_submission). Porzucone beatmapy nie liczą się do [limitu beatmap](/wiki/osu!supporter#zwiększone-limity), jednak ożywienie wymaga wolnego miejsca na oczekujące beatmapy.
 
-### Rankingowe
+### Obecnie rozwijane i oczekujące {id=wip-and-pending}
 
-![Symbol dwóch strzałek w górę](/wiki/shared/status/ranked.png) Na ekranie wyboru piosenek rankingowe beatmapy są oznaczane symbolem dwóch strzałek w górę.
+Obecnie rozwijane (często skracane do *WIP*, z angielskiego *Work In Progress*) oraz Oczekujące to kategorie, do których beatmapy trafiają zaraz po wysłaniu ich na stronę. Znajdujące się w tych kategoriach beatmapy mogą zostać [zakwalifikowane](#qualified) po [otrzymaniu nominacji](/wiki/Beatmap_ranking_procedure#nominations) od przynajmniej dwóch [nominatorów](/wiki/People/Beatmap_Nominators). Zwykle wymaga to ulepszenia beatmapy przez [mody](/wiki/Modding) od [modderów](/wiki/Modding/Modder). Obecnie rozwijane i oczekujące beatmapy nie posiadają tabeli wyników, ale [liczą się do statystyk](#statystyki-nierankingowych-beatmap). W ekranie wyboru piosenki oznaczone są znakiem zapytania (![](/wiki/shared/status/pending.png)).
 
-Beatmapy tego typu w pełni spełniają wszystkie [kryteria rankingowe](/wiki/Ranking_Criteria). Status rankingowej oznacza, że beatmapa spełnia ściśle określone standardy.
+Beatmapy znajdujące się w tej kategorii po 4 tygodniach bez aktualizacji staną się [porzucone](#graveyard).
 
-### Zatwierdzone
+### Zakwalifikowane {id=qualified}
 
-![Znak potwierdzenia](/wiki/shared/status/approved.png) Na ekranie wyboru piosenek zatwierdzone beatmapy są oznaczane znakiem potwierdzenia.
+Kwalifikacja to ostatni etap [procedury rankingowania beatmap](/wiki/Beatmap_ranking_procedure). Zakwalifikowane beatmapy zostały nominowane przez [nominatorów](/wiki/People/Beatmap_Nominators), którzy upewnili się, że beatmapa jest zgodna z [kryteriami rankingowymi](/wiki/Ranking_criteria). Trafiają one do [kolejki rankingowej](/wiki/Beatmap_ranking_procedure/Ranking_queue) i staną się [rankingowe](#ranked), jeżeli nie zostaną [zdyskwalifikowane](/wiki/Beatmap_ranking_procedure#reset-nominacji). Jest to ostatni etap, na którym można wyłapać ewentualne błędy lub przeoczenia, zanim beatmapa stanie się rankingowa.
 
-Ten status jest charakterystyczny dla piosenek dłuższych w [całkowitej rozgrywce (ang. drain time)](/wiki/Gameplay/Drain_time) niż 5 minut (znane także jako [maratony](/wiki/Beatmap/Marathon)). Większość zatwierdzonych beatmap nie posiada łatwego ani normalnego poziomu trudności. Jednakże, niektórzy twórcy przesyłają je jako oddzielne beatmapy, podczas gdy inni dołączają je razem z rankingowymi.
+Zakwalifikowane beatmapy posiadają tabele wyników, ale nie dają [pp](/wiki/Performance_points), a wszystkie ustanowione na nich wyniki zostaną usunięte po zmianie statusu. W ekranie wyboru piosenki oznaczone są znacznikiem wyboru (![](/wiki/shared/status/qualified.png)).
 
-### Zakwalifikowane
+### Rankingowe {id=ranked}
 
-![Znak potwierdzenia](/wiki/shared/status/qualified.png) Na ekranie wyboru piosenek zakwalifikowane beatmapy są oznaczane znakiem potwierdzenia.
+Rankingowe beatmapy są uznawane za oficjalną zawartość gry, co oznacza, że spełniają standardy [kryteriów rankingowych](/wiki/Ranking_criteria). Gracze mogą rywalizować ze sobą na ich tabelach wyników oraz otrzymywać [pp](/wiki/Performance_points) za ustanowione wyniki. Gdy beatmapa stanie się rankingowa, jej status nie może już zostać zmieniony (z wyjątkiem bardzo wyjątkowych sytuacji). W ekranie wyboru piosenki oznaczone są podwójnym szewronem (![](/wiki/shared/status/ranked.png)).
 
-Te beatmapy przechodzą ostatni etap mapowania, jak i modowania. Na początku rozgrywki pojawi się komunikat mówiący, że obecny status beatmapy spowoduje:
+### Ulubione społeczności {id=loved}
 
-- brak przyznania [pp](/wiki/Performance_points).
-- usunięcie wszystkich wyników po zmianie statusu.
-  - Jeżeli status zostanie zmieniony na rankingowy, zatwierdzony lub oczekujący, wszystkie wyniki zostaną usunięte!
+::: alert-note
+Z historią kategorii ulubionych społeczności możesz się zapoznać [tutaj](/wiki/History_of_osu!/History_of_Loved).
+:::
 
-Jeżeli beatmapa została zakwalifikowana, oznacza to, że jest zgodna z [kryteriami rankingowymi](/wiki/Ranking_Criteria) i została zatwierdzona przez dwóch [nominatorów](/wiki/People/The_Team/Beatmap_Nominators). Kwalifikacja to ostatni etap, w którym mapa musi znajdować się przynajmniej tydzień, zanim otrzyma status [rankingowy](#ranked) lub [zatwierdzony](#approved).
+Beatmapy tego typu mogą nie być zgodne z [kryteriami rankingowymi](/wiki/Ranking_criteria), ale są *uwielbiane* przez społeczność. Są dodawane regularnie do tej kategorii na podstawie głosów użytkowników. Posiadają tabele wyników, jednak nie przyznają [pp](/wiki/Performance_points), a wszystkie wyniki zostają usunięte po cofnięciu statusu ulubionej społeczności. W ekranie wyboru piosenki oznaczone są sercem (![](/wiki/shared/status/loved.png)).
 
-Podczas tego tygodnia [członkowie zespołu QAT](/wiki/Modding/Quality_Assurance_Team) mają czas na sprawdzenie zakwalifikowanej beatmapy pod kątem błędów i nieścisłości. Jeżeli coś będzie nie tak, beatmapa otrzyma z powrotem status oczekujący i będzie musiała jeszcze raz przejść przez proces kwalifikacji.
+## Historia
 
-### Ulubione społeczności
+### Zatwierdzone {id=approved}
 
-![Serce](/wiki/shared/status/loved.png) Na ekranie wyboru piosenek ulubione beatmapy społeczności są oznaczane sercem.
+Kategoria zatwierdzonych beatmap istniała w latach 2008-2014. Trafiały do niej beatmapy, których maksymalny możliwy wynik lub długość przekraczały limity określone w dawnych [kryteriach rankingowych](/wiki/Ranking_criteria), a w rzadkich przypadkach również beatmapy, które łamały inne zasady.
 
-Beatmapy tego typu mogą nie być zgodne z [kryteriami rankingowymi](/wiki/Ranking_Criteria), ale są *uwielbiane* przez społeczność. Są dodawane regularnie do tej kategorii na podstawie głosów w społeczności. Na początku rozgrywki pojawi się komunikat mówiący, że obecny status beatmapy spowoduje:
+Punkty zdobyte na zatwierdzonych beatmapach nie liczyły się do rankingu punktów, dopóki nie zastąpiono go rankingiem [pp](/wiki/Performance_points). Po tej zmianie status zatwierdzonej otrzymywały jedynie beatmapy posiadające więcej niż 6 minut [aktywnej gry](/wiki/Beatmap/Drain_time).
 
-- brak przyznania [pp](/wiki/Performance_points).
-- usunięcie wszystkich wyników po aktualizacji beatmapy przez twórcę.
+W ekranie wyboru piosenki oznaczone są znacznikiem wyboru (![](/wiki/shared/status/qualified.png)) i działają tak samo, jak beatmapy rankingowe.
 
-Ten status przyzna beatmapom tabele wyników.
+### Postrzeganie zakwalifikowanych beatmap
 
-Aby dowiedzieć się, jak beatmapa może uzyskać status ulubionej społeczności, zobacz wątek [Get your beatmap Loved!](https://osu.ppy.sh/community/forums/topics/549835) na forum.
+Kategoria [zakwalifikowanych](#qualified) beatmap została wprowadzona w sierpniu 2014 roku podczas [restrukturyzacji BAT](https://osu.ppy.sh/home/news/2014-08-21-restructuring-of-the-bat), aby zapewnić nowym beatmapom większą widoczność. Dyskwalifikacja beatmapy nie wpływała w żaden sposób na statystyki gracza, ponieważ od samego początku wyniki osiągnięte na zakwalifikowanej beatmapie miały być tymczasowe. Dzięki tej zmianie stosunek społeczności do dyskwalifikacji znacząco się polepszył.
 
-### Oczekujące
+### Statystyki nierankingowych beatmap
 
-*Zobacz także: [Proces zatwierdzania beatmapy](/wiki/Beatmap_ranking_procedure)*
-
-![Znak zapytania](/wiki/shared/status/pending.png) Na ekranie wyboru piosenek oczekujące beatmapy są oznaczane znakiem zapytania.
-
-Beatmapy z tej kategorii zazwyczaj czekają na [zmodowanie](/wiki/Modding). [Twórcy](/wiki/Creators) muszą znaleźć [moderów](/wiki/Modding/Modder) oraz przynajmniej dwóch [nominatorów](/wiki/People/The_Team/Beatmap_Nominators), by beatmapa mogła się rozwijać.
-
-Beatmapy z tej kategorii, które są nieaktywne przez okres 4 tygodni, automatycznie otrzymają status [nieaktualizowanych](#nieaktualizowane).
-
-Żadna z oczekujących beatmap nie wpływa na statystyki użytkowników.
-
-### Nieaktualizowane
-
-![Znak zapytania](/wiki/shared/status/graveyard.png) Na ekranie wyboru piosenek nieaktualizowane beatmapy są oznaczane znakiem zapytania.
-
-Te beatmapy oryginalnie posiadały status [oczekującej](#oczekujące), ale zostały przeniesione do tej kategorii, ponieważ nie były aktualizowane bądź ich wątki były nieaktywne przez 4 tygodnie. Nie mogą one zostać zaktualizowane, dopóki [twórca](/wiki/Beatmapping) nie naciśnie przycisku „Resurrect” na swoim profilu w zakładce z beatmapami.
-
-Żadna z nieaktualizowanych beatmap nie wpływa na statystyki użytkowników.
-
-Aby zachować miejsce na dysku dla nowszych beatmap, osu! będzie automatycznie usuwało nieaktualizowane beatmapy, jeżeli posiadają ten status od dłuższego czasu.
+Od [7 września 2020 roku](https://osu.ppy.sh/home/changelog/stable40/20200807.3) [porzucone](#graveyard), a także [obecnie rozwijane i oczekujące](#wip-and-pending) beatmapy zaczęły liczyć się do ilości zagrań oraz łącznego wyniku gracza. Zaimplementowano również wyświetlanie ich statystyk (liczba zagrań, procent przejść oraz momenty utraty wszystkich punktów życia) na stronie internetowej. Wcześniej te statystyki były wyświetlane jedynie dla [zakwalifikowanych](#qualified) i [rankingowych](#ranked) map.

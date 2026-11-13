@@ -34,13 +34,15 @@ Do note, however, the folder called `taiko` (case-insensitive) is reserved for o
 
 ### How do I reload my skin in osu!?
 
-You will need to have your skin selected, then press this keystoke to reload a skin in osu! is `Ctrl` + `Alt` + `Shift` + `S`.
+You will need to have your skin selected, then press this keystroke to reload a skin in osu! is `Ctrl` + `Alt` + `Shift` + `S`.
 
-You can also exit and reopen osu! or start the updater to reload the skin, but it usually is much quicker to use the four-keystoke combination to reload the skin in osu!
+You can also exit and reopen osu! or start the updater to reload the skin, but it usually is much quicker to use the four-keystroke combination to reload the skin in osu!
 
 ### What are skinning sets?
 
-*Main page: [Ranking Criteria/Skin Set List](/wiki/Ranking_Criteria/Skin_Set_List)*
+::: alert-note
+**Main page:** [Ranking Criteria/Skin Set List](/wiki/Ranking_criteria/Skin_set_list)
+:::
 
 In osu!, there are over 200 skinnable elements (not including the individual animated frames). However, you are not required to skin all of them. Instead, you can simply remove them as osu! will use the default images for the ones you don't include.
 
@@ -133,13 +135,15 @@ It is really important to include various screenshots of gameplay and the song s
 
 ### What is skin.ini?
 
-*Main page: [skin.ini](/wiki/Skinning/skin.ini)*
+::: alert-note
+**Main page:** [skin.ini](/wiki/Skinning/skin.ini)
+:::
 
 ### What is v1.0 and v2.0+?
 
 Skin v1.0 was the old skinning style that was used from the game's skinning support launch until March 2013. After that point in time, skin v2.0 was released along side a brand new set of skinning elements with some changes. To see a changelog of skinning updates, see the [Versions section in the skin.ini article](/wiki/Skinning/skin.ini#versions).
 
-It may not seem important to denote which version to use, but understand that some older features may not be available in the latest version of skinning and vise versa.
+It may not seem important to denote which version to use, but understand that some older features may not be available in the latest version of skinning and vice versa.
 
 ## Audio
 
@@ -210,7 +214,10 @@ However, the osu!mania ranking screen is an exception to this. That is, if an an
 2. The static image in root directory.
 3. The default image.
 
-*Notice: In osu!mania, osu! ignores the specified path from the `skin.ini` file and will only use the image from the root directory (the folder where the skin elements are loaded).*
+::: alert-notice
+**Notice**
+In osu!mania, osu! ignores the specified path from the `skin.ini` file and will only use the image from the root directory (the folder where the skin elements are loaded).
+:::
 
 ## Animations
 
@@ -220,7 +227,10 @@ First, check the elements listing to see if the element you want to animate can 
 
 For example, if you are trying to animate `scorebar-colour.png`, name the first frame `scorebar-colour-0.png`, then the second one `scorebar-colour-1.png`, then the third one `scorebar-colour-2.png`, and repeat for the rest.
 
-*Note: Not all elements have a hyphen (`-`) between the name and the frame number. Check the elements listing for animation names.*
+::: alert-notice
+**Notice**
+Not all elements have a hyphen (`-`) between the name and the frame number. Check the elements listing for animation names.
+:::
 
 The animation frame rates for each element are inconsistent. Some use a value defined in the skin.ini file, some use the client's defined value, while others are based on the BPM (beats per minute) of the beatmap. Due to this, animating skinning elements is trial-and-error (see the next section for methods on solving this).
 
@@ -248,7 +258,7 @@ If you want to remove an element, you must use a transparent image in place of t
 
 There are two ways to do this:
 
-- Disable `Hit Lighting` in the [options](/wiki/Options).
+- Disable `Hit Lighting` in the [options](/wiki/Client/Options).
 - Use a transparent image called `lighting.png` in your skin.
 
 ##### I meant the particles after clicking!
@@ -273,7 +283,9 @@ You must have [osu!supporter](/wiki/osu!supporter) to see the background image i
 
 ### What does the @2x do?
 
-*Main page: [HD images](#hd-images)*
+::: alert-note
+**Main page:** [HD images](#hd-images)
+:::
 
 ### My taiko drums are in the wrong position!
 
@@ -281,7 +293,9 @@ Open the [skin.ini](/wiki/Skinning/skin.ini) file and change the `Version` to `2
 
 ### How do I change the combo colours?
 
-*Main page: [skin.ini](/wiki/Skinning/skin.ini#[colours])*
+::: alert-note
+**Main page:** [skin.ini](/wiki/Skinning/skin.ini#[colours])
+:::
 
 ### How do I disable one or more hitsounds?
 

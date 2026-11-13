@@ -1,3 +1,10 @@
+---
+outdated_translation: true
+outdated_since: 9162ca37df646799d93a296e59d8afe9394a323b
+---
+
+<!--There is the example image showing a storyboard file missing. To update this article, please check also if there are other things missing besides the changes on the wiki status page.-->
+
 # Storyboard Scripting General Rules
 
 Эта страница и остальные части справки описывают код скрипта, расположенный в секции \[Events\]. Если скрипт вписан в файл с расширением .osb, он будет работать во всех сложностях; если в файл .osu, то только для данной сложности.
@@ -17,7 +24,7 @@
 - Экран — область размером 640 пикселей в ширину и 480 пикселей в высоту.
 - Точка отсчёта с координатами (0;0) — левый верхний угол экрана, координаты увеличиваются при проходе вниз и вправо.
 - Разрешено указывать координаты, выходящие за данные рамки (например, для спрайта, появляющегося из-за границы экрана)
-- Координаты курсора отображаются в [редакторе](/wiki/Beatmap_Editor) на вкладке "Design".
+- Координаты курсора отображаются в [редакторе](/wiki/Client/Beatmap_editor) на вкладке "Design".
 
 ### Слои
 

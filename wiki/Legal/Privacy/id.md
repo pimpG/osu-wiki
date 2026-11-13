@@ -1,126 +1,128 @@
 ---
 legal: true
+outdated_translation: true
+outdated_since: b1776120326b6dbcb16e18460dafcbcef1c68706
 ---
 
 # Kebijakan privasi osu!
 
-Terakhir diperbarui pada 16 April 2021. [Lihat riwayatnya disini](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
+Terakhir diperbarui pada tanggal 3 September 2024. [Lihat riwayat kebijakan ini di sini](https://github.com/ppy/osu-wiki/commits/master/wiki/Legal/Privacy/en.md)
 
-Selain kebijakan ini, pastikan juga untuk mengunjungi dan memahami [Ketentuan Layanan](/wiki/Legal/Terms) kami.
+Di samping kebijakan ini, pastikan juga untuk membaca dan memahami [Ketentuan Layanan](/wiki/Legal/Terms) kami.
 
 ## Pendahuluan
 
-osu! dijalankan oleh sebuah entitas Australia (ppy Pty Ltd) dengan mayoritas server yang beroperasi dari Amerika Serikat.
+osu! dijalankan oleh entitas asal Australia (ppy Pty Ltd) dengan rangkaian server yang sebagian besarnya beroperasi dari Amerika Serikat.
 
-osu! menawarkan berbagai macam layanan kepada pengguna dari hampir setiap negara di seluruh dunia dengan komunitas yang dinamis dan banyak peluang yang dimiliki pengguna untuk membagikan kreativitasnya kepada pengguna lain melalui profil pengguna, beatmap (level dalam gim), forum, pesan pribadi, obrolan dalam gim, dan balasan komentar.
+osu! menawarkan berbagai jenis layanan kepada pengguna dari hampir setiap negara di seluruh dunia, dengan komunitas yang dinamis dan memungkinkan para penggunanya untuk dapat saling berbagi kreativitas melalui halaman profil pengguna, beatmap (level permainan), forum, pesan pribadi, *in-game chat*, dan komentar pada tayangan ulang.
 
-Untuk menawarkan layanan ini kepada Anda, kami harus sering mengumpulkan, menyimpan, dan mengirimkan informasi pribadi Anda. Kami berusaha menjadi setransparan mungkin dalam menjalankan setiap aspek di osu!, dan kebijakan privasi ini diharuskan membawa kami lebih dekat kepada tujuan tersebut.
+Untuk dapat menawarkan layanan ini kepada Anda, kami sering kalinya harus mengumpulkan, menyimpan, dan menyebarluaskan informasi yang bersifat pribadi. Kami beritikad untuk menjalankan segala sesuatunya yang ada di osu! setransparan mungkin, dan kebijakan privasi ini merupakan salah satu bentuk upaya kami dalam mewujudkan tujuan tersebut.
 
-Dokumen ini bertujuan untuk menjelaskan informasi apa saja yang kami kumpulkan di jaringan kami dan dalam manggunakan produk dan layanan kami, bagaimana kami menggunakan informasi tersebut, dan opsi apa saja yang kami tawarkan kepada Anda untuk mengontrol informasi pribadi Anda.
+Dokumen ini bertujuan untuk menjelaskan informasi apa saja yang kami kumpulkan pada jaringan kami dan dalam penggunaan produk dan layanan kami, bagaimana kami menggunakan informasi tersebut, serta pilihan apa saja yang kami tawarkan kepada Anda untuk mengelola informasi pribadi Anda.
 
-Dengan menggunakan layanan kami, Anda mengonfirmasi bahwa Anda telah membaca dan memahami [Ketentuan Layanan](/wiki/Legal/Terms) dan kebijakan privasi ini, termasuk bagaimana dan mengapa kami menggunakan informasi Anda dan bahwa dengan penggunaan layanan ini, Anda tunduk pada Ketentuan Layanan dan Kebijakan Privasi yang berlaku. Jika Anda tidak ingin kami mengumpulkan atau memproses informasi pribadi Anda seperti yang telah dijelaskan di sini, Anda memiliki beberapa pilihan seperti membatasi informasi yang kami kumpulkan dari Anda atau tidak menggunakan Jaringan atau Produk dan Layanan kami.
+Dengan menggunakan layanan kami, Anda membenarkan bahwa Anda telah membaca dan memahami [Ketentuan Layanan](/wiki/Legal/Terms) dan kebijakan privasi ini, termasuk bagaimana dan mengapa kami menggunakan informasi Anda serta bahwa dengan menggunakan layanan kami, Anda tunduk pada Ketentuan Layanan dan Kebijakan Privasi yang berlaku. Apabila Anda tidak ingin kami mengumpulkan atau memproses informasi pribadi Anda sebagaimana yang dijabarkan pada halaman ini, Anda memiliki beberapa pilihan seperti membatasi informasi apa saja yang dapat kami kumpulkan dari Anda, tidak menggunakan Jaringan kami, atau melepaskan diri dari Produk dan Layanan kami.
 
 ## Informasi yang kami kumpulkan
 
 ### Saat mendaftarkan akun
 
-Meskipun terdapat beberapa fitur yang dibatasi saat sedang bermain tanpa sebuah akun, terkadang pengguna diharuskan untuk mendaftarkan sebuah akun jika ingin menikmati layanan tertentu. Saat mendaftarkan sebuah akun, kami menyimpan
+Walaupun fungsi tertentu dapat digunakan secara terbatas tanpa akun, sering kalinya para pengguna diharuskan untuk mendaftarkan akun demi menggunakan layanan tertentu. Pada saat Anda mendaftarkan akun, kami menyimpan
 
 - Nama pengguna Anda
 - Alamat email Anda
 - Kata sandi Anda (bcrypt+salt)
 - Alamat IP dan negara Anda
 
-Informasi pribadi ini, dengan pengecualian nama pengguna dan negara Anda, tidak pernah dibagikan secara publik.
+Kecuali nama pengguna dan negara Anda, informasi pribadi ini tidak akan pernah dibagikan secara publik.
 
 ### Saat memperbarui profil Anda
 
-Saat menyusun profil pengguna (yang dapat dilihat oleh semua pengguna lainnya), Anda dapat memberikan memberikan secara opsional
+Pada saat Anda menyusun profil pengguna milik Anda (yang dapat dilihat oleh seluruh pengguna lainnya), Anda dapat menyertakan informasi berupa
 
 - Lokasi Anda saat ini
 - Minat Anda
 - Pekerjaan Anda
-- Media sosial yang Anda miliki (twitter, discord, skype, website)
+- Presensi media sosial Anda (twitter, discord, skype, situs web)
 - Avatar dan sampul profil Anda
 - Tanda tangan Anda
 
-Semua poin di atas dapat dilihat oleh publik, tetapi dapat ditarik segera, secara permanen, dan kapan saja melalui [laman pengaturan](https://osu.ppy.sh/home/account/edit).
+Seluruh kolom di atas akan dapat dilihat secara publik namun juga akan dapat dihapus secara permanen kapan saja melalui [halaman pengaturan](https://osu.ppy.sh/home/account/edit).
 
-### Saat mengunggah konten yang dikirim pengguna
+### Saat mengunggah konten kiriman pengguna
 
-Saat berkirim di forum, berpartisipasi di obrolan, atau mengunggah konten seperti beatmap ke layanan kami, Anda secara tegas mempublikasikan semua konten yang dikirimkan. Dalam kebanyakan kasus, hal tersebut dapat disunting dan dihapus setelah dikirimkan sesuai dengan kebijaksanaan Anda, namun terkadang fungsi ini mungkin dikunci untuk menjaga relevansi dan penyediaan layanan bagi pengguna kami.
+Pada saat Anda menulis postingan forum, mengobrol pada *in-game chat*, atau mengunggah konten (seperti beatmap) ke layanan kami, Anda secara tegas mempublikasikan segala sesuatunya yang Anda kirimkan. Dalam sebagian besar kasus, konten yang telah terkirim akan dapat disunting dan dihapus sesuai dengan keinginan Anda, namun dalam situasi tertentu hak ini dapat dianulir untuk menjaga relevansi dan kontinuitas layanan kepada basis pengguna kami.
 
-Sebagai contoh, jika Anda mengunggah sebuah beatmap dan beatmap tersebut mendapat status "ranked", hal itu akan menjadi dasar bagi pengguna secara luas untuk mendapatkan skor. Pada tahap ini, opsi untuk menghapus submisi akan dicabut.
+Sebagai contoh, apabila Anda mengunggah suatu beatmap dan beatmap tersebut memperoleh status "ranked", beatmap tersebut akan menjadi dasar bagi para pengguna kami untuk dapat menorehkan skor. Pada titik ini, pilihan untuk menghapus kiriman yang bersangkutan tidak lagi akan tersedia.
 
 ### Saat masuk ke dalam permainan
 
-Saat menghubungkan ke layanan kami dari klien gim osu!, string khusus klien dikirimkan untuk membantu kami mengidentifikasi lingkungan bermain Anda saat ini. String tersebut dibuat berdasarkan kombinasi pengenal dari konfigurasi perangkat keras dan perangkat lunak Anda dan di-hash sedemikian rupa sehingga tidak berisi informasi yang dapat diidentifikasi secara pribadi, tetapi dapat digunakan untuk melacak akses Anda saat masuk ke layanan kami.
+Pada saat Anda menghubungkan diri ke layanan kami melalui klien permainan osu!, sebuah kode *string* yang spesifik bagi klien Anda akan dikirimkan untuk membantu kami dalam mengidentifikasi lingkungan permainan Anda. Kode ini dihasilkan berdasarkan kombinasi nomor pengenal yang diperoleh dari konfigurasi perangkat keras dan perangkat lunak Anda, yang kemudian di-*hash* sedemikian rupa agar tidak lagi mengandung informasi pribadi yang dapat diidentifikasi (namun tetap dapat digunakan untuk melacak entri masuk Anda ke dalam layanan kami).
 
-Tujuan utamanya adalah untuk mempertahankan sistem peringkat yang adil dan membantu kami meningkatkan keamanan akun Anda seandainya akun Anda diakses dari lokasi yang tidak dikenal. Hal ini dianggap pribadi dan hanya disimpan selama masih relevan. Hal ini juga tidak dapat dipindahtangankan dan tidak ada artinya di luar ekosistem osu!.
+Tujuan utama kami dalam melangsungkan proses ini adalah untuk mewujudkan sistem peringkat yang adil dan untuk membantu kami mengamankan akun Anda apabila akun ini diakses dari lokasi yang tidak dikenal. Kode ini bersifat pribadi dan hanya akan disimpan selama yang dibutuhkan. Di samping itu, kode ini juga tidak dapat dipindahtangankan dan tidak memiliki arti di luar ekosistem osu!.
 
-### Saat memainkan gim dan mengirimkan skor
+### Saat bermain dan mengirimkan skor
 
-Saat menyelesaikan sebuah sesi permainan (berhasil atau gagal memainkan sebuah beatmap), rincian performa Anda akan secara otomatis dikirimkan ke server kami. Skor yang dikirimkan berupa data tayangan ulang dari permainan Anda dan dapat ditampilkan secara publik di Papan Peringkat Global dan di Profil Pengguna dan tidak dapat dihapus atau dimodifikasi.
+Pada saat Anda menyelesaikan suatu sesi permainan (baik berhasil ataupun gagal), rincian performa Anda akan secara otomatis dikirimkan ke dalam server kami. Bagian skor dari rincian ini meliputi data tayangan ulang permainan, yang dapat ditampilkan secara publik pada Papan Peringkat Global dan Profil Pengguna Anda serta tidak dapat dihapus atau dimodifikasi.
 
 ### Anti-cheat
 
-osu! berisi kode *executable* yang digunakan untuk mendeteksi penggunaan perangkat lunak illegal (cheat). Tujuan dari anti-cheat osu! ini adalah untuk menjaga lingkungan permainan yang adil dan kompetitif untuk semua pemain, tetapi tidak memengaruhi performa dari permainan atau privasi pengguna.
+osu! mengandung kode *executable* khusus yang digunakan untuk mendeteksi penggunaan perangkat lunak illegal (*cheat software*). Tujuan dari sistem *anti-cheat* osu! ini adalah untuk menjaga lingkungan permainan yang adil dan kompetitif bagi semua, tanpa memengaruhi performa permainan ataupun privasi pengguna.
 
-- Ketika deteksi cheat terjadi pada perangkat Anda, hanya data yang diperlukan saja yang akan dikirim ke server kami selama pengecekan.
-- Jika anti-cheat memutuskan bahwa Anda berlaku curang, maka keputusan itu, ditambah dengan bukti dalam bentuk diagnostik dan metadata, akan dikirimkan ke server kami untuk diverifikasi. Jika Anda tidak melakukan kecurangan, tidak ada data anti-cheat yang akan dikirimkan.
-- Bahkan saat terdeteksi, upaya terbaik dilakukan yaitu tidak pernah mengirim informasi apapun diluar ekosistem osu! yang dapat digunakan untuk mengidentifikasi Anda secara pribadi.
-- Metadata yang dikirimkan hanya disimpan di server kami selama metadata itu masih berguna. Terkadang diperlukan waktu beberapa jam sampai beberapa hari untuk menganalisis konten yang dilaporkan.
-- Analisis sebagian besar dilakukan secara otomatis. Metadata yang telah dikirim tidak dapat diakses oleh anggota Support Team dan harus diakses melalui sistem keamanan berlapis. Hanya admin server database yang dapat melihat metadata.
+- Pendeteksian *cheat* berlangsung pada perangkat Anda, di mana dalam prosesnya osu! tidak akan mengirimkan data yang tidak dibutuhkan ke server kami.
+- Apabila *anti-cheat* menemukan bahwa Anda bertindak curang, maka temuan ini, beserta dengan rangkaian bukti dalam bentuk diagnostik dan metadata permainan, akan dikirim ke server kami untuk diverifikasi. Apabila Anda tidak bertindak curang, tidak akan ada data *anti-cheat* yang akan dikirimkan.
+- Bahkan pada saat terdapat sesuatu yang terdeteksi sekalipun, sistem kami akan sebisa mungkin tidak mengirim informasi apa pun ke luar ekosistem osu! yang dapat digunakan untuk mengidentifikasi Anda secara pribadi.
+- Metadata yang dikirimkan hanya akan disimpan pada server kami selama masih digunakan. Pada umumnya, informasi ini akan disimpan selama antara beberapa jam hingga beberapa hari selagi kami menganalisis konten yang dilaporkan.
+- Proses analisis sebagian besarnya berlangsung secara otomatis. Metadata yang dikirim tidak akan dapat dilihat oleh tim layanan dukungan dan hanya dapat diakses melalui sistem keamanan yang berlapis. Hanya para admin server basis data yang akan dapat melihat metadata ini.
 
-Kami menghormati dan menghargai privasi Anda dan tidak ingin menimbulkan rasa takut bagi pengguna yang terdaftar secara resmi dengan menghadirkan anti-cheat di dalam permainan.
+Kami menghormati dan menghargai privasi Anda, dan kami tidak ingin agar keberadaan *anti-cheat* ini sampai menimbulkan rasa takut bagi para pengguna yang tidak berbuat curang.
 
-### Pencatatan
+### Pencatatan informasi
 
-Kami memanfaatkan sistem pencatatan kesalahan yang mengumpulkan informasi teknis dan informasi penggunaan saat Anda menggunakan layanan kami. Hal tersebut dapat berupa alamat IP Anda, nama pengguna Anda, jenis dan versi browser Anda, pengaturan dan lokasi zona waktu Anda, sistem operasi dan platform Anda, dan detail lainnya tentang perangkat apa yang Anda gunakan untuk mengakses layanan kami.
+Kami menggunakan sistem pencatatan kesalahan (*error logging*) yang mengumpulkan berbagai informasi teknis dan penggunaan layanan selagi Anda menggunakan layanan kami. Hal ini dapat meliputi alamat IP Anda, nama pengguna Anda, jenis dan versi browser Anda, pengaturan dan lokasi zona waktu Anda, sistem operasi dan *platform* Anda, serta rincian lainnya seputar perangkat yang Anda gunakan untuk mengakses layanan kami.
 
-Data yang terkumpul ini digabungkan dan hanya disimpan jika berguna. Biasanya, periode penyimpanan untuk data yang bukan data gabungan adalah kurang dari satu bulan dengan pengaturan pembersihan otomatis.
+Data yang terkumpul akan digabungkan dan hanya akan kami simpan selama masih digunakan. Pada umumnya, periode penyimpanan untuk data yang bukan merupakan data gabungan adalah kurang dari satu bulan dengan pengaturan pembersihan otomatis.
 
 ## Pengungkapan data pribadi Anda
 
-Kami tidak melakukan pemasaran, pengiklanan, atau pengiriman email yang tidak diminta. Satu-satunya email yang akan Anda terima dari kami adalah hasil tindakan dalam layanan kami (seperti meminta autentikasi dua faktor, membeli produk, atau mengaktifkan pemberitahuan pada sebuah diskusi).
+Kami tidak melakukan tindak pemasaran, pengiklanan, atau pengiriman email yang tidak dikehendaki. Seluruh email yang akan Anda terima dari kami murni merupakan bentuk respon atas suatu tindakan pada layanan kami (seperti meminta autentikasi dua faktor, membeli produk, atau mengaktifkan notifikasi pada topik diskusi).
 
-Kami mungkin membagikan data pribadi Anda kepada pihak ketiga dalam kasus yang sangat spesifik:
+Kami dapat membagikan data pribadi Anda kepada pihak ketiga dalam beberapa situasi yang sangat spesifik sebagai berikut:
 
-- Di mana Anda secara tegas telah membuat informasi tersebut bersifat publik
+- Pada saat Anda telah secara jelas menyediakan informasi yang bersangkutan secara publik
 - Untuk memenuhi pesanan belanja Anda
-- Untuk memproses pembayaran melalui layanan penyedia pembayaran seperti Paypal dan Xsolla
-- Untuk memproses tiket layanan pelanggan Anda (kami menggunakan [Enchant](https://enchant.com))
-- Untuk meningkatkan layanan kami melalui sistem pencatatan kesalahan (kami menggunakan [Sentry](https://sentry.io))
+- Untuk memproses pembayaran melalui biro pembayaran seperti Paypal dan Xsolla
+- Untuk memproses tiket layanan dukungan Anda (kami menggunakan [Enchant](https://enchant.com))
+- Untuk meningkatkan layanan kami, melalui sistem pencatatan kesalahan/*error logging* (kami menggunakan [Sentry](https://sentry.io))
 
 ## Hak dan kendali Anda
 
-Sebagai seorang pengguna, Anda memiliki hak untuk memigrasi, memperbarui, atau menghapus informasi pribadi Anda. Hal ini dapat dilakukan melalui [pengaturan pengguna](https://osu.ppy.sh/home/account/edit), atau jika tidak tersedia pada fitur "Edit" yang dilokalkan pada bagian yang relevan di situs kami. Jika Anda ingin secara terprogram mengambil data akun Anda secara lengkap, gunakan [API publik](https://github.com/ppy/osu-api/wiki) kami.
+Sebagai pengguna, Anda berhak untuk memindahkan, memperbarui, atau menghapus informasi pribadi Anda. Hal ini pada umumnya dapat dilakukan melalui menu [pengaturan pengguna](https://osu.ppy.sh/home/account/edit), atau apabila tidak memungkinkan, melalui fitur "Edit" yang tersedia secara lokal pada bagian tertentu di situs kami. Apabila Anda ingin mengambil seluruh data akun Anda secara runut, mohon gunakan [API publik](https://github.com/ppy/osu-api/wiki) kami.
 
-Dalam kebanyakan kasus, kiriman pengguna seperti postingan forum dan beatmap dapat dihapus secara tersendiri. Anda akan menemui tombol hapus yang terasosiasi langsung dengan persoalan yang bisa dihapus.
+Dalam banyak kasus, kiriman pengguna seperti postingan forum dan unggahan beatmap dapat dihapus secara masing-masing. Anda akan dapat menemui tombol untuk menghapus hasil kiriman yang bersangkutan pada berbagai lokasi yang terkait.
 
-Anda memiliki opsi untuk menghapus akun milik sendiri dari layanan kami. Harap diperhatikan bahwa proses ini dilakukan secara manual dan membutuhkan waktu beberapa hari untuk menyelesaikannya. Anda dapat [menghubungi kami](mailto:privacy@ppy.sh) untuk mengajukan permintaan penghapusan akun. Dalam kasus penghapusan akun, sebagian kontribusi Anda yang telah dilakukan secara publik mungkin tidak terhapus, seperti yang telah dijelaskan dalam "Informasi yang kami kumpulkan."
+Anda memiliki pilihan untuk menghapus akun Anda dari layanan kami. Mohon diperhatikan bahwa untuk saat ini, proses ini berlangsung secara manual dan dapat membutuhkan waktu hingga beberapa hari ([hubungi kami](mailto:privacy@ppy.sh) untuk mengajukan permintaan penghapusan akun). Apabila akun Anda dihapus, sebagian kontribusi publik Anda akan tetap dapat tersimpan sebagaimana yang terperinci pada "Informasi yang kami kumpulkan."
 
-Kami memiliki kebijakan satu-akun-per-pengguna yang ketat untuk menjaga papan peringkat tetap adil sehingga setelah akun Anda dihapus, Anda mungkin tidak dapat kembali lagi ke layanan kami. Untuk menegakkan kebijakan ini, kami juga akan tetap menyimpan string pengenal unik seperti yang telah disebutkan di "Informasi yang kami kumpulkan" bahkan setelah akun dihapus. Penghapusan akun ini dilakukan sebagai [kepentingan yang sah sebagaimana diuraikan dalam GDPR](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/when-can-we-rely-on-legitimate-interests/) untuk menegakkan aturan kami. Tidak perlu khawatir, informasi ini di-hash satu arah dan tidak dapat digunakan untuk mengidentifikasi Anda di luar osu! atau di luar konteks yang tepat dalam menegakkan kebijakan ini.
+Berhubung kami menerapkan kebijakan satu akun per pengguna (*one-account-per-user*) yang ketat demi menjunjung papan peringkat yang adil, Anda tidak akan lagi dapat kembali ke layanan kami setelah akun Anda dihapus. Untuk menegakkan kebijakan ini, kami juga akan tetap menyimpan kode *string* pengenal unik milik akun Anda yang sebagaimana yang tertera pada "Informasi yang kami kumpulkan" bahkan setelah akun Anda dihapus. Hal ini ditujukan sebagai suatu [bentuk kepentingan yang sah (*legitimate interest*) sebagaimana yang tertera pada undang-undang GDPR](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/when-can-we-rely-on-legitimate-interests/). Meskipun demikian, Anda tidak perlu khawatir karena seluruh informasi ini akan di-*hash* secara satu arah dan tidak akan dapat digunakan untuk mengidentifikasi Anda di luar osu! atau di luar konteks penegakan kebijakan ini.
 
 ## Cookie
 
-Kami menggunakan cookie sama halnya seperti seisi internet. Kami benar-benar menggunakannya untuk mempertahankan status sesi Anda dan kredensial login di beberapa sesi. Jika Anda tidak suka dengan sistem cookie, lebih baik tidak menggunakan layanan kami.
+Seperti halnya seisi internet pada umumnya, layanan kami juga menggunakan *cookie*. Kami hanya akan menggunakan *cookie* ini untuk mempertahankan status sesi dan kredensial entri masuk Anda antar berbagai sesi. Apabila Anda tidak dapat menerima keberadaan *cookie*, mohon untuk tidak menggunakan layanan kami.
 
 ## Keamanan data
 
-Keamanan sangat penting bagi kami. osu! mengikuti standar untuk melindungi informasi pribadi Anda selama pemrosesan, pemindahan, dan penyimpanan. Kami menggunakan HSTS untuk memastikan semua situs di domain kami dienkripsi melalui TLS dan mempertahankan standar yang tinggi dalam keamanan data untuk akses ke server kami, serta membatasi akses ke data pribadi Anda saat kami sedang tidak membutuhkannya.
+Keamanan merupakan hal yang sangat penting bagi kami. osu! mengikuti standar keamanan yang baku untuk melindungi data Anda dalam proses pengolahan, pemindahan, dan penyimpanan yang berlangsung. Kami menggunakan protokol HSTS untuk memastikan bahwa seluruh situs pada domain kami terenkripsi dengan sertifikat TLS serta menjaga standar keamanan data yang tinggi perihal akses masuk ke server kami, yang membatasi akses ke data pribadi Anda ketika kami tidak sedang membutuhkan data ini.
 
-Kami juga secara teratur membersihkan data secara otomatis dan berkelanjutan sehingga data historis yang disimpan hanya yang diperlukan untuk menjalankan kepentingan bisnis kami yang sah saja.
+Di samping itu, kami juga secara rutin dan otomatis menghapus data yang ada agar kami hanya menyimpan rekaman data sebanyak yang dibutuhkan untuk menjalankan kepentingan bisnis kami.
 
-## Anak-anak
+## Pengguna di bawah umur
 
-Layanan osu! tidak dirancang untuk anak di bawah usia 13 tahun. Jika kami menemukan bahwa seseorang yang berusia di bawah 13 tahun telah mengirimkan informasi pribadinya kepada kami tanpa izin orang tua, kami akan berusaha keras untuk menghapus informasi tersebut dari sistem kami.
+Layanan osu! tidak dirancang bagi anak-anak yang berusia di bawah 13 tahun. Apabila kami menemukan bahwa seseorang yang berusia di bawah 13 tahun telah mengirimkan informasi pribadinya kepada kami tanpa seizin orang tua, kami akan berupaya untuk menghapus informasi ini dari sistem kami sesegera mungkin.
 
-## Pengontrol Data
+## Pengelola data
 
-Hai, Saya Dean (umumnya dikenal sebagai peppy) dan saya yang mengontrol data Anda. Jika Anda memiliki masalah atau permintaan privasi dalam menggunakan hak hukum Anda, jangan ragu untuk menghubungi saya secara langsung di alamat yang tercantum di bawah ini.
+Hai, saya Dean (yang pada umumnya dikenal sebagai peppy) dan saya merupakan pengelola data Anda. Apabila Anda memiliki kekhawatiran seputar privasi atau ingin menggunakan hak hukum Anda, jangan sungkan untuk menghubungi saya secara langsung melalui alamat email di bawah ini.
 
-**Email**: [privacy@ppy.sh](mailto:privacy@ppy.sh) (Jaminan respons 24 jam)
+**Email**: [privacy@ppy.sh](mailto:privacy@ppy.sh)
 
 **Alamat Pos**:
 

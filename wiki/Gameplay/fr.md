@@ -1,13 +1,41 @@
+---
+no_native_review: true
+outdated_translation: true
+outdated_since: d067f4c01a63169faae5ef8d04daafeaa9357781
+---
+
 # Gameplay
 
-- [Précision](/wiki/Gameplay/Accuracy)
-- [Longueur de drain](/wiki/Gameplay/Drain_time)
-- [Fingerlock](/wiki/Gameplay/Fingerlock)
-- [Dispositif d'entrée](/wiki/Gameplay/Input_device)
-- [Mind block](/wiki/Gameplay/Mind_block)
-- [Temps de jeu](/wiki/Gameplay/Play_time)
-- [Slider break](/wiki/Gameplay/Slider_break)
-- [Spectateur](/wiki/Gameplay/Spectating)
-- [Protection pour tablette](/wiki/Gameplay/Tablet_cover)
-
-<!-- TODO: category needs some fleshing out and this index probably shouldn't be empty -->
+- [Choke](Choke)
+- [Comboburst](Comboburst)
+- [Combo complet](Full_combo)
+- [Combo fire](Combo_fire)
+- [Combo milestone](Combo_milestone)
+- [Combo multiplier effect](Combo_multiplier_effect)
+- [Combo (multiplicateur de score)](Combo_(score_multiplier))
+- [Dash](Dash)
+- [Dash snapping](Dash_snapping)
+- [Dispositif d'entrée](Input_device)
+- [Drain Time](/wiki/Beatmap/Drain_time)
+- [Edge dash](Edge_dash)
+- [Fingerlock](Fingerlock)
+- [Grade](Grade)
+- [Hyperdash](Hyperdash)
+- [Jugement](Judgement)
+- [Kiai time](Kiai_time)
+- [Mind block](Mind_block)
+- [Notelock](Judgement/Notelock)
+- [objets](Hit_object)
+- [Pass](Pass)
+- [Points de vie](Health)
+- [Précision](Accuracy)
+- [Protection pour tablette](Tablet_cover)
+- [Replay](Replay)
+- [Score](Score)
+- [Slider break](Judgement/Slider_break)
+- [Spectateur](Spectating)
+- [Spinner trap](Spinner_trap)
+- [Style de jeu](Play_style)
+- [Temps de jeu](/wiki/Beatmap/Play_time)
+- [Unstable rate](Unstable_rate)
+- [Walk](Walk)

@@ -1,6 +1,6 @@
 ---
 no_native_review: true
-outdated: true
+outdated_translation: true
 outdated_since: 6e9200e42c1c320aa83b8ac62a2dd9b678bb3eb4
 ---
 
@@ -20,9 +20,9 @@ Beatmaps moeten vooraleer ze genomineerd kunnen worden eerst [hype](/wiki/Beatma
 
 ## Nominaties
 
-Leden van de [Beatmapnominators](/wiki/People/The_Team/Beatmap_Nominators) (*BNs*) zijn ervaren modders die beatmaps kunnen nomineren om Ranked te worden. Hun taak is om ervoor te zorgen dat een beatmap voldoet aan de [Rankingcriteria](/wiki/Ranking_Criteria) en aan hun persoonlijke kwaliteitsnormen.
+Leden van de [Beatmapnominators](/wiki/People/Beatmap_Nominators) (*BNs*) zijn ervaren modders die beatmaps kunnen nomineren om Ranked te worden. Hun taak is om ervoor te zorgen dat een beatmap voldoet aan de [Rankingcriteria](/wiki/Ranking_criteria) en aan hun persoonlijke kwaliteitsnormen.
 
-Leden van het [Nominatieafwegingsteam](/wiki/People/The_Team/Nomination_Assessment_Team) (*NAT*) mogen ook beatmaps nomineren, maar dit is niet hun belangrijkste taak.
+Leden van het [Nominatieafwegingsteam](/wiki/People/Nomination_Assessment_Team) (*NAT*) mogen ook beatmaps nomineren, maar dit is niet hun belangrijkste taak.
 
 Het wordt aanbevolen om eerst mods te ontvangen voordat je nominaties aanvraagt aan de BNs, maar in principe zijn enkel vijf hypes noodzakelijk.
 
@@ -30,7 +30,7 @@ Het wordt aanbevolen om eerst mods te ontvangen voordat je nominaties aanvraagt 
 
 Beatmaps die twee nominaties krijgen worden verplaatst naar de [Gekwalificeerd](/wiki/Beatmap/Category#qualified)-beatmapcategorie voor minstens 7 dagen. Gekwalificeerde beatmaps hebben ranglijsten, maar belonen spelers niet met [prestatiepunten (pp)](/wiki/Performance_points).
 
-Deze beatmapcategorie bestaat om beatmaps een grotere belangstelling te geven aan de osu! community zodat eventuele problemen hopelijk ontdekt worden. Problemen kunnen gemeld worden aan de leden van de BNs en NAT van de beatmappagina. In tegenstelling tot Pending (In Afwachting)-beatmaps kunnen Gekwalificeerde beatmaps niet meer aangepast worden door de maker. Feedback kan dus enkel toegepast worden na een [nominatiereset](#nomination-resets).
+Deze beatmapcategorie bestaat om beatmaps een grotere belangstelling te geven aan de osu! community zodat eventuele problemen hopelijk ontdekt worden. Problemen kunnen gemeld worden aan de leden van de BNs en NAT van de beatmappagina. In tegenstelling tot Pending (In Afwachting)-beatmaps kunnen Gekwalificeerde beatmaps niet meer aangepast worden door de maker. Feedback kan dus enkel toegepast worden na een [nominatiereset](#nominatieresets).
 
 ### Verplaatsing naar Ranked
 
@@ -42,9 +42,9 @@ Als een beatmap gediskwalificeerd wordt, wordt de positie van die beatmap in de 
 
 Nominatieresets zorgen ervoor dat modders, BNs en NAT-leden de meest recente versie van een beatmap controleren voordat ze  in de Ranked-wachtrij geplaatst wordt.
 
-Nominaties kunnen gereset worden als de maker van een beatmap de set updatet of als een lid van de BNs of het NAT een probleem vindt in een genomineerde beatmap. Nominaties kunnen ook gereset worden door het [Wereldwijde Moderatieteam](/wiki/People/The_Team/Global_Moderation_Team) als de beatmap ongepaste inhoud bevat. Als een beatmap gekwalificeeerd is wanneer de nominaties hiervan gereset worden zal de set gediskwalificeerd worden waardoor ze uit de ranked-wachtrij verwijderd wordt.
+Nominaties kunnen gereset worden als de maker van een beatmap de set updatet of als een lid van de BNs of het NAT een probleem vindt in een genomineerde beatmap. Nominaties kunnen ook gereset worden door het [Wereldwijde Moderatieteam](/wiki/People/Global_Moderation_Team) als de beatmap ongepaste inhoud bevat. Als een beatmap gekwalificeeerd is wanneer de nominaties hiervan gereset worden zal de set gediskwalificeerd worden waardoor ze uit de ranked-wachtrij verwijderd wordt.
 
-Leden van de BNs en het NAT geven soms een [veto](/wiki/People/The_Team/Beatmap_Nominators/Beatmap_Veto) voor beatmaps wanneer ze ervan overtuigd zijn dat de set kwaliteitsproblemen heeft die niet gerelateerd zijn aan de Rankingcriteria.
+Leden van de BNs en het NAT geven soms een [veto](/wiki/People/Beatmap_Nominators/Beatmap_Veto) voor beatmaps wanneer ze ervan overtuigd zijn dat de set kwaliteitsproblemen heeft die niet gerelateerd zijn aan de Rankingcriteria.
 
 ## Ranked
 

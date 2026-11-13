@@ -1,5 +1,5 @@
 ---
-outdated: true
+outdated_translation: true
 outdated_since: 1c921bb312848bb2dce76217542281d0db5a6825
 ---
 
@@ -39,13 +39,13 @@ Eğer herhangi bir noktada kafanız karıştıysa ve/veya daha fazla yardıma ih
 
 2. Dosyaların üzerinde, branch'ınızın `ppy:master` ile kıyaslandığında "behind" *(geride)*, "ahead" *(ileride)*, veya "even" *(eşit)* olduğunu belirten bir yazı bulunur. Eğer "behind" veya "ahead and behind" gibi bir yazıyla karşılaşırsanız, behind-commit'lerin sayısının bir önemi olmaksızın, branch'ınız güncel değildir.
 
-   ![](img/fork-even.jpg "İyi \(Commit yok ve güncel\)")
+   ![](img/fork-even.jpg "İyi (Commit yok ve güncel)")
 
-   ![](img/fork-ahead.jpg "İyi \(Bunlar sizin commit'leriniz\)")
+   ![](img/fork-ahead.jpg "İyi (Bunlar sizin commit'leriniz)")
 
-   ![](img/fork-behind.jpg "Muhtemelen kötü \(Branch'ınız güncel değil\)")
+   ![](img/fork-behind.jpg "Muhtemelen kötü (Branch'ınız güncel değil)")
 
-   ![](img/fork-ahead-behind.jpg "Muhtemelen kötü \(Branch'ınız sizin commit'lerinizle güncel değil\)")
+   ![](img/fork-ahead-behind.jpg "Muhtemelen kötü (Branch'ınız sizin commit'lerinizle güncel değil)")
 
 3. Eğer zaten değiştirilmiş bir dosyayı düzenlemeyecekseniz, bu pek bir sorun değil. Ancak ne kadar çok commit gerideyseniz, değiştirilmiş dosyalarla karşılaşma durumunuz bir o kadar yüksek.
 
@@ -57,7 +57,7 @@ Eğer herhangi bir noktada kafanız karıştıysa ve/veya daha fazla yardıma ih
 
 Bu noktada iki seçeneiğiniz var:
 
-- [GitHub Web Arayüzü](/wiki/osu!_wiki/Contribution_guide/GitHub_Web_Interface) - çevrimiçi düzenleyin; tekli makale düzenleme için en iyisi
+- [GitHub Web Arayüzü](/wiki/osu!_wiki/Contribution_guide/GitHub_web-based_editor) - çevrimiçi düzenleyin; tekli makale düzenleme için en iyisi
 - [GitHub Masaüstü](/wiki/osu!_wiki/Contribution_guide/GitHub_Desktop) - yerel düzenleyin; tekli ve/veya çoklu makale düzenleme için en iyisi (bu resimleri veya dosyaları karşıya yükleme, silme veya taşımayı da içerir)
 
 *Not: Düzenleme için yukarıda listelenen iki seçeneğe sınırlı değilsiniz. Rehberi kısa ve öz tutmak adına, bu makalelerde diğer araç-gereçlerin kullanımından detaylıca hatta hiç bahsedilmeyecek. GitHub Web Arayüzü ve GitHub Masaüstü'nün halihazırda yaptıklarını aşağı yukarı yapan başka üçüncü parti uygulamalar da mevcut.*

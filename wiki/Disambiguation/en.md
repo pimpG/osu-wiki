@@ -1,6 +1,6 @@
 # Disambiguation
 
-**Disambiguation** articles in the [osu! wiki](/wiki/Main_Page) highlight ambiguous terms and explain their various possible meanings.
+**Disambiguation** articles in the [osu! wiki](/wiki/Main_page) highlight ambiguous terms and explain their various possible meanings.
 
 A regular article, if it has a similar title, must use the ["For other uses" hatnote](/wiki/Article_styling_criteria/Formatting#for-other-uses) with a link to its disambiguation page.
 
@@ -14,9 +14,12 @@ A regular article, if it has a similar title, must use the ["For other uses" hat
 - [Mod](Mod)
 - [NC](NC)
 - [NM](NM)
-- [Offset](Offset)
+- [Note](Note)
 - [osu!](osu!)
 - [Ouendan](Ouendan)
 - [Rank](Rank)
+- [Score](Score)
+- [Snapping](Snapping)
 - [Star](Star)
+- [Timing](Timing)
 - [Version](Version)

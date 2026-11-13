@@ -12,13 +12,13 @@ tags:
 
 ![BanchoBot'un kullanıcı kartı](img/BanchoBot.jpg "BanchoBot'un kullanıcı kartı")
 
-**BanchoBot** (*Bancho* olarak da adlandırılır) oyun-içi sohbette oyun ile ilgili duyuru mesajları göndererek (örn. toplam oynama, tekrarlama sayısı, gibi), ve birtakım komutlara yanıt vererek onlara yardımcı olan osu! için yapılmış bir çevrimiçi sohbet botudur. [Bancho IRC](/wiki/Internet_Relay_Chat) (Internet Relay Chat) altyapısının sağlayıcısı [Echo](https://osu.ppy.sh/users/431) tarafından programlanmıştır.
+**BanchoBot** (*Bancho* olarak da adlandırılır) oyun-içi sohbette oyun ile ilgili duyuru mesajları göndererek (örn. toplam oynama, tekrarlama sayısı, gibi), ve birtakım komutlara yanıt vererek onlara yardımcı olan osu! için yapılmış bir çevrimiçi sohbet botudur. [Bancho IRC](/wiki/Community/Internet_Relay_Chat) (Internet Relay Chat) altyapısının sağlayıcısı ::{ flag=NZ }:: [Echo](https://osu.ppy.sh/users/431) tarafından programlanmıştır.
 
 BanchoBot aynı zamanda kendine ait bir [osu! profiline](https://osu.ppy.sh/users/3) ve [Twitter hesabına](https://twitter.com/banchoboat) sahiptir.
 
 ## Komutlar
 
-*Oyun-içi sohbet komutlarının bir listesi için, bakınız: [Sohbet Konsolu](/wiki/Chat_Console#komut-listesi)*
+*Oyun-içi sohbet komutlarının bir listesi için, bakınız: [Sohbet Konsolu](/wiki/Client/Interface/Chat_console#komut-listesi)*
 
 BanchoBot oyuncu komutlarına belirli bir şekilde yazılmış mesajlar aracılığıyla yanıt verebilir. Tüm BanchoBot komutları bir ünlem işareti (`!`) ve sonrasında gelen bir komut ismi ile başlar (büyük-küçük harf önemsiz, arada boşluk olmadan). Bu komutlar sohbet kanallarında ve BanchoBot ile açılan özel mesaj sekmelerinde kullanılabilir.
 
@@ -135,13 +135,13 @@ Tüm BanchoBot komutlarının bir listesi aşağıda mevcuttur:
 
 ### Report
 
-*Neyin bildirmeye değer olup olmadığı hakkında bilgi için, bakınız: [Olumsuz Davranışı Bildirme](/wiki/Reporting_Bad_Behaviour)*
+*Neyin bildirmeye değer olup olmadığı hakkında bilgi için, bakınız: [Olumsuz Davranışı Bildirme](/wiki/Reporting_bad_behaviour)*
 
 ```
 !report <kullanıcı> <sebep>
 ```
 
-`!report` bir kullanıcının uygunsuz davranışları hakkında [Küresel Moderasyon Takımını](/wiki/People/The_Team/Global_Moderation_Team) bilgilendirir. Eğer bir kullanıcının kullanıcı isminde boşluklar varsa, onların yerine bir alt çizgi yerleştirin (örn. `really cool username` -> `really_cool_username`). Bir moderatörü bildirmek için, [hesap destek ekibiyle](/wiki/People/The_Team/Account_support_team#support@ppy.sh) iletişime geçin. Normal bir kullanıcıyı BanchoBot aracılığıyla bildirmenin bir örneği aşağıdadır:
+`!report` bir kullanıcının uygunsuz davranışları hakkında [Küresel Moderasyon Takımını](/wiki/People/Global_Moderation_Team) bilgilendirir. Eğer bir kullanıcının kullanıcı isminde boşluklar varsa, onların yerine bir alt çizgi yerleştirin (örn. `really cool username` -> `really_cool_username`). Bir moderatörü bildirmek için, [hesap destek ekibiyle](/wiki/People/Account_support_team#support@ppy.sh) iletişime geçin. Normal bir kullanıcıyı BanchoBot aracılığıyla bildirmenin bir örneği aşağıdadır:
 
 ```
 13:10 pippi: !report flyte spamming in #japanese

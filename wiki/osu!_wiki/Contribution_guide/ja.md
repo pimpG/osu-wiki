@@ -1,5 +1,5 @@
 ---
-outdated: true
+outdated_translation: true
 outdated_since: 1c921bb312848bb2dce76217542281d0db5a6825
 ---
 
@@ -39,13 +39,13 @@ osu! wikiの改善に興味を持ってくださりありがとうございま�
 
 2. ファイルリストの上に、あなたのブランチが`ppy:master`ブランチと比べて遅れている(behind)、進んでいる(ahead)、または同じ状態にある(even)かが表示されます。もし遅れたコミットと一緒に"behind"もしくは"ahead and behind"と表示されている場合、あなたのブランチは過去のバージョンです。
 
-   ![](img/fork-even.jpg "OK \(No commits and not outdated\)")
+   ![](img/fork-even.jpg "OK (No commits and not outdated)")
 
-   ![](img/fork-ahead.jpg "OK \(These are your commits\)")
+   ![](img/fork-ahead.jpg "OK (These are your commits)")
 
-   ![](img/fork-behind.jpg "Potentially bad \(Your branch is outdated\)")
+   ![](img/fork-behind.jpg "Potentially bad (Your branch is outdated)")
 
-   ![](img/fork-ahead-behind.jpg "Potentially bad \(Your branch is outdated with your commits\)")
+   ![](img/fork-ahead-behind.jpg "Potentially bad (Your branch is outdated with your commits)")
 
 3. もし他の人によってすでに変更されたファイルを変更する予定がない場合、これはさほど大きな問題ではありません。
 
@@ -57,7 +57,7 @@ osu! wikiの改善に興味を持ってくださりありがとうございま�
 
 編集する方法は大きく2つあります。
 
-- [GitHub Web Interface](/wiki/osu!_wiki/Contribution_guide/GitHub_Web_Interface) - オンラインで編集します。一人で編集をするのに適しています。
+- [GitHub Web Interface](/wiki/osu!_wiki/Contribution_guide/GitHub_web-based_editor) - オンラインで編集します。一人で編集をするのに適しています。
 - [GitHub Desktop](/wiki/osu!_wiki/Contribution_guide/GitHub_Desktop) - ローカルで編集します。これは複数人で編集するのに適しています。（特に画像やファイルを移動したり削除したりするのに適しています。）
 
 *ちなみに: 編集するのにこれらの方法しか使ってはいけないわけではありません。このガイドを短く簡潔にするために、ここでは他のツールについて多くは語りません。他にも上の２つのような働きをするアプリケーションが存在します。*

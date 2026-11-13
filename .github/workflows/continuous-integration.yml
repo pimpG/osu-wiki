@@ -1,80 +1,134 @@
 name: osu-wiki continuous integration
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
     branches:
       - master
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
+  precondition:
+    name: Determine if CI should run
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+    outputs:
+      should_run_checks: ${{ steps.calc.outputs.should_run_checks }}
+    steps:
+      - name: Determine if CI should run
+        id: calc
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const action = context.payload.action;
+            if (action != 'edited') {
+              core.setOutput('should_run_checks', 'true');
+              console.log('PR status or contents have changed => will run checks');
+              return;
+            }
+
+            const FLAGS = ['SKIP_REMARK', 'SKIP_WIKILINK_CHECK'];
+            const oldBody = context.payload.changes?.body?.from || '';
+            const newBody = context.payload.pull_request?.body || '';
+            const hasChangedFlags = FLAGS.some(flag => oldBody.includes(flag) != newBody.includes(flag));
+            if (hasChangedFlags) {
+              console.log('PR flags have changed => will run checks');
+              core.setOutput('should_run_checks', 'true');
+              return;
+            }
+
+            // Only previously successful checks must be skipped. It is possible for a check to fail due to
+            // infrastructure issues or the contents of the PR; in this case, it must run as per usual instead of
+            // masking the error even if the flags haven't changed.
+
+            const { owner, repo } = context.repo;
+            const { data: thisRun } = await github.rest.actions.getWorkflowRun({
+              owner, repo, run_id: context.runId,
+            });
+            const { data } = await github.rest.actions.listWorkflowRuns({
+              owner, repo,
+              workflow_id: thisRun.workflow_id,
+              head_sha: context.payload.pull_request.head.sha,
+              status: 'completed',
+            });
+
+            const previous = data.workflow_runs.find(run => run.id !== context.runId);
+            console.info(
+              'Previous workflow run for this commit: ' + JSON.stringify(previous?.url) +
+                ', conclusion: ' + JSON.stringify(previous?.conclusion)
+            );
+
+            const isFailureOrUnknown = previous?.conclusion !== 'success';
+            core.setOutput('should_run_checks', String(isFailureOrUnknown));
+
   ci:
     name: changed files
+    needs: precondition
+    if: ${{ needs.precondition.outputs.should_run_checks == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: sparse checkout
-        shell: bash
+      # Clone the repo and only fetch the commit that triggered the workflow (omitted default of `fetch-depth: 1`).
+      # To get the full list of changed files and avoid `fetch-depth: 0` (fetches the whole history) or GitHub API
+      # (returns <=3,000 changed files), we manually fetch `master` later.
+      - uses: actions/checkout@v4
+
+      - name: set up Node.js
+        id: setup-node
+        uses: actions/setup-node@v4
+        with:
+          cache: npm
+          node-version: 20
+
+      - name: load node_modules from cache
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}-${{ steps.setup-node.outputs.node-version }}
+
+      - name: "if cache is outdated: install node.js dependencies"
+        if: ${{ steps.cache-node-modules.outputs.cache-hit != 'true' }}
+        run: npm ci
+
+      - name: Install package manager (Python)
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install dependencies (Python)
+        run: uv sync
+
+      - name: detect changed files
+        id: detect-changed-files
+        # Use NUL as a separator to prevent filenames containing spaces and punctuation marks from tripping up the scripts.
         run: |
-          # repository url, utilising provided github credentials
-          REPOSITORY="https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}.git"
-          # merge commit ref name (with refs/heads/ stripped out)
-          BRANCH="${GITHUB_REF/#refs\/heads\//}"
+          changed_files="$(mktemp)"
+          git fetch --no-tags --depth=1 origin master
+          git diff --diff-filter=d --name-only --no-renames -z origin/master HEAD > "$changed_files"
+          printf 'CHANGED_FILES=%s\n' "$changed_files" >>"$GITHUB_ENV"
 
-          git version
-          # clone without blobs; don't checkout to avoid fetching them anyway
-          git clone --filter=blob:none --no-checkout ${REPOSITORY} .
-          git config --local gc.auto 0
-
-          # set up sparse checkout
-          git sparse-checkout init
-          git sparse-checkout set '**/*.md' '**/.remark*' '**/*.json' '**/*.yaml'
-
-          # fetch the merge commit ref
-          git -c protocol.version=2 fetch --no-tags --prune --progress --depth=2 origin +${GITHUB_SHA}:refs/remotes/origin/${BRANCH}
-          git checkout --progress --force -B $BRANCH refs/remotes/origin/$BRANCH
-
-      - name: inspect binary file sizes
-        shell: bash
-        run: |
-          WARN_ON_SIZE=500000
-          ERROR_ON_SIZE=1000000
-          EXIT=0
-
-          while read file
-          do
-              echo "Checking ${file}..."
-              # git ls-tree will output:
-              # (file mode) (file type) (blob hash)<TAB>(file name)
-              # we're interested in the hash to pull the file's size using cat-file
-              hash=`git ls-tree ${{ github.sha }} "${file}" | awk -F ' ' '{ print $3 }'`
-              filesize=`git cat-file -s ${hash} 2>/dev/null`
-
-              if [[ ${filesize} -ge ${ERROR_ON_SIZE} ]]; then
-                  echo "::error file=${file}::The size of the file exceeds 1MB. Compress it to optimise performance."
-                  EXIT=1
-              elif [[ ${filesize} -ge ${WARN_ON_SIZE} ]]; then
-                  echo "::warning file=${file}::The size of the file exceeds 500kB. Consider compressing it to optimise performance."
-              else
-                  echo "::debug::File ${file} is ok."
-              fi
-          done < <(git diff --numstat --no-renames --diff-filter=d ${{ github.sha }}^ ${{ github.sha }} | grep -Poe '-\t-\t\K.+')
-          # git diff --numstat will output -<TAB>-<TAB>$filename for blobs
-
-          exit ${EXIT}
-
-      - name: setup node
-        uses: actions/setup-node@v1
-
-      - name: install remark
-        run: npm install
+      - name: check file sizes
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        run: xargs -0r meta/check-file-sizes.sh <"$CHANGED_FILES"
 
       - name: run remark on changed files
-        # xargs is ran with -d '\n' to properly handle single and double quotes
-        # stdout is discarded (remark prints files being checked there)
-        run: git diff --diff-filter=d --name-only ${{ github.sha }}^ ${{ github.sha }} '*.md' | xargs -d '\n' npx remark -qf --no-stdout --silently-ignore --report=vfile-reporter-position --color
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        continue-on-error: ${{ contains(github.event.pull_request.body, 'SKIP_REMARK') }}
+        run: |
+          grep -z '\.md$' <"$CHANGED_FILES" | \
+          REPORTER=vfile-reporter-github-action xargs -0r meta/remark.sh
 
-      - name: run yamllint on all yaml files
-        uses: ibiqlik/action-yamllint@v1.0.0
-        with:
-          config_file: .yamllint.yaml
+      - name: run yamllint on .yaml and .md files
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        run: uv run osu-wiki-tools check-yaml --format github
+
+      - name: find broken wikilinks
+        if: ${{ !cancelled() && steps.detect-changed-files.outcome == 'success' }}
+        continue-on-error: ${{ contains(github.event.pull_request.body, 'SKIP_WIKILINK_CHECK') }}
+        run: uv run osu-wiki-tools check-links --all --format github

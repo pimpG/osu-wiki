@@ -1,4 +1,5 @@
-# need to update alumni.roles.tournaments and gmt.areas.tournaments
+no_native_review: true
+
 separator: ", "
 alumni:
   roles:
@@ -7,61 +8,28 @@ alumni:
     chat: moderador de chat
     dev: osu!dev
     media: criador do osu!media
-    tournaments: torneios
     support: equipe de suporte
+    tournaments: torneios
 gmt:
   all_mods: todos os moderadores
   areas:
     beatmap: moderação de beatmap
     chat: moderação de chat
     forum: moderação de fórum
+    general: moderação geral
     team: presença oficial da equipe
     dev: desenvolvimento do osu!
     player: suporte ao jogador
     support: suporte técnico
-    tournaments: torneios
+    tournaments: administração de torneios
     wiki: administração da wiki
     mapping: moderação da comunidade de mapping/modding
+    skinning: moderação da comunidade de skinning
+    leadership: liderança de equipe
 nat:
-  areas:
-    communication: comunicação
-    evaluation: avaliação
-    moderation: moderação
+  subgroups:
     structural: estrutural
+    evaluation: avaliação
+    leadership: liderança
 languages:
   partial: um pouco de <language>
-  ar: Árabe
-  bg: Búlgaro
-  bn: Bengali
-  ca: Catalão
-  da: Dinamarquês
-  de: Alemão
-  el: Grego
-  es: Espanhol
-  et: Estoniano
-  fi: Finlandês
-  fil: Filipino
-  fr: Francês
-  gl: Galego
-  hr: Croata
-  hu: Húngaro
-  id: Indonésio
-  it: Italiano
-  ja: Japonês
-  ko: Coreano
-  ms: Malaio
-  nl: Holandês
-  no: Norueguês
-  pl: Polonês
-  pt: Português
-  ro: Romeno
-  ru: Russo
-  sr: Sérvio
-  sv: Sueco
-  te: Telugu
-  th: Tailandês
-  tr: Turco
-  ur: Urdu
-  vi: Vietnamita
-  yue: Cantonês
-  zh: Chinês

@@ -1,193 +1,225 @@
 ---
-no_native_review: true
+outdated_translation: true
+outdated_since: 29a5a9f474335b22a431cd6065db4f5dd87e951e
 ---
 
 # Mise en forme
 
-*Pour les normes de rédaction, voir : [Critères de style des articles/Rédaction](../Writing)*
+::: alert-note
+**Remarque** : Pour les normes de rédaction, voir [Critères de mise en forme des articles/Rédaction](../Writing)
+:::
 
-*Note : Cet article utilise [RFC 2119](https://tools.ietf.org/html/rfc2119) pour décrire les niveaux d'exigence.*
+::: alert-notice
+**Remarque** : Cet article utilise [RFC 2119](https://tools.ietf.org/html/rfc2119) pour décrire les niveaux d'exigence.
+:::
 
-## Locales
+## Localisations
 
-Vous trouverez ci-dessous la liste des langues correctement supportées pour le wiki :
+Vous trouverez ci-dessous la liste des langues correctement prises en charge par le wiki :
 
-| Nom du fichier | Nom en Français | Écriture native |
+| Nom du fichier | Nom du pays | Écriture native |
 | :-- | :-- | :-- |
 | `en.md` | Anglais | English |
 | `ar.md` | Arabe | اَلْعَرَبِيَّةُ |
-| `be.md` | Biélorusse | Беларуская мова |
-| `bg.md` | Bulgare | Български |
-| `cs.md` | Tchèque | Česky |
-| `da.md` | Danois | Dansk |
-| `de.md` | Allemand | Deutsch |
-| `gr.md` | Grec | Ελληνικά |
-| `es.md` | Espagnol | Español |
-| `fi.md` | Finlandais | Suomi |
-| `fr.md` | Français | Français |
-| `hu.md` | Hongrois | Magyar |
-| `id.md` | Indonésien | Bahasa Indonesia |
-| `it.md` | Italien | Italiano |
-| `ja.md` | Japonais | 日本語 |
-| `ko.md` | Coréen | 한국어 |
-| `nl.md` | Néerlandais | Nederlands |
-| `no.md` | Norvégien | Norsk |
-| `pl.md` | Polonais | Polski |
-| `pt.md` | Portugais | Português |
-| `pt-br.md` | Portugais du Brésil | Português (Brasil) |
-| `ro.md` | Roumain | Română |
-| `ru.md` | Russe | Русский |
-| `sk.md` | Slovaque | Slovenčina |
-| `sv.md` | Suédois | Svenska |
-| `th.md` | Thaïlandais | ไทย |
-| `tr.md` | Turc | Türkçe |
-| `uk.md` | Ukrainien | Українська мова |
-| `vi.md` | Vietnamien | Tiếng Việt |
-| `zh.md` | Chinois (simplifié) | 简体中文 |
-| `zh-tw.md` | Chinois traditionnel (Taïwan) | 繁體中文（台灣） |
+| `be.md` | Biélorussie | Беларуская мова |
+| `bg.md` | Bulgarie | Български |
+| `ca.md` | Catalogne | Català |
+| `cs.md` | République tchèque | Česky |
+| `da.md` | Danemark | Dansk |
+| `de.md` | Allemagne | Deutsch |
+| `el.md` | Grèce | Ελληνικά |
+| `es.md` | Espagne | Español |
+| `fi.md` | Finlande | Suomi |
+| `fil.md` | Philippines | Wikang Filipino |
+| `fr.md` | France | Français |
+| `he.md` | Hébreu | עִבְרִית |
+| `hu.md` | Hongrie | Magyar |
+| `id.md` | Indonésie | Bahasa Indonesia |
+| `it.md` | Italie | Italiano |
+| `ja.md` | Japon | 日本語 |
+| `ko.md` | Corée | 한국어 |
+| `lt.md` | Lituanie | Lietuvių kalba |
+| `nl.md` | Pays-Bas | Nederlands |
+| `no.md` | Norvège | Norsk |
+| `pl.md` | Pologne | Polski |
+| `pt.md` | Portugal | Português |
+| `pt-br.md` | Portugal du Brésil | Português (Brasil) |
+| `ro.md` | Roumanie | Română |
+| `ru.md` | Russie | Русский |
+| `sk.md` | Slovaquie | Slovenčina |
+| `sl.md` | Slovénie | Slovenščina |
+| `sr.md` | Serbie | Српски |
+| `sv.md` | Suède | Svenska |
+| `th.md` | Thaïlande | ไทย |
+| `tr.md` | Turquie | Türkçe |
+| `uk.md` | Ukraine | Українська мова |
+| `vi.md` | Vietnam | Tiếng Việt |
+| `zh.md` | Chinois simplifié | 简体中文 |
+| `zh-tw.md` | Chinois traditionnel (Taiwan) | 繁體中文（台灣） |
 
-*Note : Le site web donnera aux lecteurs la version d'un article dans la langue qu'ils ont choisie. Si celle-ci n'est pas disponible, la version anglaise sera donnée.*
+::: alert-notice
+**Note**
+Le site web donnera aux lecteurs la version d'un article dans la langue qu'ils ont choisie. Si elle n'est pas disponible, la version anglaise sera donnée.
+:::
 
-### Parité de contenu
+## Première page
 
-Les traductions sont soumises à une stricte parité de contenu avec leur article anglais, ce qui signifie qu'elles doivent avoir le même message, indépendamment de la grammaire et de la syntaxe. Toute modification du sens des traductions doit être accompagnée de modifications équivalentes de l'article anglais.
+La page de garde doit être placée tout en haut du fichier. Elle est écrite en [YAML](https://fr.wikipedia.org/wiki/YAML#Exemple) et décrit des informations supplémentaires sur l'article. Elle doit être entourée de trois traits d'union (`---`) sur les lignes qui la précèdent et la suivent, et une ligne vide doit la suivre avant l'en-tête du titre.
 
-Dans certains cas, il est permis de différer le contenu :
+### Articles nécessitant de l'aide
 
-- Articles rédigés à l'origine dans une langue autre que l'anglais (dans ce cas, l'anglais doit faire office de traduction)
-- Explications de mots anglais qui sont des termes courants dans la communauté d'osu!
-- Liens externes
-- Tags
-- Explications spécifiques aux sous-communautés
+::: alert-notice
+**Note**
+Évitez de traduire des articles en anglais avec ce tag. En outre, ce tag devrait être ajouté lorsque la traduction a besoin d'être nettoyée.
+:::
 
-## Page de garde
-
-La page de garde doit être placée tout en haut du fichier. Elle est écrite en [YAML](https://fr.wikipedia.org/wiki/YAML#Exemple) et décrit des informations supplémentaires sur l'article. Elle doit être entourée de trois traits d'union (`---`) sur les lignes qui la précèdent et la suivent, et d'une ligne vide avant l'intitulé du titre.
-
-### Articles nécessitant une aide
-
-*Note : Évitez de traduire les articles anglais avec cette balise. En outre, cette balise doit être ajoutée lorsque la traduction nécessite un nettoyage propre.*
-
-La balise `needs_cleanup` peut être ajoutée aux articles qui nécessitent une réécriture ou une aide à la mise en forme. Il est également acceptable d'ouvrir un problème sur GitHub dans ce but. Cette balise doit être écrite comme indiqué ci-dessous :
+Le tag `needs_cleanup` peut être ajoutée aux articles qui ont besoin d'une aide à la réécriture ou à la mise en forme. Il est également possible d'ouvrir une issue sur GitHub à cette fin. Ce tag doit être rédigé comme indiqué ci-dessous :
 
 ```yaml
 needs_cleanup: true
 ```
 
-Lorsque vous ajoutez cette balise à un article, vous devez également ajouter des [commentaires](#commentaires) pour expliquer ce qu'il faut faire pour supprimer la balise.
+Lors de l'ajout de ce tag à un article, il convient également d'ajouter des [commentaires](#commentaires) pour expliquer ce qu'il faut faire pour supprimer le tag.
 
 ### Articles obsolètes
 
-*Note : Évitez de traduire les articles anglais avec cette balise. Si l'article anglais a cette balise, la traduction doit également avoir cette balise*.
+::: alert-notice
+**Note**
+Évitez de traduire des articles en anglais avec ce tag. Si l'article anglais comporte ce tag, la traduction doit également comporter ce tag.
+:::
 
-Les articles traduits qui sont obsolètes doivent utiliser la balise `outdated` lorsque la variante anglaise est mise à jour. Les articles anglais peuvent également devenir obsolètes lorsque le contenu qu'ils contiennent est trompeur ou n'est plus pertinent. Cette balise doit être écrite comme indiqué ci-dessous :
+Les articles en anglais peuvent devenir obsolètes lorsque leur contenu est trompeur ou n'est plus pertinent. Ces articles doivent recevoir un tag `outdated`, qui doit être rédigé comme indiqué ci-dessous :
 
 ```yaml
 outdated: true
 ```
 
-Lorsque vous ajoutez cette balise à un article, vous devez également ajouter des [commentaires](#commentaires) pour expliquer ce qui doit être mis à jour pour supprimer la balise.
+Lors de l'ajout de ce tag à un article, il convient également d'ajouter des [commentaires](#commentaires) pour expliquer ce qu'il faut faire pour supprimer le tag.
 
-### Tags
+### Traductions obsolètes
 
-Les tags aident le moteur de recherche du site à mieux rechercher les articles. Les balises doivent être rédigées dans la même langue que l'article et inclure la liste originale des balises. Les tags doivent utiliser des lettres minuscules, le cas échéant.
+Les articles traduits qui sont obsolètes doivent utiliser le tag `outdated_translation` lorsque la variante anglaise est mise à jour, à l'exception des modifications mineures de formulation, des ajustements de grammaire et autres, qui n'affectent pas le sens de l'article. Celui-ci doit être rédigé comme indiqué ci-dessous :
 
-Par exemple, un article intitulé "Discussions sur la beatmap" peut inclure les balises suivantes :
+```yaml
+outdated_translation: true
+```
+
+Lorsque les traductions sont obsolètes, elles doivent également recevoir un tag `outdated_since` qui pointe vers le premier commit où la version anglaise a été mise à jour. Celui-ci doit être rédigé comme indiqué ci-dessous :
+
+```yaml
+outdated_since: 29eac89cd535f8b071ca000af8fe4f0be22bdc9b
+```
+
+### Tags des articles
+
+Les tags aident le moteur de recherche du site web à mieux interroger les articles. Les tags doivent être rédigés dans la même langue que l'article et inclure la liste originale des tags. Les tags doivent être écrits en minuscules, le cas échéant.
+
+Par exemple, un article intitulé "Discussion de la beatmap" peut inclure les tags suivants :
 
 ```yaml
 tags:
-  - discussions sur la beatmap
+  - discussion de la beatmap
   - modding V2
   - MV2
 ```
 
-### Traductions sans révision
+### Traductions sans review
 
-*Note : Les responsables du wiki détermineront et appliqueront cette marque avant la fusion.*
+::: alert-notice
+**Note**
+Les responsables du wiki détermineront et appliqueront ce tag avant le merge.
+:::
 
-Il arrive que des traductions soient ajoutées au wiki sans être révisées par d'autres personnes de langue maternelle. Dans ce cas, la marque `no_native_review` est ajoutée pour faire savoir aux futurs traducteurs qu'il faudra peut-être la vérifier à nouveau. Cette balise doit être écrite comme indiqué ci-dessous :
+Il arrive que des traductions soient ajoutées au wiki sans être review par d'autres natifs de la langue. Dans ce cas, le tag `no_native_review` est ajouté pour faire savoir aux futurs traducteurs qu'il faudra peut-être la vérifier à nouveau :
 
 ```yaml
 no_native_review: true
 ```
 
-## Désignation de l'article
+Par ailleurs, le tag `no_native_review_since` peut être utilisé pour indiquer le commit où la première édition non révisée a été introduite, ainsi que les personnes qui ont édité la traduction par la suite :
 
-*Voir aussi : [Noms de dossiers](#noms-de-dossiers) et [Titres](#titres)*
+```yaml
+no_native_review_since: 5539d9e8c943605a7be186dc3f5ab10569275b05 Doryan
+```
 
-Les titres des articles doivent être au singulier et utiliser la casse. Pour plus de détails, consulter l'[article sur les conventions de dénomination de Wikipédia](https://en.wikipedia.org/wiki/Wikipedia:Naming_conventions_(plurals)).
+## Noms des articles
 
-Les titres des articles doivent correspondre au nom du dossier dans lequel ils se trouvent (les espaces peuvent remplacer les traits de soulignement (`_`) le cas échéant). Si le nom du dossier change, le titre de l'article doit être modifié en conséquence et vice versa.
+*Voir aussi : [Noms de dossiers](#noms-des-dossiers) et [Titres](#titres)*
+
+Les titres d'articles doivent être au singulier et utiliser la majuscule. Voir [l'article sur les conventions de noms sur Wikipédia](https://en.wikipedia.org/wiki/Wikipedia:Naming_conventions_(plurals)) pour plus de détails.
+
+Les titres des articles doivent correspondre au nom du dossier dans lequel ils se trouvent (les espaces peuvent remplacer les underscores (`_`) le cas échéant). Si le nom du dossier change, le titre de l'article doit être modifié en conséquence, et vice versa.
 
 ---
 
-Les articles sur les concours et les tournois constituent une exception. Le nom du dossier doit utiliser des abréviations, des acronymes ou des initiales. Le titre de l'article doit être le nom complet du concours ou du tournoi.
+Les articles sur les concours et les tournois constituent une exception. Le nom du dossier ne doit pas utiliser d'abréviations, d'acronymes ou d'initiales. Le titre de l'article doit être le nom complet du concours ou du tournoi.
 
 ## Structure des dossiers et des fichiers
 
-### Noms de dossiers
+### Noms des dossiers
 
-*Voir aussi : [Désignation de l'article](#désignation-de-l'article)*
+*Voir aussi : [Noms des articles](#noms-des-articles)*
 
-Les noms de dossiers doivent être en anglais et respecter la casse.
+Les noms des dossiers doivent être rédigés en anglais et respecter les majuscules et minuscules.
 
-Les noms de dossiers ne doivent utiliser que ces caractères :
+Les noms des dossiers ne peuvent utiliser que ces caractères :
 
-- les lettres majuscules et minuscules
-- les nombres
-- les traits de soulignement (`_`)
-- les traits d'union (`-`)
-- les points d'exclamation (`!`)
+- lettres majuscules et minuscules
+- chiffres
+- underscores (`_`)
+- tirets (`-`)
+- points d'exclamation (`!`)
 
-### Noms des fichiers d'articles
+### Nom du fichier des articles
 
-Le nom du fichier d'un article peut être trouvé dans la colonne `Nom du fichier` de la section [locales](#locales). L'emplacement d'un article traduit doit être placé dans le même dossier que l'article anglais.
+Le nom du fichier d'un article se trouve dans la colonne `Nom de fichier` de la [section localisations](#localisations). L'emplacement d'un article traduit doit être placé dans le même dossier que l'article anglais.
 
 ### Articles d'index
 
-Les articles d'index doivent être créés si le dossier est destiné à contenir uniquement d'autres articles, et doivent contenir une liste d'articles qui se trouvent dans son propre dossier. Ils peuvent également contenir d'autres informations, telles qu'un paragraphe principal ou des descriptions des articles liés.
+Un article d'index doit être créé si le dossier est destiné à contenir uniquement d'autres articles. Les articles d'index doivent contenir une liste d'articles qui se trouvent dans leur propre dossier. Ils peuvent également contenir d'autres informations, telles qu'un paragraphe d'introduction ou des descriptions des articles liés.
 
 ### Articles de désambiguïsation
 
-Les articles de [désambiguïsation](/wiki/Disambiguation) doivent être placés dans le dossier `/wiki/Disambiguation`. La page principale doit être mise à jour pour les inclure. Voir l'exemple de [Désambiguïsation/Mod](/wiki/Disambiguation/Mod).
+Les articles de [désambiguïsation](/wiki/Disambiguation) doivent être placés dans le dossier `/wiki/Disambiguation`. La page principale doit être mise à jour pour inclure l'article de désambiguïsation. Référez-vous à [Désambiguïsation/Mod](/wiki/Disambiguation/Mod) comme exemple.
 
-Les redirections doivent être mises à jour afin que les mots clés ambigus soient redirigés vers l'article de désambiguïsation.
+Les redirections doivent être mises à jour pour que les mots-clés ambigus soient redirigés vers l'article de désambiguïsation.
 
-Les articles liés à partir d'un article de désambiguïsation doivent avoir une hatnote [pour d'autres utilisations](#for-other-uses).
+Les articles liés à partir d'un article de désambiguïsation doivent avoir une mention [Pour d'autres utilisations](#pour-d'autres-utilisations).
 
 ## HTML
 
-Le HTML ne doit pas être utilisé, à l'exception des [commentaires](#commentaires). La structure de l'article doit être refaite si du HTML est utilisé.
+Le HTML ne doit pas être utilisé, à l'exception des [commentaires](#commentaires). La structure de l'article doit être refaite si le HTML est utilisé.
 
 ### Commentaires
 
-Les commentaires HTML doivent être utilisés pour marquer les tâches à faire, mais peuvent également servir à annoter du texte. Ils doivent être placés sur leur propre ligne, mais peuvent être placés en ligne dans un paragraphe. S'ils sont placés en ligne, le début du commentaire ne doit pas comporter d'espace.
+Les commentaires HTML doivent être utilisés pour marquer les choses à faire, mais ils peuvent également être utilisés pour annoter le texte. Ils doivent être sur leur propre ligne, mais peuvent être placés en ligne dans un paragraphe. S'ils sont placés en ligne, le début du commentaire ne doit pas comporter d'espace.
 
 Mauvais exemple :
 
 ```markdown
-Les commentaires HTML <!-- TODO explain HTML comments --> devraient être utilisés pour marquer les tâches à faire ou annoter le texte.
+Les commentaires HTML <!-- TODO expliquer les commentaires HTML --> devraient être utilisés pour marquer des tâches ou annoter du texte.
 ```
 
-Un bon exemple :
+Bon exemple :
 
 ```markdown
-Les commentaires HTML<!-- TODO explain HTML comments --> devraient être utilisés pour marquer les tâches à faire ou annoter le texte.
+Les commentaires HTML<!-- TODO expliquer les commentaires HTML --> devraient être utilisés pour marquer des tâches ou annoter du texte.
 ```
-
-*Note : Ne pas traduire les commentaires, car ces derniers sont destinés à des changements sur la version anglaise, il n'y a pas lieu de les traduire.*
 
 ## Édition
 
 ### Séquence de fin de ligne
 
-*Attention : Si vous téléchargez des fichiers Markdown en utilisant `CRLF` (retour chariot et saut de ligne) via GitHub, ces fichiers utiliseront `CRLF`. Pour éviter cela, définissez la fin de ligne à `LF` (saut de ligne) avant de télécharger.*
+::: alert-caution
+**Attention**
+Téléverser des fichiers Markdown utilisant `CRLF` (retour à la ligne et saut de ligne) via GitHub aura pour conséquence que ces fichiers utiliseront `CRLF`. Pour éviter cela, définissez la fin de ligne à `LF` (saut de ligne) avant le téléversement.
+:::
 
-Les fichiers Markdown doivent être enregistrés en utilisant la séquence de fin de ligne `LF`.
+Les fichiers Markdown doivent être vérifiés en utilisant la séquence de fin de ligne `LF`.
 
 ### Espacement
 
-La syntaxe Markdown doit être espacée si nécessaire. Toutefois, les titres des articles sont analysés en tant que texte brut et ne doivent donc pas être espacés.
+La syntaxe Markdown doit être espacée si nécessaire. Cependant, les titres d'articles sont analysés comme du texte brut et ne doivent donc pas être espacés.
 
 ### Paragraphes
 
@@ -195,214 +227,291 @@ Chaque paragraphe doit être suivi d'une ligne vide.
 
 ### Sauts de ligne
 
-Les sauts de ligne doivent utiliser une barre oblique inversée (`\`).
+Les sauts de ligne doivent être effectués à l'aide d'un antislash (`\`).
 
 Les sauts de ligne doivent être utilisés avec parcimonie.
 
-## Hatnote
+## Surnotes
 
-*À ne pas confondre avec [Note](#note).*
+::: alert-note
+**Remarque** : A ne pas confondre avec les [notices](#remarque).
+:::
 
-Les hatnotes sont de courtes notes placées en haut d'un article ou d'une section pour aider les lecteurs à naviguer vers des articles connexes ou les informer sur des sujets connexes.
+Les surnotes sont de courtes notes placées en haut d'un article ou d'une section pour aider les lecteurs à naviguer vers des articles associés ou à les informer sur des sujets en rapport avec l'article.
 
-Les hatnotes doivent être en italique et placées immédiatement après le titre. Si plusieurs hatnotes sont utilisées, elles doivent figurer dans le même paragraphe et être séparées par un saut de ligne.
+Les surnotes doivent être en italique et placées immédiatement après le titre. Si plusieurs surnotes sont utilisées, elles doivent figurer dans le même paragraphe et être séparées par un saut de ligne.
 
 ### Page principale
 
-La hatnote *Page principale* dirige le lecteur vers l'article principal d'un sujet. Lorsque cette hatnote est utilisée, elle implique que la section sur laquelle elle se trouve est un résumé de ce dont traite la page liée. Cette hatnote ne doit comporter qu'un seul lien. Elle doit être formatée comme suit :
+La surnote *page principale* renvoit le lecteur à l'article principal d'un sujet. Lorsque cette note est utilisée, elle implique que la section sur laquelle elle se trouve est un résumé de ce que la page liée traite. Cette surnote ne doit comporter qu'un seul lien. Celle-ci doit être formatée comme suit :
 
 ```markdown
-*Page principale : {article}*
+::: alert-note
+**Page principale** : {article}
+:::
 
 *Pages principales : {article} et {article}*
 ```
 
-### Voir aussi
+### Voir également
 
-Les hatnotes *Voir aussi* suggèrent aux lecteurs d'autres points d'intérêt d'un article ou d'une section donnée. Elles doivent être formatées comme suit :
+Les surnotes *voir également* suggèrent aux lecteurs d'autres points d'intérêt d'un article ou d'une section donnée. Elles doivent être formatées comme suit :
 
 ```markdown
-*Voir aussi : {article}*
+::: alert-note
+**Voir également** : {article}
+:::
 
-*Voir aussi : {article} et {article}*
+::: alert-note
+**Voir également** : {article} et {article}
+:::
 ```
 
-### Pour voir
+### Pour..., Voir
 
-Les hatnotes *Pour voir* sont similaires aux hatnotes *Voir aussi*, mais sont généralement plus descriptives et directes. Cette hatnote peut utiliser plus d'un lien si nécessaire. Elles doivent être formatées comme suit :
+Les surnotes *pour..., voir* sont similaires à la surnote *voir également*, mais sont généralement plus descriptives et plus directes. Ces surnotes peuvent utiliser plus d'un lien si nécessaire. Celles-ci doivent être formatées comme suit :
 
 ```markdown
-*Pour {description}, voir : {article}`*
+::: alert-note
+**Remarque** : Pour {description}, voir {article}
+:::
 
-*Pour {description}, voir : {article} et {article}`*
+::: alert-note
+**Remarque** : Pour {description}, voir {article} et {article}
+:::
 ```
 
-### À ne pas confondre avec
+### A ne pas confondre avec
 
-Les hatnotes *À ne pas confondre avec* aident à distinguer les titres ou sections d'articles ambigus ou mal compris. Elles peuvent utiliser plus d'un lien si nécessaire. Elles doivent être formatées comme suit :
+Les surnotes *à ne pas confondre avec* permettent de distinguer les titres d'articles ou de sections ambigues ou incomprises. Ces surnotes peuvent utiliser plus d'un lien si nécessaire. Celles-ci doivent être formatées comme suit :
 
 ```markdown
-*À ne pas confondre avec {article}.*
+::: alert-note
+**Remarque** : A ne pas confondre avec {article}.
+:::
 
-*À ne pas confondre avec {article} ou {article}.*
+::: alert-note
+**Remarque** : A ne pas confondre avec {article} et {article}.
+:::
 ```
 
 ### Pour d'autres utilisations
 
-Les hatnotes *Pour d'autres utilisations* sont similaires aux hatnotes *À ne pas confondre avec*, mais renvoient directement à l'article de désambiguïsation (#articles-de-désambiguïsation). Elles doivent uniquement renvoyer à l'article de désambiguïsation. Elles doivent être formatées comme suit :
+Les surnotes *Pour d'autres utilisations* sont similaires aux surnotes *à ne pas confondre avec*, mais elles renvoient directement à [l'article de désambiguïsation](#articles-de-désambiguïsation). Ces surnotes doivent uniquement renvoyer à l'article de désambiguïsation. Elles doivent être formatées comme suit :
 
 ```markdown
-*Pour d'autres utilisations, voir {article de désambiguïsation}.*
+::: alert-note
+**Remarque** : Pour d'autres utilisations, voir {article de désambiguïsation}.
+:::
 ```
 
-## Note
+## Remarque
 
-*À ne pas confondre avec [Hatnote](#hatnote).*
+::: alert-note
+**Remarque** : A ne pas confondre avec [surnotes](#surnotes).
+:::
 
-Une note doit être placée à l'endroit approprié dans une section, mais doit commencer le paragraphe et utiliser l'italique. Les notes peuvent contenir des caractères gras lorsque cela est approprié, mais ils doivent être limités autant que possible. Les notes doivent être rédigées sous forme de phrases complètes. Ainsi, contrairement à la plupart des [hatnotes](#hatnote), elles doivent utiliser un point (`.`) ou un point d'exclamation (`!`) si nécessaire. Tout ce qui se trouve dans le même paragraphe qu'une note doit également être en italique. Elles doivent être formatées comme suit :
+Une remarque doit être placé à l'endroit approprié dans une section, mais doit commencer le paragraphe et utiliser l'italique. Les remarques peuvent contenir des caractères gras le cas échéant, mais ils doivent être réduits au minimum. Les remarques doivent être rédigés sous forme de phrases complètes. Ainsi, contrairement à la plupart des [surnotes](#surnotes), les avis doivent comporter un point (`.`) ou un point d'exclamation (`!`), le cas échéant. Tout ce qui se trouve dans le même paragraphe d'une remarque doit également être mis en italique. Elles doivent être formatées comme suit :
 
 ```markdown
-*Note : {note}.*
+::: alert-notice
+**Note**
+{remarque}.
+:::
 
-*Remarque : {Remarque}.*
+::: alert-caution
+**Attention**
+{attention}.
+:::
 
-*Attention : {attention}.*
-
-*Avertissement : {avertissement}.*
+::: alert-warning
+**Avertissement**
+{avertissement}.
+:::
 ```
 
-- `Note` doit être utilisé pour les détails factuels ou anecdotiques.
-- `Remarque` doit être utilisé pour des rappels ou pour attirer l'attention sur quelque chose dont le lecteur doit être informé.
-- `Attention` doit être utilisé pour avertir le lecteur afin d'éviter des malentendus.
+- `Note` doit être utilisé pour des rappels ou pour attirer l'attention sur quelque chose dont le lecteur doit être informé.
+- `Attention` doit être utilisé pour avertir le lecteur afin d'éviter des conséquences involontaires.
 - `Avertissement` doit être utilisé pour avertir le lecteur que des mesures peuvent être prises à son encontre.
+
+## Surnotes et remarques empilées
+
+Plusieurs surnotes et remarques peuvent être empilées si nécessaire. Dans ce cas, elles doivent être empilées sans ligne vide et utiliser des antislashs à la fin :
+
+```markdown
+::: alert-caution
+**Attention** : {attention}.
+:::
+
+::: alert-note
+**Voir également** : {article}
+:::
+```
+
+Dans de nombreux cas, il peut être plus judicieux d'intégrer des surnotes ou des remarques dans le texte d'un paragraphe plutôt que d'en empiler plusieurs.
 
 ## Mise en valeur
 
 ### Gras
 
-Les caractères gras doivent utiliser des doubles astérisques (`**`).
+Les textes en gras doivent utiliser des astérisques doubles (`**`).
 
 Les paragraphes de tête peuvent mettre en gras la première occurrence du titre de l'article.
 
-### Italiques
+### Italique
 
 Les italiques doivent utiliser des astérisques simples (`*`).
 
-Les noms des œuvres ou des jeux vidéo doivent être en italique. osu! (le jeu) est exempté de cette règle.
-
 La première occurrence d'une abréviation, d'un acronyme ou d'un sigle peut être mise en italique.
 
-L'italique peut également être utilisé pour accenter un ou plusieurs mots ou faciliter la lecture.
+L'italique peut également être utilisée pour mettre l'accent ou faciliter la lecture.
 
-## Rubriques
+Les noms d'œuvres ou de jeux vidéos doivent être mis en italique. osu! - le jeu - n'est pas soumis à cette règle.
 
-Toutes les rubriques doivent respecter la casse.
+Par exemple, lorsqu'il est fait référence à des musiques sous la forme `{artiste} - {titre}`, toute la partie est une référence à l'œuvre et doit donc être mise en italique :
 
-Les rubriques doivent utiliser le style [ATX (dièse)](https://github.github.com/gfm/#atx-headings) et doivent être précédées et suivies d'une ligne vide. Le titre est une exception lorsqu'il se trouve sur la première ligne. Dans ce cas, il suffit de laisser une ligne vide après le titre.
+```markdown
+*cYsmix - triangles* est l'une des trois musiques d'introduction que l'on peut entendre en démarrant le jeu.
+```
 
-Les rubriques ne doivent pas dépasser un niveau d'en-tête de 5 et ne doivent pas être utilisées pour styliser ou formater le texte.
+Par ailleurs, les noms d'artistes ne sont généralement pas mis en italique. Cela signifie que dans les références libres, seul le titre doit être mis en italique, car le nom de l'artiste ne fait alors pas partie du nom de l'œuvre :
+
+```markdown
+*Blue Zenith* par xi est une musique tristement célèbre dans la communauté d'osu! en raison d'un score célèbre établi par un joueur renommé sur une certaine beatmap.
+```
+
+### Accent et liens
+
+Le texte contenant un lien apparaît dans une couleur différente qui le met déjà en valeur et n'a donc pas besoin d'être souligné davantage :
+
+```markdown
+[Camellia - OOPARTS](https://cametek.bandcamp.com/track/parts) est un exemple de musique officiellement créée spécifiquement pour osu!, également appelée *osu! original*, puisqu'elle a été spécifiquement commissionnée pour le tiebreaker de l'osu! World Cup 2020.
+```
+
+Cette règle ne s'applique toutefois pas si le texte référencé n'est pas le seul élément du lien :
+
+```markdown
+[Le beatmap de Voltaeyx de *TheFatRat - Mayday (feat. Laura Brehm)*](https://osu.ppy.sh/beatmapsets/756794) a amassé une popularité considérable en 2018 en raison de ses patterns de sliders superposés uniques.
+```
+
+Ce type de construction doit être utilisé avec parcimonie et ne doit pas être utilisé dans des endroits comportant de nombreux liens, tels que des tableaux ou des listes.
+
+## En-tête
+
+Tous les titres doivent être rédigés en majuscules.
+
+Les titres doivent utiliser le style [ATX (hachage)](https://github.github.com/gfm/#atx-headings) et doivent avoir une ligne vide avant et après le titre. Le titre est une exception lorsqu'il se trouve sur la première ligne. Dans ce cas, il suffit de prévoir une ligne vide après le titre.
+
+Les titres ne doivent pas dépasser un niveau de titre de 5 et ne doivent pas être utilisés pour styliser ou formater le texte.
 
 ### Titres
 
-*Voir aussi : [Désignation de l'article](#désignation-de-l'article)*
+::: alert-note
+**Voir également** : [Noms des articles](#noms-des-articles)
+:::
 
-*Attention : Les titres sont analysés en tant que texte brut ; ils ne doivent pas être espacés.*
+::: alert-caution
+**Attention** : Les titres sont analysés comme du texte brut ; ils ne doivent pas contenir de markdown.
+:::
 
-Le premier titre de tous les articles doit être un titre de niveau 1, c'est-à-dire le titre de l'article. Tous les titres suivants doivent être des [titres de section](#sections). Les titres ne doivent pas contenir de formatage, de liens ou d'images.
+Le premier titre de tous les articles doit être un titre de niveau 1, c'est-à-dire le titre de l'article. Tous les titres suivants doivent être des [titres de section](#sections). Les titres ne doivent pas contenir de mise en formee, de liens ou d'images.
 
-L'intitulé du titre doit figurer sur la première ligne, sauf si la [page de garde](#page-de-garde) est utilisée. Si c'est le cas, l'intitulé du titre doit être placé à la suite de celui-ci et une ligne vide doit précéder l'intitulé du titre.
+L'intitulé du titre doit figurer sur la première ligne, sauf si vous utilisez une [page de garde](#première-page). Dans ce cas, l'intitulé du titre doit être placé après celui-ci et une ligne vide doit précéder l'intitulé du titre.
 
 ### Sections
 
-Les titres de section doivent utiliser les niveaux 2 à 5. L'en-tête de section qui précède le [titre](#titres) doit être un en-tête de niveau 2. Contrairement aux titres, les titres de section peuvent comporter de petites icônes d'image.
+Les titres de section doivent utiliser les niveaux 2 à 5. Le titre de la section qui précède le [titre de la section](#titres) doit être un titre de niveau 2. Contrairement aux titres, les titres de section peuvent comporter de petites icônes.
 
-Les titres de section ne doivent pas sauter un niveau de titre (c'est-à-dire ne pas passer d'un titre de niveau 2 à un titre de niveau 4) et ne doivent pas contenir de formatage ou de liens.
+Les titres de section ne doivent pas sauter de niveau (c'est-à-dire ne pas passer d'un titre de niveau 2 à un titre de niveau 4) et ne doivent pas contenir de mise en forme ou de liens.
 
-*Remarque : Sur le site web, les niveaux de rubrique 4 et 5 n'apparaîtront pas dans la table des matières. Ils ne peuvent pas non plus faire l'objet d'un lien direct.*
+::: alert-notice
+**Note**
+Sur le site web, les niveaux de rubrique 4 et 5 n'apparaîtront pas dans la table des matières.
+:::
 
 ### Identifiants personnalisés
 
-Il est possible de redéfinir l'identifiant d'une section, qui est utilisé pour y accéder directement. Les identifiants personnalisés doivent être utilisés dans le cas où ceux générés automatiquement sont trop longs ou contiennent des signes de ponctuation ou des images complexes :
+Il est possible de redéfinir l'identifiant d'une section, qui est utilisé pour établir un lien direct avec elle. Les identifiants personnalisés doivent être utilisés si ceux générés automatiquement sont trop longs ou s'ils contiennent des signes de ponctuation ou des images délicates :
 
 ```markdown
-## Mon délai de réflexion est passé. Comment puis-je faire appel ? {#appel}
+## Mon délai de cooldown est dépassé. Comment puis-je faire appel ? {id=appel}
 
-## Raisons de restriction communes et cooldowns {#raisons-communes}
+## Différents exemples du gameplay d'osu! {id=osu!-gameplay}
 ```
 
-Cette fonction peut également être utilisée pour baliser une partie spécifique de l'article qui n'a pas de titre. Utilisez-la avec parcimonie :
+Cette fonction peut également être utilisée pour marquer une partie spécifique de l'article qui n'a pas de titre. Utilisez-la avec parcimonie :
 
 ```markdown
-> Voilà, c'est fait ! Vous êtes sur la bonne voie pour devenir un champion du rythme d'osu!
-{#citation-tutoriel}
+> Voilà, c'est fait ! Tu es sur la bonne voie pour devenir un champion du rythme d'osu!
+{id=tutoriel-citation}
 ```
 
 ## Listes
 
 Les listes ne doivent pas dépasser 4 niveaux d'indentation et ne doivent pas comporter de ligne vide entre chaque élément.
 
-Pour les listes imbriquées, les puces ou les chiffres doivent être alignés sur le contenu des éléments de leurs listes parentes.
+Pour les listes imbriquées, les listes à puces ou les listes à nombres doivent s'aligner sur le contenu des éléments de leurs listes parentes.
 
-L'exemple suivant a été fait de manière incorrecte (notez l'espacement avant la puce) :
+L'exemple suivant n'est pas correct (attention à l'espacement avant la puce) :
 
 ```markdown
-1. Faire voler un cerf-volant
-  - Ne faites pas voler un cerf-volant s'il pleut.
+1. Faire voler un cerf-volant.
+  - Ne pas faire voler un cerf-volant s'il pleut.
 ```
 
-L'exemple suivant a été réalisé correctement :
+L'exemple suivant est correct :
 
 ```markdown
-1. Faire voler un cerf-volant
-   - Ne faites pas voler un cerf-volant s'il pleut.
+1. Faire voler un cerf-volant.
+   - Ne pas faire voler un cerf-volant s'il pleut.
 ```
 
 ### À puces
 
-Les listes à puces doivent utiliser un trait d'union (`-`) et être suivies d'un espace. (Exemple illustré ci-dessous.)
+Les listes à puces doivent être précédées d'un tiret (`-`). Elles doivent ensuite être suivies d'un espace. (Exemple ci-dessous).
 
 ```markdown
 - osu!
-  - Cercles
-    - Numéro du combo
+  - Cercle
+    - Numéro de combo
     - Cercle d'approche
   - Slider
-    - Cercles
-    - Sliderbody
-    - Slider ticks
+    - Hit circles
+    - Corps du slider
+    - Ticks du slider
   - Spinner
 - osu!taiko
 ```
 
-### Numérotée
+### Numérotées
 
-Les chiffres d'une liste numérotée doivent être incrémentés pour représenter leur échelon.
+Les chiffres d'une liste numérotée doivent être incrémentés pour représenter leur progression.
 
 ```markdown
-1. Téléchargez l'installateur d'osu!
+1. Téléchargez le programme d'installation d'osu!.
 2. Exécutez le programme d'installation.
    1. Pour modifier l'emplacement de l'installation, cliquez sur le texte situé sous la barre de progression.
-   2. Le programme d'installation vous demandera de choisir un nouvel emplacement, choisissez le dossier d'installation.
+   2. Le programme d'installation demande un nouvel emplacement, choisissez le dossier d'installation.
 3. osu! démarrera une fois l'installation terminée.
-4. Se connecter.
+4. Connectez-vous.
 ```
 
-### Mixte
+### Mixtes
 
-La combinaison de listes à puces et de listes numérotées doit être faite avec parcimonie.
+La combinaison de listes à puces et de listes numérotées doit être utilisée avec parcimonie.
 
 ```markdown
-1. Téléchargez un skin depuis les forums.
-2. Chargez le fichier skin dans osu!
-   - Si le fichier est un `.zip`, décompressez-le et déplacez le contenu dans le dossier `Skins/` (qui se trouve dans votre dossier d'installation d'osu!).
-   - Si le fichier est un `.osk`, ouvrez-le sur votre bureau ou faites-le glisser dans le client du jeu.
+1. Téléchargez un skin à partir des forums.
+2. Chargez le fichier du skin dans osu!.
+   - Si le fichier est un `.zip`, décompressez-le et déplacez le contenu dans le dossier `Skins/` (qui se trouve dans votre dossier d'installation osu!).
+   - Si le fichier est un `.osk`, ouvrez-le sur votre bureau ou faites-le glisser dans le client.
 3. Ouvrez osu!, s'il n'est pas ouvert, et sélectionnez le skin dans les options.
-   - Cela a pu être fait si vous avez ouvert le fichier `.osk` ou si vous l'avez glissé dans le client du jeu.
+   - Cette opération peut déjà avoir été effectuée si vous avez ouvert le fichier `.osk` ou si vous l'avez glissé dans le client.
 ```
 
 ## Code
 
-Le balisage du code est un accent grave (`` ` ``). Pour mettre des accent grave dans le code, utilisez plutôt des accent grave doubles. Si l'accent grave se trouve au début ou à la fin, ajoutez un espace. (Exemple illustré ci-dessous.)
+La marque du code est le signe apostrophe grave (`` ` ``). Pour insérer une apostrophe grave dans un code, utilisez plutôt une double apostrophe grave. Si elle se trouve au début ou à la fin, elle doit être remplacée par un espace. (Exemple ci-dessous.)
 
 ```markdown
 `` ` ``
@@ -411,21 +520,24 @@ Le balisage du code est un accent grave (`` ` ``). Pour mettre des accent grave 
 
 ### Touches du clavier
 
-*Remarque : Pour désigner la lettre elle-même, et non la touche du clavier, utilisez plutôt des guillemets.*
+::: alert-notice
+**Note**
+Pour désigner la lettre elle-même, et non la touche du clavier, il convient d'utiliser des guillemets.
+:::
 
-Lorsque vous représentez les touches du clavier, utilisez les majuscules pour les caractères uniques et les majuscules pour les modificateurs. Utilisez le symbole plus (`+`) (sans code) pour représenter les combinaisons de touches. (Exemple illustré ci-dessous).
+Pour représenter les touches du clavier, utilisez des lettres majuscules pour les caractères simples et des minuscules pour les modificateurs. Utilisez le symbole plus (`+`) (sans code) pour représenter les combinaisons de touches. (Exemple ci-dessous).
 
 ```markdown
 pippi s'écrit avec un "p" minuscule comme peppy.
 
-Appuyez sur `Ctrl` + `O` pour ouvrir le dialogue d'ouverture.
+Appuyez sur `Ctrl` + `O` pour ouvrir la boîte de dialogue d'ouverture.
 ```
 
-Pour représenter un espace ou la barre d'espacement, utilisez `` `Espace` ``.
+Pour représenter un espace ou la barre espace, utilisez `` `Espace` ``.
 
 ### Texte des boutons et des menus
 
-Lorsque vous copiez le texte d'un menu ou d'un bouton, la casse des lettres doit être copiée telle qu'elle apparaît. (Exemple illustré ci-dessous.)
+Lorsque vous copiez le texte d'un menu ou d'un bouton, la casse des lettres doit être copiée telle qu'elle apparaît. (Exemple ci-dessous).
 
 ```markdown
 Le bouton `osu!direct` est visible dans le menu principal sur le côté droit, si vous avez un tag osu!supporter actif.
@@ -433,7 +545,7 @@ Le bouton `osu!direct` est visible dans le menu principal sur le côté droit, s
 
 ### Noms de dossiers et de répertoires
 
-Lors de la copie du nom d'un dossier ou d'un répertoire, la casse des lettres doit être copiée telle qu'elle apparaît, mais préférez les chemins en minuscules lorsque cela est possible. Les chemins d'accès aux répertoires ne doivent pas être absolus (c'est-à-dire qu'il ne faut pas commencer le nom du répertoire à partir de la lettre du lecteur ou du dossier racine). (Exemple illustré ci-dessous.)
+Lorsque vous copiez le nom d'un dossier ou d'un répertoire, la casse des lettres doit être copiée telle qu'elle apparaît, mais préférez les chemins d'accès en minuscules lorsque c'est possible. Les chemins d'accès aux répertoires ne doivent pas être absolus (c'est-à-dire que le nom du répertoire ne doit pas commencer par la lettre du lecteur ou par le dossier racine). (Exemple ci-dessous).
 
 ```markdown
 osu! est installé par défaut dans le dossier `AppData/Local`, sauf indication contraire lors de l'installation.
@@ -441,15 +553,15 @@ osu! est installé par défaut dans le dossier `AppData/Local`, sauf indication 
 
 ### Mots clés et commandes
 
-Lorsque vous copiez un mot-clé ou une commande, la casse des lettres doit être copiée telle qu'elle apparaît ou telle qu'une personne la tape normalement. Le cas échéant, préférez les lettres minuscules. (Exemple illustré ci-dessous).
+Lors de la copie d'un mot-clé ou d'une commande, la casse des lettres doit être copiée telle qu'elle apparaît ou telle que quelqu'un l'aurait normalement tapée. Le cas échéant, préférez les lettres minuscules. (Exemple ci-dessous).
 
 ```markdown
 Pour l'instant, les commandes `Name` et `Author` dans le fichier de configuration du skin (`skin.ini`) ne font rien.
 ```
 
-### Noms de fichiers
+### File names
 
-Lorsque vous copiez le nom d'un fichier, la casse des lettres doit être copiée telle qu'elle apparaît. Le cas échéant, préférez les lettres minuscules. (Exemple illustré ci-dessous).
+Lors de la copie du nom d'un fichier, la casse des lettres doit être copiée telle qu'elle apparaît. Le cas échéant, préférez les lettres minuscules. (Exemple ci-dessous.)
 
 ```markdown
 Pour jouer à osu!, double-cliquez sur l'icône `osu!.exe`.
@@ -457,36 +569,46 @@ Pour jouer à osu!, double-cliquez sur l'icône `osu!.exe`.
 
 ### Extensions de fichiers
 
-*Remarque : Les formats de fichiers (à ne pas confondre avec les extensions de fichiers) doivent être écrits en lettres majuscules sans le préfixe point (`.`).*
+::: alert-notice
+**Note**
+Les formats de fichiers (à ne pas confondre avec les extensions de fichiers) doivent être écrits en lettres capitales sans point final (`.`).
+:::
 
-Les extensions de fichiers doivent être préfixées par un point (`.`) et être suivies de l'extension du fichier en lettres minuscules. (Exemple illustré ci-dessous.)
+Les extensions de fichiers doivent être précédées d'un point (`.`) et suivies de l'extension du fichier en lettres minuscules. (Exemple ci-dessous).
 
 ```markdown
 Le format de fichier JPG (ou JPEG) porte l'extension `.jpg` (ou `.jpeg`).
 ```
 
-### Canaux de discussion
+### Channels de discussion
 
-Lorsque vous copiez le nom d'un canal de discussion, commencez par un dièse (`#`), suivi du nom du canal en lettres minuscules. (Exemple montré ci-dessous.)
+Lorsque vous copiez le nom d'un salon de discussion, commencez par un dièse (`#`), suivi du nom du salon en lettres minuscules. (Exemple ci-dessous).
 
 ```markdown
-`#lobby` est l'endroit où vous pouvez faire de la publicité pour votre lobby multijoueur.
+`#lobby` est l'endroit où vous pouvez faire la publicité de votre salle multijoueur.
 ```
 
 ## Texte préformaté (blocs de code)
 
-*Remarque : La coloration syntaxique pour le texte préformaté n'est pas encore implémentée sur le site web.*
+::: alert-notice
+**Note**
+La mise en évidence de la syntaxe pour le texte préformaté n'est pas encore implémentée sur le site web.
+:::
 
-Le texte préformaté (également connu sous le nom de blocs de code) doit être clôturé à l'aide de trois accent grave. Ils doivent définir l'identifiant de la langue pour la coloration syntaxique.
+Le texte préformaté (également connu sous le nom de blocs de code) doit être délimité par trois apostrophes grave. Ils doivent définir l'identifiant de la langue pour la coloration de la syntaxe.
 
 ## Liens
 
-Il existe deux types de liens : en ligne et de référence. Les liens en ligne ont deux styles.
+::: alert-note
+**Voir également** : [Notes de bas de page](#notes-de-bas-de-page)
+:::
 
-Voici un exemple des deux styles en ligne :
+Il existe deux types de liens : les liens intégrés et les liens de référence. Les liens intégrés ont deux styles.
+
+Voici un exemple des deux styles intégrés :
 
 ```markdown
-[Modificateurs de jeu](/wiki/Game_modifier)
+[Modificateurs de jeu](/wiki/Gameplay/Game_modifier)
 
 <https://osu.ppy.sh/home>
 ```
@@ -494,107 +616,111 @@ Voici un exemple des deux styles en ligne :
 Voici un exemple de style de référence :
 
 ```markdown
-[Modificateurs de jeu][lien vers les mods de jeu]
+[Modificateurs de jeu][game mods link]
 
-[lien vers les mods de jeu]: /wiki/Game_Modifiers
+[game mods link]: /wiki/Game_modifier
 ```
 
 ---
 
-Les liens doivent utiliser le style en ligne s'ils ne sont référencés qu'une seule fois. Le style en ligne entre crochets doit être évité. Les références aux liens de référence doivent être placées en bas de l'article.
+Les liens doivent utiliser le style intégré s'ils ne sont référencés qu'une seule fois. Le style utilisant `<` et `>` devrait être évité. Les références aux liens de référence doivent être placées au bas de l'article.
 
 ### Liens internes
 
-*Note : les liens internes sont des liens qui restent à l'intérieur du domaine `https://osu.ppy.sh/`.*
+::: alert-notice
+**Note**
+Les liens internes sont des liens qui restent à l'intérieur du domaine `https://osu.ppy.sh/`.
+:::
 
-#### Liens Wiki
+#### Liens du wiki
 
-Tous les liens qui pointent vers un article wiki doivent commencer par `/wiki/` suivi du chemin pour arriver à l'article visé. Des liens relatifs peuvent également être utilisés. 
-  
-Voici quelques exemples :
+Tous les liens qui pointent vers un article du wiki doivent commencer par `/wiki/` suivi du chemin d'accès vers l'article en question. Des liens relatifs peuvent également être utilisés. Voici quelques exemples :
 
 ```markdown
 [FAQ](/wiki/FAQ)
-[pippi](/wiki/Mascots#-pippi)
+[pippi](/wiki/Mascots#pippi)
 [Beatmaps](../)
 [Pattern](./Pattern)
 ```
 
-Les liens wiki ne doivent pas utiliser de redirections et ne doivent pas comporter de barre oblique de fin de ligne. (`/`).
+Les liens wiki ne doivent pas utiliser de redirections et ne doivent pas comporter de slash (`/`).
 
-Les mauvais exemples sont les suivants :
-
-```markdown
-[Critères de style des articles](/wiki/ASC)
-[Developers](/wiki/Developers/)
-[Developers](/wiki/Developers/#game-client-developers)
-```
-
-Voici de bons exemples :
+Parmi les mauvais exemples, on peut citer les suivants :
 
 ```markdown
-[Critères de style des articles](/wiki/Article_styling_criteria)
-[Developers](/wiki/People/The_Team/Developers)
-[Developers](/wiki/People/The_Team/Developers#game-client-developers)
+[Critères de mise en forme des articles](/wiki/ASC)
+[Développeurs](/wiki/Developers/)
+[Développeurs](/wiki/Developers/#game-client-developers)
 ```
 
-*Remarque : ne pas traduire les liens entre parenthèses, sinon la redirection ne fonctionnera plus.*
+Et voici quelques bons exemples :
+
+```markdown
+[Critères de mise en forme des articles](/wiki/Article_styling_criteria)
+[Développeurs](/wiki/People/Developers)
+[Développeurs](/wiki/People/Developers#game-client-developers)
+```
 
 ##### Liens vers les sous-articles
 
-Les liens Wiki qui pointent vers un sous-article doivent inclure le nom du dossier de l'article parent dans le texte du lien. Voir l'exemple suivant :
+Les liens du wiki qui pointent vers un sous-article doivent inclure le nom du dossier de l'article parent dans le texte du lien. Voir l'exemple suivant :
 
 ```markdown
-*Voir aussi : [Beatmap Editor/Design](/wiki/Beatmap_Editor/Design)*
+::: alert-note
+**Voir également** : [Beatmap Editor/Design](/wiki/Client/Beatmap_editor/Design)
+:::
 ```
 
-##### Liens de section
+##### Liens de sections
 
-*Remarque : Sur le site web, les niveaux de rubrique 4 et 5 ne sont pas dotés de l'attribut id. Cela signifie qu'ils ne peuvent pas être liés directement.*
+::: alert-notice
+**Note**
+Sur le site web, les niveaux de titre 4 et 5 ne sont pas dotés de l'attribut id. Cela signifie qu'il n'est pas possible d'y accéder directement.
+:::
 
-Les liens Wiki qui pointent vers une section d'un article peuvent utiliser le symbole du signe de section (`§`). Voir l'exemple suivant :
+Les liens wiki qui pointent vers une section d'un article peuvent utiliser le symbole du signe de section (`§`). Voir l'exemple suivant :
 
 ```markdown
-*Pour les règles de timing, voir : [Ranking Criteria § Timing](/wiki/Ranking_Criteria#timing)*
+*Pour connaître les règles de timing, consultez :[Critères de classement § Timing](/wiki/Ranking_criteria#timing)*
 ```
 
 #### Autres liens osu!
 
-L'URL de la barre d'adresse de votre navigateur doit être copiée telle qu'elle est lorsqu'on crée un lien vers d'autres pages Web d'osu!. La partie `https://osu.ppy.sh` de l'URL doit être conservée.
+L'URL figurant dans la barre d'adresse de votre navigateur doit être copiée telle qu'elle est lorsqu'il s'agit d'établir un lien avec d'autres pages web d'osu! La partie `https://osu.ppy.sh` de l'URL doit être conservée.
 
-##### Profils des utilisateurs
+##### Profils d'utilisateurs
 
-Tous les noms d'utilisateur doivent être liés à la première occurrence. Les autres occurrences sont facultatives, mais doivent être cohérentes tout au long de l'article pour tous les noms d'utilisateur. S'il est difficile de déterminer l'identifiant de l'utilisateur, il peut être ignoré.
+Tous les noms d'utilisateur doivent être liés à la première occurrence. Les autres occurrences sont facultatives, mais doivent être cohérentes dans l'ensemble de l'article pour tous les noms d'utilisateur. S'il est difficile de déterminer l'identifiant de l'utilisateur, il peut être ignoré.
 
-Lorsque vous créez un lien vers un profil d'utilisateur, le numéro d'identification de l'utilisateur doit être utilisé. Utilisez le nouveau site web (`https://osu.ppy.sh/users/{username})`) pour obtenir l'id de l'utilisateur.
+Lors de la création d'un lien vers un profil d'utilisateur, le numéro d'identification de l'utilisateur doit être utilisé. Utilisez le nouveau site web (`https://osu.ppy.sh/users/{nom d'utilisateur}`) pour obtenir l'identifiant de l'utilisateur.
 
 Le texte du lien de l'utilisateur doit être le nom actuel de l'utilisateur.
 
 ##### Difficultés
 
-Lorsque vous créez un lien vers une difficulté, utilisez ce format pour le texte du lien :
+Lorsque vous créez un lien vers une difficulté unique, utilisez ce format pour le texte du lien :
 
 ```
-{artist} - {title} ({creator}) [{difficuty_name}]
+{artiste} - {titre} ({créateur}) [{nom_de_la_difficulté}]
 ```
 
-Le lien vers une beatmap doit effectivement mener à cette difficulté. Les URL des difficultés de la beatmap doivent être formatées comme suit :
+Le lien doit effectivement renvoyer à cette difficulté. Les URL des difficultés de la beatmap doivent être formatées comme suit :
 
 ```
 https://osu.ppy.sh/beatmapsets/{BeatmapSetID}#{mode}/{BeatmapID}
 ```
 
-Le nom de la difficulté peut être laissé en dehors du texte du lien, mais cela doit être cohérent dans tout l'article.
+Le nom des difficultés peut être laissé en dehors du texte du lien, mais il doit être cohérent dans l'ensemble de l'article.
 
 ##### Beatmaps
 
-Lorsque vous créez un lien vers une beatmap, utilisez ce format pour le texte du lien :
+Lorsque vous créez un lien vers une beatmap, utilisez ce format comme texte de lien :
 
 ```
-{artist} - {title} ({creator})
+{artiste} - {titre} ({créateur})
 ```
 
-Toutes les URL des beatmaps doivent être formatées comme suit :
+Tous les URL des beatmaps doivent être formatés comme suit :
 
 ```
 https://osu.ppy.sh/beatmapsets/{BeatmapSetID}
@@ -602,167 +728,159 @@ https://osu.ppy.sh/beatmapsets/{BeatmapSetID}
 
 ### Liens externes
 
-*Remarque : Les liens externes font référence aux liens qui sortent du domaine `https://osu.ppy.sh/`.*
+::: alert-notice
+**Note**
+Les liens externes sont des liens qui sortent du domaine `https://osu.ppy.sh/`.
+:::
 
-Le protocole `https` doit être utilisé, sauf si le site ne le prend pas en charge. Les liens externes doivent être des liens propres et directs vers une source réputée. Le texte du lien doit être le titre de la page à laquelle il renvoie. L'URL de la barre d'adresse de votre navigateur Web doit être copiée telle quelle pour les liens vers d'autres pages externes.
+Le protocole `https` doit être utilisé, sauf si le site ne le supporte pas. Les liens externes doivent être des liens propres et directs vers une source fiable. L'URL de la barre d'adresse de votre navigateur web doit être copiée telle qu'elle l'est pour les liens vers d'autres pages externes.
 
-Il n'y a pas de différences visuelles entre les liens externes et les liens Web d'osu!. Pour cette raison, le nom du site web doit être inclus dans le texte du titre. Voir l'exemple suivant :
+Il n'y a pas de différence visuelle entre les liens externes et les liens osu!. C'est pourquoi le nom du site web doit être inclus dans le texte du titre. Voir l'exemple suivant :
 
 ```markdown
-*Pour plus d'informations sur la théorie musicale, voir : [Théorie de la musique](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_la_musique)*
+*Pour plus d'informations sur la théorie musicale, consultez : [Théorie de la musique](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_la_musique)*
 ```
 
 ## Images
 
-Il existe deux types de liens d'image : en ligne et de référence. Exemples :
+Il existe deux types de liens d'image : les liens intégrés et les liens de référence. Exemples de liens :
 
-**Style en ligne :**
-
-```markdown
-![](/wiki/shared/flag/AU.gif)
-```
-
-**Style de référence :**
+**Style intégré :**
 
 ```markdown
-![][flag_AU]
-
-[flag_AU]: /wiki/shared/flag/AU.gif "Australie"
+![Couronne en or](/wiki/shared/crown-gold.png "1ère place")
 ```
 
-Les images doivent utiliser le style de lien en ligne. Les références aux liens de référence doivent être placées en bas de l'article.
+**Style en référence :**
 
-Les images doivent être placées dans un dossier nommé `img`, situé dans le dossier de l'article. Les images qui sont utilisées dans plusieurs articles doivent être stockées dans le dossier `/wiki/shared/`.
+```markdown
+![Couronne en or][GCrown]
+
+[GCrown]: /wiki/shared/crown-gold.png "1ère place"
+```
+
+Les images devraient utiliser le style de lien intégré. Les définitions des liens de référence doivent être placées au bas de l'article.
+
+Tous les blocs d'images de la page (qui n'ont rien d'autre sur la même ligne) sont combinés en une seule galerie, dans laquelle on peut naviguer à l'aide des icônes de flèches situées de part et d'autre de l'écran, des raccourcis clavier ou des balayages de l'écran.
+
+### Texte alternatif et texte du titre
+
+Le texte situé dans la première paire de crochets (*texte alternatif*) doit décrire l'image littéralement. Il est utilisé par les lecteurs d'écran ou lorsque l'image ne se charge pas. Il peut être omis s'il est identique au texte du titre ou si l'image n'est incluse qu'à des fins décoratives.
+
+Le texte entre guillemets (*texte du titre*) doit fournir un contexte supplémentaire à l'image ou indiquer sa signification. Il s'affiche sous forme d'infobulle au survol de l'image et sert de légende le cas échéant. Il ne prend pas en charge la mise en forme markdown.
+
+### Affichage
+
+Si une image est le seul contenu d'un paragraphe, elle s'affiche sous la forme d'un bloc centré. Dans le cas contraire, elle s'intègre au texte en ligne qui l'entoure.
+
+Les blocs d'images comportant un texte de titre affichent le texte du titre sous forme de légende sous l'image. Évitez d'ajouter des [commentaires HTML](#commentaires) ou tout autre texte sur la même ligne que l'image, car la légende ne sera pas affichée.
+
+Les blocs d'images sont généralement associés au format [infobox](#infoboxes) afin de réduire leur taille initiale et de les faire flotter à côté d'autres contenus :
+
+```markdown
+::: Infobox
+![](img/mod-response.png "Un exemple de réponse à un modding")
+:::
+```
 
 ### Mise en cache des images
 
 Les images du site web sont mises en cache pour une durée maximale de 60 jours. L'image mise en cache correspond à l'URL du lien de l'image.
 
-Lors de la mise à jour d'une image, il faut soit changer le nom de l'image, soit ajouter une chaîne de requête à l'URL. Dans les deux cas, toutes les traductions liées à l'image mise à jour doivent également être mises à jour.
+Lors de la mise à jour d'une image, il faut soit changer le nom de l'image, soit ajouter une chaîne de requête à l'URL. Dans les deux cas, toutes les traductions qui renvoient à l'image mise à jour doivent également être mises à jour.
 
 ### Formats et qualité
 
-Les images doivent utiliser le format JPG en qualité 8 (80 ou 80%, selon le programme). Si l'image contient de la transparence ou du texte qui doit être lisible, utilisez plutôt le format PNG. Si l'image contient une animation, le format GIF peut être utilisé ; cependant, il doit être utilisé avec parcimonie car il peut prendre plus de temps à charger ou être plus grand que la [taille maximale du fichier](#taille-du-fichier).
+Les images doivent utiliser le format JPG à la qualité 8 (80 ou 80%, selon le programme). Si l'image contient de la transparence ou du texte qui doit être lisible, utilisez plutôt le format PNG. Si l'image contient une animation, le format GIF peut être utilisé ; toutefois, il convient de l'utiliser avec parcimonie, car il peut prendre plus de temps à charger ou être plus volumineux que la [taille maximale du fichier](#taille-du-fichier).
 
 ### Taille du fichier
 
-Les images doivent être inférieures à 1 mégaoctet, sinon elles ne se chargeront pas. La réduction d'échelle et l'utilisation du format JPG à 80 % permettent presque toujours de respecter la taille limite.
+Les images doivent être inférieures à 1 mégaoctet, sinon elles ne pourront pas être chargées. La réduction d'échelle et l'utilisation de JPG à une qualité de 80 % permettent presque toujours de respecter la limite de taille.
 
 Toutes les images doivent être optimisées autant que possible. Utilisez [jpeg-archive](https://github.com/danielgtaylor/jpeg-archive) pour compresser les images JPEG. Par souci de cohérence, utilisez la commande suivante pour jpeg-archive :
 
-```sh
+```
 jpeg-recompress -am smallfry <input> <output>
 ```
 
-Où `<input>` est le nom du fichier à compresser et `<output>` est le nom du fichier compressé.
+Il est également possible d'utiliser [ezgif.com](https://ezgif.com/) pour convertir et optimiser les images.
 
-### Noms de fichiers
+### Noms des fichiers
 
-*Attention : Les extensions de fichiers doivent utiliser des lettres minuscules, sinon le chargement échouera !*
+::: alert-notice
+**Note**
+Les extensions de fichiers doivent utiliser des lettres minuscules, sinon elles ne pourront pas être chargées !
+:::
 
-Utilisez des traits d'union (`-`) pour espacer les mots. Lorsque vous nommez une image, le nom du fichier doit être significatif ou descriptif mais court.
+Utilisez des tirets (`-`) pour espacer les mots. Lorsque vous nommez une image, le nom du fichier doit être significatif ou descriptif, mais court.
 
-### Mise en page et positionnement
-
-*Remarque : il n'est actuellement pas possible de faire flotter une image ou de faire en sorte que le texte s'enroule autour d'elle.*
-
-Les images sur le site web seront centrées lorsqu'elles se trouvent sur une seule ligne, par elles-mêmes. Sinon, elles seront placées en ligne avec le paragraphe. L'exemple suivant placera l'image au centre :
-
-```markdown
-L'installation d'osu! est facile. Tout d'abord, téléchargez le programme d'installation depuis la page de téléchargement.
-
-![](img/download-page.jpg)
-
-Localisez ensuite le programme d'installation et exécutez-le.
-```
-
-### Texte alternatif
-
-Les images doivent être accompagnées d'un texte alternatif, sauf si elles ont un but décoratif.
-
-### Légendes
-
-Les images sont légendées sur le site web si elles remplissent ces conditions :
-
-1. L'image est seule.
-2. L'image n'est pas à l'intérieur d'un titre.
-3. L'image a un titre.
-
-Les légendes sont reprises dans le texte du titre, qui doit être en texte clair. Les images avec légendes sont également centrées avec l'image sur le site web.
+Les images doivent être placées dans un dossier nommé `img` sous le dossier de l'article. Les images utilisées dans plusieurs articles doivent être stockées dans le dossier `/wiki/shared`.
 
 ### Largeur maximale de l'image
 
-La largeur maximale de l'image sur le site correspond à la largeur du corps de l'article. Les images ne doivent pas avoir une largeur supérieure à 800 pixels.
+La largeur maximale de l'image sur le site web correspond à la largeur du corps de l'article. Les images ne doivent pas dépasser 800 pixels de large.
 
-### Annotation des images
+### Annoter des images
 
-Pour annoter des images, utilisez *Torus Regular*. Pour les caractères chinois, coréens et japonais, utilisez *Microsoft YaHei*.
+Pour l'annotation d'images, utilisez *Torus Regular*. Pour les caractères chinois, coréens et japonais, utilisez *Microsoft YaHei*.
 
-Il faut éviter d'annoter les images, car il est difficile pour les traducteurs (et autres éditeurs) de les modifier.
+Il est préférable d'éviter d'annoter les images, car il est difficile pour les traducteurs (et autres éditeurs) de les modifier.
 
 #### Traduire des images annotées
 
-Lors de la traduction d'images annotées, la version localisée de l'image doit être placée dans le même répertoire que la version originale (c'est-à-dire la version anglaise). Le nom de fichier d'une version localisée de l'image doit commencer par le nom de la version originale, suivi d'un tiret, puis du nom local (en lettres majuscules). Voir les exemples suivants :
+Lors de la traduction d'images annotées, la version localisée de l'image doit être placée dans le même répertoire que la version originale (c'est-à-dire la version anglaise). Le nom de fichier d'une version localisée de l'image doit commencer par le nom de la version originale, suivi d'un trait d'union, puis du nom de la localisation (en lettres capitales). Voir les exemples suivants :
 
-- `hardrock-mod-vs-easy-mod.jpg` pour les Anglais
-- `hardrock-mod-vs-easy-mod-DE.jpg` pour les Allemands
-- `hardrock-mod-vs-easy-mod-ZH-TW.jpg` pour le Chinois Traditionnel
-- `hardrock-mod-vs-easy-mod-FR.jpg` pour les Français
+- `hardrock-mod-vs-easy-mod.jpg` pour l'anglais
+- `hardrock-mod-vs-easy-mod-DE.jpg` pour l'allemand
+- `hardrock-mod-vs-easy-mod-FR.jpg` pour le français
 
-### Captures d'écran de gameplay
+### Captures d'écran du gameplay
 
-Toutes les captures d'écran de jeu doivent être faites dans la version stable, sauf si c'est pour une fonctionnalité spécifique qui n'est pas disponible dans la version stable. Vous devez utiliser la fonction de capture d'écran du jeu (`F12`).
+Toutes les captures d'écran de gameplay doivent être faites dans la version stable, à moins qu'il ne s'agisse d'une fonctionnalité spécifique qui n'est pas disponible dans la version stable. Vous devez utiliser la fonction de capture d'écran du jeu (`F12`).
 
-#### Paramètres du client de jeu
+#### Paramètres du client
 
-*Note : Si vous ne voulez pas changer vos paramètres actuels pour le wiki, vous pouvez déplacer votre `osu!.<OrdinateurUtilisateur>.cfg` hors du dossier osu! et le remettre plus tard.*
+::: alert-notice
+**Note**
+Si vous ne voulez pas changer vos paramètres actuels pour le wiki, vous pouvez déplacer votre `osu!.<Nomd'utilisateur>.cfg` hors du dossier d'osu! et le remettre plus tard.
+:::
 
-Vous devez définir ces paramètres avant de prendre une capture d'écran du client de jeu (les paramètres non indiqués ci-dessous sont supposés être à leur valeur par défaut) :
+Vous devez définir ces paramètres avant de prendre une capture d'écran du client (les paramètres qui ne sont pas indiqués ci-dessous sont supposés être définis par défaut) :
 
-- Langue : `Français`
-- Préférer les métadonnées dans la langue d'origine : `Activé`
-- Résolution: `1280x720`
-- Mode plein écran : `Désactivé`
+- Sélection de la langue : `Français`
+- Métadonnées des maps dans leur langue d'origine dès que possible : `Activé`
+- Résolution : `1280x720`
+- Plein écran : `Désactivé`
 - Parallaxe : `Désactivé`
-- Conseils sur les menus : `Désactivé`
-- Arrière-plans saisonniers : `Jamais`
-- Toujours afficher la superposition des touches : `Activé`
-- Skin actuel : `Default` (Première option)
+- Trucs et astuces : `Désactivé`
+- Seasonal backgrounds : `Never`
+- Touches du jeu toujours affichées : `Activé`
+- Skin actuel : `Default`
 
-### Liens d'image
+### Liens vers des images
 
 Les images ne doivent pas faire partie du texte d'un lien.
 
-Les icônes de drapeau situées à côté des liens utilisateur doivent être séparées du texte du lien. Voir l'exemple suivant :
+## Icônes de drapeaux
+
+Les icônes de drapeaux utilisent le code à deux lettres (en majuscules) pour correspondre à un territoire donné. Lorsque vous ajoutez un drapeau intégré, utilisez ce format :
 
 ```markdown
-![][flag_AU] [peppy](https://osu.ppy.sh/users/2)
+::{ flag=XX }::
 ```
 
-### Icônes de drapeaux
-
-*Pour une liste d'icônes de drapeaux, voir : [issue \#328](https://github.com/ppy/osu-wiki/issues/328)*
-
-Les icônes de drapeau utilisent le code à deux lettres (en majuscules) et se terminent par `.gif`. Lorsque vous ajoutez un drapeau en ligne, utilisez ce format :
-
-```markdown
-![](/wiki/shared/flag/xx.gif)
-```
-
-Où `xx` est le code pays à deux lettres [ISO 3166-2](https://fr.wikipedia.org/wiki/ISO_3166-1_alpha-2) du drapeau.
-
-Le nom complet du pays doit être ajouté dans le texte du titre. Le code du pays dans le texte alternatif est facultatif, mais doit être appliqué à toutes les icônes de drapeau dans l'article.
+Où `XX` est le code pays à deux lettres [ISO 3166-1 alpha-2](https://fr.wikipedia.org/wiki/ISO_3166-1_alpha-2) du drapeau.
 
 ## Tableaux
 
-Les tableaux du site Web ne prennent en charge que les titres de la première ligne.
+Les tableaux du site web ne prennent en charge que les titres de la première ligne.
 
-Les tableaux ne doivent pas être embellis (ne pas remplir les cellules d'espaces supplémentaires pour uniformiser leur largeur). Ils doivent comporter une barre verticale (`|`) à gauche et à droite et le texte de chaque cellule doit être complété par un espace des deux côtés. Les cellules vides doivent comporter une barre verticale (`|`) suivie de deux espaces, puis d'une autre barre verticale (`|`).
+Les tableaux ne doivent pas être embellis (c'est-à-dire qu'il ne faut pas remplir les cellules avec des espaces supplémentaires pour uniformiser leur largeur). Ils doivent comporter une barre verticale (`|`) à gauche et à droite et le texte de chaque cellule doit être complété par un espace de part et d'autre. Les cellules vides doivent comporter une barre verticale (`|`) suivie de deux espaces et d'une autre barre verticale (`|`).
 
-La ligne de délimitation (la ligne suivante après le titre du tableau) ne doit utiliser que trois caractères par colonne (et être complétée par un espace des deux côtés), qui doivent ressembler à l'un des éléments suivants :
+La ligne de séparation (la ligne qui suit l'en-tête du tableau) ne doit utiliser que trois caractères par colonne (et être complétée par un espace des deux côtés), qui doivent ressembler à l'un des éléments suivants :
 
-- `:--` (pour l'alignement à gauche)
-- `:-:` (pour l'alignement central)
+- `:--` (pour un alignement à gauche)
+- `:-:` (pour un alignement au centre)
 - `--:` (pour un alignement à droite)
 
 ---
@@ -770,28 +888,112 @@ La ligne de délimitation (la ligne suivante après le titre du tableau) ne doit
 Voici un exemple de ce à quoi doit ressembler un tableau :
 
 ```markdown
-| Équipe rouge "Picturesque" | Score | Équipe bleue "Statuesque" | Moyenne des étoiles de la beatmap |
+| Équipe "Picturesque" Rouge | Score | Équipe "Statuesque" Bleu | Moyenne des étoiles |
 | :-- | :-: | --: | :-- |
 | **peppy** | 5 - 2 | pippi | 9.3 stars |
 | Aiko | 1 - 6 | **Alisa** | 4.2 stars |
 | Ryūta | 3 - 4 | **Yuzu** | 5.1 stars |
 | **Taikonator** | 7 - 0 | Tama | 13.37 stars |
-| Maria | Pas de concours | Mocha |  |
+| Maria | Pas de partie | Mocha |  |
+```
+
+## Infoboxes
+
+Une infobox est un bloc de largeur fixe aligné sur le côté droit de l'article. Elle peut contenir une image pertinente, qui explique le texte environnant, ou un bloc de navigation qui renvoie à d'autres articles de la même catégorie.
+
+Exemple d'utilisation, rendu à droite (ou au-dessus, sur les écrans étroits) :
+
+::: Infobox
+![](/wiki/shared/mods/SD.png "Icône du mod Sudden Death")
+:::
+
+```markdown
+::: Infobox
+![](/wiki/shared/mods/SD.png "Icône du mod Sudden Death")
+:::
+```
+
+Les infobox sont à utiliser avec précaution dans les cas suivants :
+
+- Sections courtes : le titre de la section suivante apparaît sous les infobox, laissant un large espace après le texte.
+- Plusieurs images à la fois : utilisez plutôt des infobox individuelles pour une meilleure conception.
+
+Seuls les niveaux de titre 4 et 5 sont autorisés à l'intérieur d'une infobox. Ceux-ci n'apparaissent pas dans la table des matières et tout ce qui est inférieur est trop grand. Toute [erreur de vérification du CI](/wiki/osu!_wiki/Maintenance#checks-ci) peut devoir être contournée à cause de cela.
+
+## Notes de bas de page
+
+Les notes de bas de page sont de courtes notes situées à la fin de la page. Elles servent à citer des sources ou à fournir des informations de fond qui, autrement, perturberaient le déroulement de l'article. Les notes de bas de page peuvent contenir du texte mis en forme et des liens.
+
+Dans le wiki d'osu!, les notes de bas de page sont implémentées en utilisant une syntaxe spéciale (`[^identifiant]`). Les notes de bas de page peuvent utiliser n'importe quel identifiant, mais elles seront automatiquement rendues sous forme d'exposants avec des nombres croissants dans l'ordre de leur première apparition. Les traductions ne doivent pas modifier les identifiants des notes de bas de page.
+
+Les notes de bas de page sont placées directement après les mots, les expressions ou les phrases qu'elles expliquent, sans espace entre elles. Ces références doivent être placées après la ponctuation, à l'exception des parenthèses, lorsqu'elles se rapportent au contenu à l'intérieur, et des tirets.
+
+Les notes de bas de page elles-mêmes doivent être placées dans une rubrique distincte de deuxième niveau à la fin de l'article. Selon le contenu, la rubrique utilisée peut être `Références`, "`Notes` ou `Notes et références`.
+
+Exemples d'utilisation correcte :
+
+```markdown
+Le wiki d'osu! est un projet destiné à remplacer l'ancien système de FAQ[^wiki-faq]. Il a été nommé d'après le jeu de rythme osu![^osu] et la plus grande encyclopédie ouverte en ligne, Wikipédia. Dès le début, il a attiré des traducteurs[^wiki-tl] et des éditeurs compétents.
+
+## Références
+
+[^wiki-faq]: https://osu.ppy.sh/community/forums/topics/68525
+[^wiki-tl]: https://osu.ppy.sh/community/forums/posts/1177500
+[^osu]: https://osu.ppy.sh/community/forums/posts/1178153
+```
+
+### Citations
+
+Les citations, ou références, sont utilisées pour identifier une source d'information. Les citations sous forme de notes de bas de page doivent être préférées aux liens en ligne.
+
+Les références doivent, le cas échéant, préciser l'auteur, la date, le service/la plate-forme et le titre. Le format exact peut varier en fonction du contenu référencé, avec une préférence pour la concision.
+
+Exemples :
+
+```markdown
+La première version de l'osu!api a été mise à disposition le 2 juillet 2013.[^api-premier-usage] Elle avait reçu un accueil critique de la part des utilisateurs.[^api-critique] Une nouvelle version de l'API, publiée plusieurs années plus tard, contient beaucoup plus de capacités.[^api-v2-2020] La version des points de terminaison est courant parmi les API web.[^web-api]
+
+## References
+
+[^api-premier-usage]: [Post du forum par peppy (02/07/2013) "osu!api open beta"](https://osu.ppy.sh/community/forums/posts/2403913)
+[^api-praise]: [Post du forum par Menchi (02/11/2013) dans "osu!api open beta"](https://osu.ppy.sh/community/forums/posts/2662247)
+[^api-v2-2020]: [Tweet par @ppy (2020-03-20)](https://twitter.com/ppy/status/1263083636363948032)
+[^web-api]: ["API Web" sur Wikipédia](https://fr.wikipedia.org/wiki/API_Web)
+```
+
+### Notes
+
+Les notes de bas de page peuvent être utilisées pour stocker des explications ou des remarques secondaires qui ne peuvent être intégrées sans nuire à la lisibilité de l'article ou qui sont moins importantes que l'article lui-même. Ces notes de bas de page peuvent être rédigées en texte libre.
+
+Exemple :
+
+```markdown
+Un tournoi ne doit pas être organisé et géré par une équipe inexpérimentée, composée de membres du personnel non accomplis et dont la réputation laisse à désirer.[^personnel]
+
+## Notes
+
+[^personnel]: Un membre du staff *inexpérimenté* est défini comme quelqu'un qui joue à osu! depuis moins d'une heure au total.
 ```
 
 ## Citations en bloc
 
-Les citations en bloc sont limitées à la citation du texte d'une personne. Elles ne doivent pas être utilisées pour formater le texte.
+La citation en bloc est limitée à [citer quelqu'un ou quelque chose](/wiki/Article_styling_criteria/Writing#bloc-de-citation). Elle ne doit pas être utilisée pour mettre en forme un texte autrement.
 
-## Ruptures thématiques
+```markdown
+> svp, profitez du jeu
 
-La rupture thématique (également connue sous le nom de règle ou ligne horizontale) doit être utilisée avec parcimonie. Voici quelques exemples d'utilisation de la rupture thématique (liste non exhaustive) :
+—rrtyui
+```
+
+## Pauses thématiques
+
+La pause thématique (également connue sous le nom de règle ou ligne horizontale) doit être utilisée avec parcimonie. Voici quelques exemples d'utilisation de la pause thématique (sans toutefois s'y limiter) :
 
 - séparer les images du texte
-- séparation de plusieurs images qui se suivent
+- séparer plusieurs images qui se suivent
 - déplacer le sujet à l'intérieur d'une section
 
-Elles doivent être précédées et suivies d'une ligne vide. Les ruptures thématiques ne doivent utiliser que trois tirets, comme illustré ci-dessous :
+Elles doivent être précédées et suivies d'une ligne vide. Les pauses thématiques ne doivent utiliser que trois tirets, comme illustré ci-dessous :
 
 ```markdown
 ---

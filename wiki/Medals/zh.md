@@ -1,77 +1,77 @@
 ---
-outdated: true
+tags:
+  - 成就
 ---
 
 # 奖章
 
-奖章，曾被称为 *成就*，是在用户个人资料页面中展示出来的一枚枚小型图案，可以体现玩家的游戏水准和技巧。
-当前有5种奖章：[曲包](#曲包)，[实力](#实力)，[毅力](#毅力)，[Mod 初体验](#Mod%20初体验)，和[隐藏](#隐藏)。
+**奖章**，旧称 *成就*，是显示于用户个人资料页面的徽章，代表着用户已达成特定目标。目前共有 **353** 枚奖章可供解锁，分为八个类别：[曲包](#曲包)、[实力](#实力)、[毅力](#毅力)、[模组入门](#模组入门)、[隐藏](#隐藏)、[第一期聚光灯（月赛）](#第一期聚光灯)、[第二期聚光灯（季赛）](#第二期聚光灯)、[挑战曲包](#挑战曲包)。
 
 ## 曲包
 
-**曲包**奖章的获得方法是： **完整体验特定曲包中的所有谱面** （每张至少选任意一难度）。您必须在 [osu!](/wiki/Game_mode/osu!) 模式中 pass 曲包中的每一张图，才能得到对应的奖章。
+**曲包奖章** 授予完成特定[主题曲包](https://osu.ppy.sh/beatmaps/packs?type=theme)、[社区喜爱计划 (Project Loved) 曲包](https://osu.ppy.sh/beatmaps/packs?type=loved)或者[艺术家/专辑曲包](https://osu.ppy.sh/beatmaps/packs?type=artist)的玩家。玩家需要在曲包中的每一张谱面上，至少完成一个难度。
 
-当前共有16个曲包奖章，分为4大类：电子游戏，动漫，网络，以及音乐游戏，其中每一大类有4个曲包。[查看并下载主题曲包](https://osu.ppy.sh/p/packlist?t=t)
+除非额外说明，所有谱面均须在 [osu!](/wiki/Game_mode/osu!) 游戏模式下完成。允许使用[降低难度的模组](/wiki/Gameplay/Game_modifier#降低难度)、[增加难度的模组](/wiki/Gameplay/Game_modifier#增加难度)以及 [Spun Out 模组](/wiki/Gameplay/Game_modifier/Spun_Out)。
 
-### 要求
-
-- 玩家必须完成[曲包](https://osu.ppy.sh/p/packlist?t=t)中的每张谱面的任意难度至少一次。
-- 游戏模式必须是 osu! 。
-- 将曲包的`.rar`文件解压到`Songs`文件夹下。
-  启动 osu!client，让客户端加载这些谱面，然后您就能开始游戏了。
-  - 如果您不想这么做，您也可以逐一下载曲包中的每张谱面。
-- 任何其他谱面（例如同一歌曲的不同作者所作谱面）的成绩都不会计入奖牌获取条件。
-  计入奖牌获取条件的**只能**是完全对应的谱面。
-- 玩家必须从客户端登录账户，而不只是 osu!web 。
-
-### 注意事项
-
-- 除了不计分的 mods（如 [Auto Pilot](/wiki/Game_modifier/Autopilot) 等）外的 mods 都可以使用。
-- 直到[曲包列表](https://osu.ppy.sh/p/packlist?t=t)中的对应谱面已经被认定为 **`CLEARED（已完成）`** 之后，才能删除这张谱面。
+需要注意的是，自 [2008 年第一次推行曲包奖章](https://osu.ppy.sh/community/forums/topics/1853)以来，几乎所有 Video Game Packs、Anime Packs、Internet! Packs、Rhythm Game Packs（电子游戏曲包、动画曲包、因特网曲包、音乐节奏游戏曲包）的内容都发生了巨大的变化。有关这些曲包的旧版或原版状态列表，参阅[旧版曲包](/wiki/Medals/Legacy_beatmap_packs)。
 
 ## 实力
 
-实力奖章目前有三类：连击数，排名，水准。
-
-**连击数**奖章获取条件：在 osu! 模式中玩任意谱面并取得指定[连击数](/wiki/Disambiguation/Combo)。
-从 [osu!taiko](/wiki/Game_mode/osu!taiko)，[osu!catch](/wiki/Game_mode/osu!catch) 或 [osu!mania](/wiki/Game_mode/osu!mania) 模式中取得的连击数不计入奖章获取条件。
-
-如果想要取得 1000 或 2000 连击数的奖牌，通常您需要搜索 Approved 谱面，而不是 Ranked 谱面。因为 Approved 谱面的谱面时间将会更长（5分钟以上），这样更容易取得更高的连击数。
-注意，如果谱面既没有被 Approved，也没有被 Ranked，那么即使连击数再高，也不会取得奖章！
-
----
-
-排名奖章的获取方法是：在**任意**游戏模式中取得一定全球排名。
-
----
-
-与谱面难度有关的奖章也能被分为两类，即 *Pass（通过）* 与 *S* 。
-*Pass（通过）* 奖章的获取条件，是完成任何一张指定星级的谱面。
-*S* 奖章的获取条件，是完成一张指定星级的谱面且获得 S 评价，并且达成[全连](/wiki/Full_combo).
-谱面的星级将取整（如 5.88 星的图将会计为 5 星），并将给予玩家对应的奖章。
-使用难度增加或难度减少的 mods 来完成谱面或取得 S 评价也会计入奖章获取条件。
-注意，必须玩 Ranked 谱面才能获取奖章。
-以下展示的是8星的 *Pass* 和 *S* 奖章，实则从1星到8星都有对应的奖章。
+**实力奖章** 授予达成各类实力性成就的玩家，例如：达到特定[连击](/wiki/Gameplay/Combo_(score_multiplier))里程碑，在[全球表现分排行榜](https://osu.ppy.sh/rankings/osu/performance)上达到一定的名次，或者是在某个特定[星级](/wiki/Beatmap/Star_rating)范围内的任何[过审](/wiki/Beatmap/Category#qualified)、[上架](/wiki/Beatmap/Category#ranked)、[达标](/wiki/Beatmap/Category#approved)谱面上，取得通过或者[全连](/wiki/Gameplay/Full_combo)。
 
 ## 毅力
 
-毅力奖章会随着游戏的深入而自然获得。尝试在 osu! 模式中完成更多的谱面，在 osu!catch 中接到更多的水果，在 osu!taiko 中击打更多次鼓面，在 osu!mania 中按更多的键数，就可以得到相应的奖章！
+**毅力奖章** 授予在 osu! 游戏模式中达到特定游玩次数里程碑，或是在 osu!taiko、osu!catch、osu!mania 游戏模式中达到总击打次数里程碑的玩家。
 
-## Mod 初体验
+## 模组入门
 
-*参见：[Mods](/wiki/Game_modifier)。*
+::: alert-note
+**参见：** [游戏模组 (Mods)](/wiki/Gameplay/Game_modifier)
+:::
 
-mod 初体验类奖章可以通过初次使用相应的 mods 来完成谱面获得，以此来激励玩家主动尝试和体验游戏提供的各种不同的 mods。
+**模组入门奖章** 授予使用对应[游戏模组](/wiki/Gameplay/Game_modifier)通关任意[过审](/wiki/Beatmap/Category#qualified)、[上架](/wiki/Beatmap/Category#ranked)或[达标](/wiki/Beatmap/Category#approved)谱面的玩家。这些奖章旨在鼓励新玩家尝试每个游戏模组、探索游戏模组的效果。注意，如果玩家在游玩的同时使用了多个游戏模组，则**无法**获得其中*任何*一个模组对应的奖章。
 
-特别注意，如果在一次游玩中使用了2个或更多的 mods，那么**不会**给玩家带来 *任何奖章* 。
+除非额外说明，任何[游戏模式](/wiki/Game_mode)均能解锁模组入门奖章。
 
 ## 隐藏
 
-一看这个类别的名字就知道，我是不会告诉你们怎么才能得到隐藏奖章的！
-每位玩家必须通过猜测、摸索如何得到这枚奖章。奖章的名字就是线索。
-（为了避免歧义，暂不翻译隐藏奖章名字。）
+**隐藏奖章** (Hush-Hush) 需要玩家达到某些“秘密”的特定目标后才可获得，这些目标并未明确告知玩家（奖章因此得名）。这些目标各式各样，比如在特殊情况下完成谱面、使用不寻常的模组组合来取得分数等。尽管这些奖章的达成目标是隐藏的，但是仍有一些线索可以提供给好奇的奖章猎手们调查：
 
-## 其它
+- 奖章的名字，
+- 奖章的简短介绍，以及
+- 光标悬停在奖牌卡片上时，显示出的*小提示*<!-- https://twitter.com/ephemeralis/status/1068054191602638850 -->（如果有）。
 
-- [查看旧版曲包（2009-2016），Stefan 更新前的版本](Legacy_Beatmap_Packs)。
-- peppy 在论坛中关于[成就图案](https://osu.ppy.sh/community/forums/topics/80448)的征集。
+由于隐藏奖章的达成条件是隐藏的，所以我们不会直接写明奖章的获得方式。但我们[欢迎玩家们一起探索如何解锁这些奖章](https://osu.ppy.sh/home/news/2016-08-17-new-hush-hush-medals)。
+
+隐藏奖章之下还有个称为“隐藏（专家）”的子分类 (Hush-Hush (Expert))。这个分类的奖章与其他隐藏奖章的区别是，在完成奖章所需的目标时，不允许使用任何[降低难度](/wiki/Gameplay/Game_modifier#降低难度)或[特殊](/wiki/Gameplay/Game_modifier#特殊)模组。
+
+## 第一期聚光灯
+
+**第一期聚光灯奖章** （月赛奖章）在玩家完成对应的[第一期聚光灯](https://osu.ppy.sh/home/news/2017-03-18-introducing-to-you-spotlights)曲包后可获得。要解锁此类奖章，玩家需要游玩*任一游戏模式的曲包*中所有参与月赛排行的谱面。允许使用以下游戏模组：
+
+- [降低难度的模组](/wiki/Gameplay/Game_modifier#降低难度)
+- [增加难度的模组](/wiki/Gameplay/Game_modifier#增加难度)
+- [xK](/wiki/Gameplay/Game_modifier/xK)、[Mirror](/wiki/Gameplay/Game_modifier/Mirror)、[Spun Out](/wiki/Gameplay/Game_modifier/Spun_Out)
+
+虽然第一期聚光灯（月赛）在 2018 年 4 月被[第二期聚光灯](https://osu.ppy.sh/home/news/2018-11-01-beatmap-spotlights-summer-2018)替代并停办，但所有相关奖章至今仍可获取。
+
+## 第二期聚光灯
+
+**第二期聚光灯奖章** （季赛奖章）在玩家完成对应的[第二期聚光灯](https://osu.ppy.sh/home/news/2018-11-01-beatmap-spotlights-summer-2018)曲包后可获得。要解锁此类奖章，玩家需要游玩*任一游戏模式的曲包*中所有参与季赛排行的谱面。允许使用以下游戏模组：
+
+- [降低难度的模组](/wiki/Gameplay/Game_modifier#降低难度)
+- [增加难度的模组](/wiki/Gameplay/Game_modifier#增加难度)
+- [xK](/wiki/Gameplay/Game_modifier/xK)、[Mirror](/wiki/Gameplay/Game_modifier/Mirror)、[Spun Out](/wiki/Gameplay/Game_modifier/Spun_Out)
+
+虽然第二期聚光灯（季赛）在 2020 年初被[现行的（第三期）聚光灯系统](/wiki/Beatmap_Spotlights)替代并停办，但所有相关奖章至今仍可获取。
+
+## 挑战曲包
+
+**挑战曲包奖章**，或称为[*技能包奖章*](https://osu.ppy.sh/home/news/2020-11-20-featured-artist-beatmap-updates-from-the-mappers-guild#skill-packs)，授予在*不使用任何[降低难度的模组](/wiki/Gameplay/Game_modifier#降低难度)或[特殊模组](/wiki/Gameplay/Game_modifier#特殊)的情况下*，通关特定[主题曲包](https://osu.ppy.sh/beatmaps/packs?type=theme)或者[艺术家/专辑曲包](https://osu.ppy.sh/beatmaps/packs?type=artist)中所有谱面的最高难度的玩家。此类曲包专门为测试玩家在特定技巧层面的综合能力而精心挑选，例如是否能轻松应对某个[星级](/wiki/Beatmap/Star_rating)范围内的谱面。
+
+除特别说明外，曲包中的所有谱面均须在 [osu!](/wiki/Game_mode/osu!) 游戏模式下完成。
+
+## 另见
+
+- [首次奖章解锁记录](First_medal_unlocks)
+- [奖章解锁条件](Unlock_requirements)
